@@ -16,4 +16,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::controller(PublicController::class)->group(function () {
     Route::get('/', 'home')->name('public.home');
+    Route::get('/about', 'about')->name('public.about');
+    Route::get('/services', 'services')->name('public.services');
+    Route::get('/blog', 'blog')->name('public.blog');
+    Route::get('/contacts', 'contacts')->name('public.contacts');
 });
