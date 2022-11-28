@@ -1,0 +1,1 @@
+<a class="py-3 px-6 border-2 border-orange-500 rounded-full uppercase hover:bg-orange-500 hover:text-white duration-200" href="{{ $route }}">{{ $text }}</a>

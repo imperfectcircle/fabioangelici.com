@@ -1,7 +1,7 @@
 {{-- Header --}}
 <header>
     {{-- Top Bar --}}
-    <div class="w-full max-h-fit bg-gray-300 flex items-center md:py-3 md:grid md:grid-cols-2 md:justify-items-center">
+    <div class="w-full max-h-fit bg-gray-800 flex items-center md:py-3 md:grid md:grid-cols-2 md:justify-items-center">
         <div class="hidden md:inline-block">
             <a href="https://wa.me/+393515749172" target="_blank">
                 <i class="fa-brands fa-whatsapp md:text-3xl p-2 text-green-600 hover:text-green-700"></i>
@@ -13,14 +13,14 @@
                 <i class="fa-brands fa-twitter md:text-3xl p-2 text-sky-500 hover:text-sky-600"></i>
             </a>
         </div>
-        <div class="flex flex-col items-center w-full py-2 md:flex-row md:justify-center md:py-0">
+        <div class="flex flex-col items-center space-y-3 w-full py-2 my-3 md:flex-row md:justify-center md:py-0 text-gray-300">
             <a class="flex items-center md:px-3" href="mailto:info@fabioangelici.com">
                 <i class="fa-regular fa-envelope md:text-2xl p-1"></i>
-                <p class="font-alata text-lg">info@fabioangelici.com</p>
+                <p class="font-alata text-xl">info@fabioangelici.com</p>
             </a>
             <a href="tel:+393515749172" class="flex items-center">
                 <i class="fa-solid fa-phone md:text-2xl p-1"></i>
-                <p class="font-alata text-lg">+393515749172</p>
+                <p class="font-alata text-xl">+393515749172</p>
             </a>
         </div>
     </div>
@@ -40,7 +40,7 @@
             </div>
             <div class="col-span-2">
                 <p class="text-2xl md:text-4xl">Fabio Angelici</p>
-                <p class="text-md md:text-lg text-black/40 text-center uppercase">&#60;web developer&#47;&#62;</p></div>
+                <p class="text-md md:text-lg text-black/60 text-center uppercase">&#60;web developer&#47;&#62;</p></div>
             <div class="flex justify-center md:hidden">
                 
             </div>
@@ -73,7 +73,7 @@
     {{-- End Navbar --}}
 
     {{-- Mobile Menù --}}
-    <div id="menu" class="absolute top-[4.5rem] bottom-0 left-0 hidden flex-col self-end items-center w-full min-h-screen py-1 pt-40  space-y-3 text-lg text-white uppercase bg-slate-400 z-10">
+    <div id="menu" class="absolute top-[4.5rem] bottom-0 left-0 hidden flex-col self-end items-center w-full min-h-screen py-1 pt-40  space-y-3 text-lg text-white uppercase bg-sky-600 z-10">
         <a href="{{ route('public.home') }}" class="hover:bg-slate-900 px-7 py-3 uppercase">Home</a>
         <a href="{{ route('public.about') }}" class="hover:bg-slate-900 px-7 py-3 uppercase">Chi sono</a>
         <a href="{{ route('public.services') }}" class="hover:bg-slate-900 px-7 py- uppercase">Servizi</a>

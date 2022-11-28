@@ -19,7 +19,7 @@
                 <br>
                 di un professionista.
             </h2>
-            <a class="uppercase text-lg mb-2 border-2 border-orange-500 px-5 py-2 rounded-full hover:bg-orange-500 hover:text-white duration-200" href="{{ route('public.contacts') }}">Contattami</a>
+            <x-button :route="route('public.contacts')" :text="'contattami'" />
         </div>
     </section>
     {{-- End Hero Section --}}
@@ -32,7 +32,7 @@
             <p class="font-alata mt-5">Nello sviluppo mi dedico sia alla parte front-end, cioè ciò che l'utente vede, sia alla parte back-end, vale a dire il "motore" vero e proprio del sito, rendendo il risultato finale <strong>unico, affidabile e di facile gestione</strong>.</p>
             <p class="font-alata mt-5">Anche lavorando da solo cerco di ispirare il mio flusso lavorativo alle metodologie <em>AGILE</em>, la collaborazione con il cliente è quindi <strong>fondamentale</strong> per la buona riuscita del progetto e per eliminare gli sprechi di tempo; verrai coinvolto a più riprese nel processo di creazione del sito, dal primo incontro alle diverse fasi della lavorazione.</p>
             <div class="mt-10 w-full text-center">
-                <a class="py-3 px-6 border-2 border-orange-500 rounded-full uppercase hover:bg-orange-500 hover:text-white duration-200" href="{{ route('public.about') }}">come lavoro</a>
+                <x-button :route="route('public.about')" :text="'Come lavoro'" />
             </div>
         </div>
     </section>
@@ -65,8 +65,8 @@
                 />
                 <x-card 
                     :icon="'fa-solid fa-magnifying-glass'" 
-                    :title="'posizionamento seo'"
-                    :body="'I siti che creo sono studiati prestando attenzione alle principali regole della SEO permettendo di garantire ottimi risultati senza false promesse: il primo posto sui motori di ricerca è una possibile meta non una certezza garantita.'"    
+                    :title="'ottimizzazione seo'"
+                    :body="'I siti che creo sono studiati prestando attenzione alle linee guida della SEO permettendomi di garantire ottimi risultati senza false promesse: il primo posto sui motori di ricerca è una possibile meta non una certezza garantita.'"    
                 />
                 <x-card 
                     :icon="'fa-solid fa-server'" 
@@ -74,7 +74,21 @@
                     :body="'Dalla registrazione del dominio e la creazione delle caselle email associate, allo spazio web posso offrirti anche questo servizio.'"    
                 />
             </div>
+            <div class="mt-10 w-full text-center">
+                <x-button :route="route('public.services')" :text="'Scopri di più'" />
+            </div>
         </div>
     </section>
     {{-- End Offer Section --}}
+
+    {{-- Contact Section --}}
+    <section id="contact" class="h-fit bg-gradient-to-br from-blue-900 to-sky-600 py-20 flex flex-col items-center text-gray-300">
+        <h2 class="text-3xl px-2 font-bold text-center mb-2 md:text-5xl">Realizza ora il tuo sito web!</h2>
+        <p class="font-alata text-lg mb-5  px-3 text-center md:text-xl">Il risultato sarà un perfetto biglietto da visita on-line per la tua azienda. Richiedi un consulto gratuito.</p>
+        <div class="flex flex-col items-center md:flex-row space-y-5 md:space-y-0 md:space-x-5">
+            <x-button :route="route('public.contacts')" :text="'Contattami on-line'" />
+            <x-button :route="'tel:+393515749172'" :text="'+393515749172'" />
+        </div>
+    </section>
+    {{-- End Contact Section --}}
 </x-layout>
