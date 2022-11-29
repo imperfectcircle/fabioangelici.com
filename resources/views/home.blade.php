@@ -91,4 +91,10 @@
         </div>
     </section>
     {{-- End Contact Section --}}
+
+    {{-- Articles Section --}}
+    <section id="articles">
+        <h2 class="text-2xl text-center mt-10">To do sezione articoli</h2>
+    </section>
+    {{-- End Articles Section --}}
 </x-layout>

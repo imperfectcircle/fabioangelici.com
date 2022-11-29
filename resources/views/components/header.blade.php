@@ -13,8 +13,8 @@
                 <i class="fa-brands fa-twitter md:text-3xl p-2 text-sky-500 hover:text-sky-600"></i>
             </a>
         </div>
-        <div class="flex flex-col items-center space-y-3 w-full py-2 my-3 md:flex-row md:justify-center md:py-0 text-gray-300">
-            <a class="flex items-center md:px-3" href="mailto:info@fabioangelici.com">
+        <div class="flex flex-col items-center space-y-3 w-full py-2 my-3 md:flex-row md:justify-center md:py-0 text-gray-300 md:space-y-0">
+            <a class="flex items-center md:px-5" href="mailto:info@fabioangelici.com">
                 <i class="fa-regular fa-envelope md:text-2xl p-1"></i>
                 <p class="font-alata text-xl">info@fabioangelici.com</p>
             </a>

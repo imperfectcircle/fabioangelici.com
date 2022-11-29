@@ -24,5 +24,6 @@
 <body class="bg-gray-200">
     <x-header/>
     {{ $slot }}
+    <x-footer/>
 </body>
 </html>
