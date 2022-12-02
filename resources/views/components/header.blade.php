@@ -27,7 +27,7 @@
     {{-- End Top Bar --}}
 
     {{-- Navbar --}}
-    <nav id="navbar" class="bg-gray-100 w-full max-h-fit md:grid md:grid-cols-2 md:justify-items-center top-0 shadow-xl">
+    <nav id="navbar" class="bg-gray-100 w-full max-h-fit md:grid md:grid-cols-2 md:justify-items-center shadow-xl">
         {{-- Logo --}}
         <div class="py-5 text-center flex justify-around md:inline-block">
             <div class="flex justify-center md:hidden">
@@ -63,7 +63,7 @@
                 <x-menu :route="route('public.about')" :name="'chi sono'"/>
                 <x-menu :route="route('public.services')" :name="'Servizi'"/>
                 <x-menu :route="route('public.blog')" :name="'blog'"/>
-                <x-menu :classes="'border-2 border-orange-500 px-5 py-2 rounded-full hover:bg-orange-500 hover:text-white duration-200'" :route="route('public.contacts')" :name="'contatti'"/>
+                <x-menu :classes="'border-2 border-orange-500 px-5 py-2 rounded-full hover:bg-orange-500 hover:text-white duration-200'" :anchorClass="'group-hover:text-white duration-200'" :route="route('public.contacts')" :name="'contatti'"/>
             </ul>
         </div>
         {{-- End Menù --}}
@@ -73,12 +73,12 @@
     {{-- End Navbar --}}
 
     {{-- Mobile Menù --}}
-    <div id="menu" class="absolute top-[4.5rem] bottom-0 left-0 hidden flex-col self-end items-center w-full min-h-screen py-1 pt-40  space-y-3 text-lg text-white uppercase bg-sky-600 z-10">
-        <a href="{{ route('public.home') }}" class="hover:bg-slate-900 px-7 py-3 uppercase">Home</a>
-        <a href="{{ route('public.about') }}" class="hover:bg-slate-900 px-7 py-3 uppercase">Chi sono</a>
-        <a href="{{ route('public.services') }}" class="hover:bg-slate-900 px-7 py- uppercase">Servizi</a>
-        <a href="{{ route('public.blog') }}" class="hover:bg-slate-900 px-7 py-3 uppercase">Blog</a>
-        <a href="{{ route('public.contacts') }}" class="hover:bg-slate-900 px-7 py-3 uppercase">contatti</a>
+    <div id="menu" class="absolute top-[6.5rem] bottom-0 left-0 hidden flex-col self-end items-center justify-start w-full min-h-screen py-1 pt-10  space-y-3 text-lg text-white uppercase bg-sky-600 z-10 ">
+        <a href="{{ route('public.home') }}" class="hover:bg-orange-700 hover:rounded-full px-7 py-3 uppercase">Home</a>
+        <a href="{{ route('public.about') }}" class="hover:bg-orange-700 hover:rounded-full px-7 py-3 uppercase">Chi sono</a>
+        <a href="{{ route('public.services') }}" class="hover:bg-orange-700 hover:rounded-full px-7 py-3 uppercase">Servizi</a>
+        <a href="{{ route('public.blog') }}" class="hover:bg-orange-700 hover:rounded-full px-7 py-3 uppercase">Blog</a>
+        <a href="{{ route('public.contacts') }}" class="hover:bg-orange-700 hover:rounded-full px-7 py-3 uppercase">contatti</a>
     </div>
     {{-- End Mobile Menù --}}
 </header>

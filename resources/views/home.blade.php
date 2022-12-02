@@ -6,14 +6,14 @@
     :canonical="'https://fabioangelici.com'"
 >
     {{-- Hero Section --}}
-    <section class="flex items-center justify-center" id="hero">
+    <section class="hero flex items-center justify-center" id="hero">
         <div class="bg-gray-400/40 mx-2 py-5 md:w-6/12 md:h-fit flex flex-col items-center justify-center text-gray-200 rounded-lg">
             <h2 class=" text-xl p-5 md:text-6xl uppercase text-center">
-                sviluppo di
+                per lo sviluppo di
                 <br>
                 siti web
                 <br>
-                ed ecommerce:
+                ed ecommerce
                 <br>
                 affidati alle competenze
                 <br>
@@ -84,7 +84,7 @@
     {{-- Contact Section --}}
     <section id="contact" class="h-fit bg-gradient-to-br from-blue-900 to-sky-600 py-20 flex flex-col items-center text-gray-300">
         <h2 class="text-3xl px-2 font-bold text-center mb-2 md:text-5xl">Realizza ora il tuo sito web!</h2>
-        <p class="font-alata text-lg mb-5  px-3 text-center md:text-xl">Il risultato sarà un perfetto biglietto da visita on-line per la tua azienda. Richiedi un consulto gratuito.</p>
+        <p class="font-alata text-lg mb-5  px-3 text-center md:text-xl">Il risultato sarà un perfetto biglietto da visita on-line per la tua azienda o la tua attività. Richiedi un consulto gratuito.</p>
         <div class="flex flex-col items-center md:flex-row space-y-5 md:space-y-0 md:space-x-5">
             <x-button :route="route('public.contacts')" :text="'Contattami on-line'" />
             <x-button :route="'tel:+393515749172'" :text="'+393515749172'" />

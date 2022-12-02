@@ -1,0 +1,1 @@
+<img class="w-[100px] h-[100px]" src="images/{{ $name }}" alt="{{ $text }}">

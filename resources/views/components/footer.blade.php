@@ -17,9 +17,12 @@
     <div class="text-center font-alata mt-5">
         <p class="text-2xl mb-3">Contatti</p>
         <div class="space-y-3">
-            <p class="text-xl">Email: <a href="mailto:info@fabioangelici.com">info@fabioangelici.com</a></p>
-            <p class="text-xl">Telefono: <a href="tel:+393515749172">+39 351 5749172</a></p>
-            <p class="text-xl">Sede Legale: Varese</p>
+            <p class="text-xl"><i class="fa-regular fa-envelope md:text-2xl p-1"></i><a href="mailto:info@fabioangelici.com"> info@fabioangelici.com</a></p>
+            <div class="">
+                <p class="text-xl"><i class="fa-solid fa-phone md:text-2xl p-1"></i><a href="tel:+393515749172"> +39 351 5749172</a></p>
+                <p class="text-lg font-sans">Lun - Ven: 09:00 - 19:00</p>
+            </div>
+            <p class="text-xl"><i class="fa-solid fa-building"></i> Varese</p>
         </div>
     </div>
     <div class="text-center font-alata mt-5">

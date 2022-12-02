@@ -4,7 +4,7 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class Menu extends Component
+class TechImage extends Component
 {
     /**
      * Create a new component instance.
@@ -12,17 +12,13 @@ class Menu extends Component
      * @return void
      */
 
-    public $classes;
-    public $anchorClass;
-    public $route;
     public $name;
+    public $text;
     
-    public function __construct($classes = '', $anchorClass = '', $route, $name)
+    public function __construct($name, $text)
     {
-        $this->classes = $classes;
-        $this->anchorClass = $anchorClass;
-        $this->route = $route;
         $this->name = $name;
+        $this->text = $text;
     }
 
     /**
@@ -32,6 +28,6 @@ class Menu extends Component
      */
     public function render()
     {
-        return view('components.menu');
+        return view('components.tech-image');
     }
 }
