@@ -25,7 +25,7 @@
                 <i class="fa-solid fa-laptop-file text-6xl"></i>
                 <p class="ml-2 pr-2 text-3xl font-sans pl-3 border-b-2 border-r-2 border-sky-700 rounded-br-lg">Come lavoro</p>
             </div>
-            <p class="pt-5">Nel corso degli anni mi è capitato di lavorare utilizzando CMS open source (WordPress, Joomla, etc...) per realizzare siti, questi sono dei buoni strumenti se non si hanno conoscenze di programmazione e se si ha la necessità di creare un sito in relativamente poco tempo.</p>
+            <p class="pt-5">Nel corso degli anni mi è capitato di lavorare utilizzando CMS open source come WordPress o Joomla per realizzare siti, questi sono dei buoni strumenti se non si hanno conoscenze di programmazione e se si ha la necessità di creare un sito in relativamente poco tempo.</p>
             <div class="py-5">
                 <img class="rounded-lg bg-gradient-to-r from-black/50 to-black/10" src="images/whiteboard.webp" alt="Lavagna con programmazione lavoro">
             </div>
@@ -75,7 +75,7 @@
                     <x-tech-image :name="'digitalocean.svg'" :text="'Logo Digitl Ocean'" />
                 </div>
             </div>
-            <div class="flex pt-5 justify-center items-end md:justify-start text-sky-700 w-full">
+            <div class="flex py-5 justify-center items-end md:justify-start text-sky-700 w-full">
                 <i class="fa-solid fa-circle-question text-6xl"></i>
                 <p class="ml-2 pr-2 text-3xl font-sans pl-3 border-b-2 border-r-2 border-sky-700 rounded-br-lg">Richiedi un preventivo</p>
             </div>
@@ -83,8 +83,46 @@
                 <br>
                 Compila il form che trovi qui sotto, ti risponderò il prima possibile.
             </p>
-            <div class="">
-
+            <div class="w-full md:w-9/12">
+                <form class="" action="" method="POST">
+                    @csrf
+                    <div class="flex flex-col space-y-2 py-5">
+                        <label for="service">Scegli il servizio</label>
+                        <select class="p-3 border bg-gray-100 border-orange-500 rounded-lg" name="service" id="service">
+                            <option value="site">Sito web</option>
+                            <option value="restyling">Restyling sito web</option>
+                            <option value="ecommerce">Portale E-Commerce</option>
+                            <option value="gestionale">Gestionale</option>
+                            <option value="domain">Resgistrazione dominio</option>
+                            <option value="hosting">Spazio web</option>
+                            <option value="other">Altro</option>
+                        </select>
+                    </div>
+                    <div class="flex flex-col space-y-2 pb-5">
+                        <label for="name">Nome</label>
+                        <input type="text" class="p-3 border bg-gray-100 border-orange-500 rounded-lg focus:bg-green-300" name="name" id="name" value="{{ old('name') }}" placeholder="Il tuo nome" required>
+                    </div>
+                    <div class="flex flex-col space-y-2 py-5">
+                        <label for="email">Email</label>
+                        <input type="email" class="p-3 border bg-gray-100 border-orange-500 rounded-lg focus:bg-green-300" name="email" id="email" value="{{ old('email') }}" placeholder="La tua mail" required>
+                    </div>
+                    <div class="flex flex-col space-y-2 pb-5">
+                        <label for="phone">Telefono</label>
+                        <input type="text" class="p-3 border bg-gray-100 border-orange-500 rounded-lg focus:bg-green-300" name="phone" id="phone" value="{{ old('phone') }}" placeholder="Il tuo telefono" required>
+                    </div>
+                    <div class="flex flex-col space-y-2 pb-5">
+                        <label for="message">Il tuo messaggio</label>
+                        <textarea class="p-3 border bg-gray-100 border-orange-500 rounded-lg focus:bg-green-300 resize-none" name="message" id="message" rows="10" placeholder="Inserisci qui il tuo messaggio; cerca di essere il più preciso possibile">{{ old('message') }}</textarea>
+                    </div>
+                    <div class="flex space-y-2 pb-5">
+                        <input type="checkbox" class="scale-150" name="privacy" id="privacy">
+                        <label for="privacy"><p class="text-sm pl-5">Dichiaro di aver preso visione dell'informativa sulla privacy, pertanto presto il mio consenso al trattamento dei dati per ricevere le informazioni richieste</p></label>
+                        
+                    </div>
+                    <div class="flex justify-center">
+                        <button class="py-3 w-9/12 border-2 border-orange-500 rounded-full uppercase hover:bg-orange-500 hover:text-white duration-200">Invia</button>
+                    </div>
+                </form>
             </div>
         </div>
         <div class="md:sticky md:top-[10rem] md:pl-16 md:pt-16">
