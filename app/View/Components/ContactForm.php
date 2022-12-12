@@ -4,23 +4,16 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class TechImage extends Component
+class ContactForm extends Component
 {
     /**
      * Create a new component instance.
      *
      * @return void
      */
-
-    public $link;
-    public $name;
-    public $text;
-    
-    public function __construct($link, $name, $text)
+    public function __construct()
     {
-        $this->link = $link;
-        $this->name = $name;
-        $this->text = $text;
+        //
     }
 
     /**
@@ -30,6 +23,6 @@ class TechImage extends Component
      */
     public function render()
     {
-        return view('components.tech-image');
+        return view('components.contact-form');
     }
 }

@@ -66,12 +66,12 @@
                 <x-card 
                     :icon="'fa-solid fa-magnifying-glass'" 
                     :title="'ottimizzazione seo'"
-                    :body="'I siti che creo sono studiati prestando attenzione alle linee guida della SEO permettendomi di garantire ottimi risultati senza false promesse: il primo posto sui motori di ricerca è una possibile meta non una certezza garantita.'"    
+                    :body="'I siti che creo sono studiati prestando attenzione alle linee guida della SEO permettendomi di garantire ottimi risultati senza false promesse: diffida da chi ti garantisce il primo posto sui motori di ricerca.'"    
                 />
                 <x-card 
                     :icon="'fa-solid fa-server'" 
                     :title="'hosting'"
-                    :body="'Dalla registrazione del dominio e la creazione delle caselle email associate, allo spazio web posso offrirti anche questo servizio.'"    
+                    :body="'Registrazione del dominio, creazione delle caselle email associate e spazio web per ospitare il tuo sito. Anche questi servizi fanno parte di quello che posso offrirti.'"    
                 />
             </div>
             <div class="mt-10 w-full text-center">

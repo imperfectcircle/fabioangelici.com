@@ -27,7 +27,7 @@
     {{-- End Top Bar --}}
 
     {{-- Navbar --}}
-    <nav id="navbar" class="bg-gray-100 w-full max-h-fit md:grid md:grid-cols-2 md:justify-items-center shadow-xl">
+    <nav id="navbar" class="bg-gray-100 w-full max-h-fit md:grid md:grid-cols-2 md:justify-items-center shadow-xl z-10">
         {{-- Logo --}}
         <div class="py-5 text-center flex justify-around md:inline-block">
             <div class="flex justify-center md:hidden">
@@ -73,7 +73,7 @@
     {{-- End Navbar --}}
 
     {{-- Mobile Menù --}}
-    <div id="menu" class="absolute top-[6.5rem] bottom-0 left-0 hidden flex-col self-end items-center justify-start w-full min-h-screen py-1 pt-10  space-y-3 text-lg text-white uppercase bg-sky-600 z-10 ">
+    <div id="menu" class="absolute top-[6.5rem] bottom-0 left-0 hidden flex-col self-end items-center justify-start w-full min-h-screen py-1 pt-10  space-y-3 text-lg text-white uppercase bg-sky-600 z-20 ">
         <a href="{{ route('public.home') }}" class="hover:bg-orange-700 hover:rounded-full px-7 py-3 uppercase">Home</a>
         <a href="{{ route('public.about') }}" class="hover:bg-orange-700 hover:rounded-full px-7 py-3 uppercase">Chi sono</a>
         <a href="{{ route('public.services') }}" class="hover:bg-orange-700 hover:rounded-full px-7 py-3 uppercase">Servizi</a>

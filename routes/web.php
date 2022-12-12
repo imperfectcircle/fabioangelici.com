@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\PublicController;
 use Illuminate\Support\Facades\Route;
+use Spatie\Honeypot\ProtectAgainstSpam;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,8 +17,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::controller(PublicController::class)->group(function () {
     Route::get('/', 'home')->name('public.home');
-    Route::get('/about', 'about')->name('public.about');
-    Route::get('/services', 'services')->name('public.services');
+    Route::get('/about', 'about')->name('public.about')->middleware(ProtectAgainstSpam::class);
+    Route::get('/services', 'services')->name('public.services')->middleware(ProtectAgainstSpam::class);
     Route::get('/blog', 'blog')->name('public.blog');
-    Route::get('/contacts', 'contacts')->name('public.contacts');
+    Route::get('/contacts', 'contacts')->name('public.contacts')->middleware(ProtectAgainstSpam::class);
 });

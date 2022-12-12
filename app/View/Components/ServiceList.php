@@ -4,7 +4,7 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class TechImage extends Component
+class ServiceList extends Component
 {
     /**
      * Create a new component instance.
@@ -12,14 +12,12 @@ class TechImage extends Component
      * @return void
      */
 
-    public $link;
-    public $name;
+    public $icon;
     public $text;
     
-    public function __construct($link, $name, $text)
+    public function __construct($icon, $text)
     {
-        $this->link = $link;
-        $this->name = $name;
+        $this->icon = $icon;
         $this->text = $text;
     }
 
@@ -30,6 +28,6 @@ class TechImage extends Component
      */
     public function render()
     {
-        return view('components.tech-image');
+        return view('components.service-list');
     }
 }
