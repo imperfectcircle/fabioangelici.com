@@ -43,32 +43,38 @@
         <div class="md:w-8/12 my-5 p-5 text-lg md:my-10 md:text-2xl text-black">
             <h2 class="text-3xl font-bold text-center mb-3 md:text-5xl">Cosa posso offrirti</h2>
             <div class="mt-5  md:mt-10 grid grid-cols-1 md:grid-cols-3 justify-items-center">
-                <x-card 
+                <x-card
+                    :route="route('public.websites')"
                     :icon="'fa-solid fa-code'" 
                     :title="'sviluppo siti web'"
                     :body="'Il servizio consiste nella realizzazione di siti internet veloci, affidabili e altamente performanti. Responsive e ottimizzati per garantire una user exprience ottimale.'"    
                 />
                 <x-card 
+                    :route="route('public.ecommerce')"
                     :icon="'fa-solid fa-cart-arrow-down'" 
                     :title="'ecommerce'"
                     :body="'Portali ecommerce personalizzabili e gestibili dal cliente in ogni loro aspetto, dall\'inserimento di nuovi prodotti e/o servizi, alla creazione di offerte e tanto altro.'"    
                 />
                 <x-card 
+                    :route="route('public.management')"
                     :icon="'fa-solid fa-list-check'" 
                     :title="'Gestionali web'"
                     :body="'Realizzo gestionali sviluppati per il web e quindi accessibili, attraverso un pannello di controllo da qualsiasi dispositivo e postazione connessa a internet. '"    
                 />
                 <x-card 
+                    :route="route('public.restyling')"
                     :icon="'fa-solid fa-arrows-rotate'" 
                     :title="'restyling dei siti'"
                     :body="'Hai già un sito web ma non sei soddisfatto del look o delle prestazioni? Attraverso un attendo studio posso offrirti una nuova versione del tuo sito in modo SEO friendly'"    
                 />
                 <x-card 
+                    :route="route('public.services')"
                     :icon="'fa-solid fa-magnifying-glass'" 
                     :title="'ottimizzazione seo'"
                     :body="'I siti che creo sono studiati prestando attenzione alle linee guida della SEO permettendomi di garantire ottimi risultati senza false promesse: diffida da chi ti garantisce il primo posto sui motori di ricerca.'"    
                 />
                 <x-card 
+                    :route="route('public.services')"
                     :icon="'fa-solid fa-server'" 
                     :title="'hosting'"
                     :body="'Registrazione del dominio, creazione delle caselle email associate e spazio web per ospitare il tuo sito. Anche questi servizi fanno parte di quello che posso offrirti.'"    

@@ -21,4 +21,9 @@ Route::controller(PublicController::class)->group(function () {
     Route::get('/services', 'services')->name('public.services')->middleware(ProtectAgainstSpam::class);
     Route::get('/blog', 'blog')->name('public.blog');
     Route::get('/contacts', 'contacts')->name('public.contacts')->middleware(ProtectAgainstSpam::class);
+    Route::get('/web-sites', 'webSites')->name('public.websites');
+    Route::get('/ecommerce', 'ecommerce')->name('public.ecommerce');
+    Route::get('/management', 'management')->name('public.management');
+    Route::get('/restyling', 'restyling')->name('public.restyling');
+    Route::get('/hosting', 'hosting')->name('public.hosting');
 });

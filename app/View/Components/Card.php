@@ -12,12 +12,14 @@ class Card extends Component
      * @return void
      */
 
+    public $route;
     public $icon;
     public $title;
     public $body;
     
-    public function __construct($icon, $title, $body)
+    public function __construct($route, $icon, $title, $body)
     {
+        $this->route = $route;
         $this->icon = $icon;
         $this->title = $title;
         $this->body = $body;

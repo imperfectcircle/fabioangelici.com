@@ -25,4 +25,20 @@ class PublicController extends Controller
     public function contacts() {
         return view('contacts');
     }
+
+    public function webSites() {
+        return view('websites');
+    }
+
+    public function ecommerce() {
+        return view('ecommerce');
+    }
+
+    public function management() {
+        return view('management');
+    }
+
+    public function restyling() {
+        return view('restyling');
+    }
 }

@@ -90,11 +90,11 @@
         </div>
         <div class="w-full pl-5 pr-5 mb-5 md:sticky md:top-[10rem] md:pl-24 md:pt-16 md:mb-48">
             <h2 class="text-2xl text-sky-700 border-b-2 border-sky-700 inline-block mb-5">Servizi Internet</h2>
-            <x-service-list :icon="'globe'" :text="'Siti web'" />
-            <x-service-list :icon="'cart-shopping'" :text="'E-Commerce'" />
-            <x-service-list :icon="'list-check'" :text="'Gestionali web'" />
-            <x-service-list :icon="'arrows-rotate'" :text="'Restyling siti'" />
-            <x-service-list :icon="'server'" :text="'Hosting'" />
+            <x-service-list :route="route('public.websites')" :icon="'globe'" :text="'Siti web'" />
+            <x-service-list :route="route('public.ecommerce')" :icon="'cart-shopping'" :text="'E-Commerce'" />
+            <x-service-list :route="route('public.management')" :icon="'list-check'" :text="'Gestionali web'" />
+            <x-service-list :route="route('public.restyling')" :icon="'arrows-rotate'" :text="'Restyling siti'" />
+            <x-service-list :route="route('public.services')" :icon="'server'" :text="'Hosting'" />
         </div>
     </section>    
 </x-layout>

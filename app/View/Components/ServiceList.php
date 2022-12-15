@@ -12,11 +12,13 @@ class ServiceList extends Component
      * @return void
      */
 
+    public $route;
     public $icon;
     public $text;
     
-    public function __construct($icon, $text)
+    public function __construct($route, $icon, $text)
     {
+        $this->route = $route;
         $this->icon = $icon;
         $this->text = $text;
     }
