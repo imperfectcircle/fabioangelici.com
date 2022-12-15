@@ -64,16 +64,16 @@
                     <x-tech-image :link="'https://it.wikipedia.org/wiki/HTML5'" :name="'HTML5.svg'" :text="'Logo html 5'" />
                     <x-tech-image :link="'https://it.wikipedia.org/wiki/CSS'" :name="'CSS3.svg'" :text="'Logo css 3'" />
                     <x-tech-image :link="'https://developer.mozilla.org/en-US/docs/Web/JavaScript'" :name="'js.svg'" :text="'Logo JavaScript'" />
-                    <x-tech-image :link="'https://tailwindcss.com/'" :name="'tailwind.svg'" :text="'Logo Tailwind css'" />
-                    <x-tech-image :link="'https://laravel.com/'" :name="'laravel.svg'" :text="'Logo Laravel'" />
-                    <x-tech-image :link="'https://vuejs.org/'" :name="'vue.svg'" :text="'Logo Vue'" />
+                    <x-tech-image :link="'https://tailwindcss.com/'" :name="'Tailwind.svg'" :text="'Logo Tailwind css'" />
+                    <x-tech-image :link="'https://laravel.com/'" :name="'Laravel.svg'" :text="'Logo Laravel'" />
+                    <x-tech-image :link="'https://vuejs.org/'" :name="'Vue.svg'" :text="'Logo Vue'" />
                 </div>
                 <div class="space-y-5 md:flex md:justify-center md:space-x-5 md:space-y-0">
-                    <x-tech-image :link="'https://nodejs.org/en/'" :name="'node.svg'" :text="'Logo Node.js'" />
-                    <x-tech-image :link="'https://it.wikipedia.org/wiki/MySQL'" :name="'mysql.svg'" :text="'Logo MySql'" />
+                    <x-tech-image :link="'https://nodejs.org/en/'" :name="'Node.svg'" :text="'Logo Node.js'" />
+                    <x-tech-image :link="'https://it.wikipedia.org/wiki/MySQL'" :name="'MySQL.svg'" :text="'Logo MySql'" />
                     <x-tech-image :link="'https://it.wikipedia.org/wiki/MongoDB'" :name="'mongo.png'" :text="'Logo MongoDB'" />
-                    <x-tech-image :link="'https://it.wikipedia.org/wiki/Nginx'" :name="'nginx.svg'" :text="'Logo NGINX'" />
-                    <x-tech-image :link="'https://www.digitalocean.com/'" :name="'digitalocean.svg'" :text="'Logo Digitl Ocean'" />
+                    <x-tech-image :link="'https://it.wikipedia.org/wiki/Nginx'" :name="'Nginx.svg'" :text="'Logo NGINX'" />
+                    <x-tech-image :link="'https://www.digitalocean.com/'" :name="'DigitalOcean.svg'" :text="'Logo Digitl Ocean'" />
                 </div>
             </div>
             <div class="flex py-5 justify-center items-end md:justify-start text-sky-700 w-full">
