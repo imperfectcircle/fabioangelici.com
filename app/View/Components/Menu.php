@@ -17,7 +17,7 @@ class Menu extends Component
     public $route;
     public $name;
     
-    public function __construct($route, $name, $classes = "", $anchorClass = '')
+    public function __construct($route, $name, $classes = '', $anchorClass = '')
     {
         $this->classes = $classes;
         $this->anchorClass = $anchorClass;

@@ -61,8 +61,8 @@
             <p>Nello sviluppo dei siti utilizzo principalmente <strong>PHP e JavaScript</strong> come linguaggi di programmazione e mi avvalgo di librerie e framework per scrivere più velocemente un codice pulito, e facilmente manutenibile; quelli che seguono sono alcuni dei linguaggi, librerie e framework che utilizzo:</p>
             <div class="pt-5 grid grid-cols-2 gap-5 md:flex md:flex-col">
                 <div class="space-y-5 md:flex md:space-x-5 md:space-y-0">
-                    <x-tech-image :link="'https://it.wikipedia.org/wiki/HTML5'" :name="'html5.svg'" :text="'Logo html 5'" />
-                    <x-tech-image :link="'https://it.wikipedia.org/wiki/CSS'" :name="'css3.svg'" :text="'Logo css 3'" />
+                    <x-tech-image :link="'https://it.wikipedia.org/wiki/HTML5'" :name="'HTML5.svg'" :text="'Logo html 5'" />
+                    <x-tech-image :link="'https://it.wikipedia.org/wiki/CSS'" :name="'CSS3.svg'" :text="'Logo css 3'" />
                     <x-tech-image :link="'https://developer.mozilla.org/en-US/docs/Web/JavaScript'" :name="'js.svg'" :text="'Logo JavaScript'" />
                     <x-tech-image :link="'https://tailwindcss.com/'" :name="'tailwind.svg'" :text="'Logo Tailwind css'" />
                     <x-tech-image :link="'https://laravel.com/'" :name="'laravel.svg'" :text="'Logo Laravel'" />
