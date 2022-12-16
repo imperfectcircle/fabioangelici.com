@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\ContactRequest;
 use Illuminate\Http\Request;
 
 class PublicController extends Controller
@@ -40,5 +41,13 @@ class PublicController extends Controller
 
     public function restyling() {
         return view('restyling');
+    }
+
+    public function contactSubmit(ContactRequest $req) {
+        $service = $req->service;
+        $name = $req->name;
+        $email = $req->email;
+        $phone = $req->phone;
+        $message = $req->message;
     }
 }

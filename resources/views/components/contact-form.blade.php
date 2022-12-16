@@ -1,4 +1,4 @@
-<form class="" action="" method="POST">
+<form class="" action="{{ route('public.form') }}" method="POST">
     @csrf
     <x-honeypot />
     <div class="flex flex-col space-y-2 py-5">
@@ -30,7 +30,7 @@
         <textarea class="p-3 border bg-gray-100 border-orange-500 rounded-lg focus:bg-green-300 resize-none" name="message" id="message" rows="10" placeholder="Inserisci qui il tuo messaggio; ti chiedo di includere quante più informazioni possibili riguardo il progetto che vuoi realizzare.">{{ old('message') }}</textarea>
     </div>
     <div class="flex pb-5">
-        <input type="checkbox" class="scale-150" name="privacy" id="privacy">
+        <input type="checkbox" class="scale-150" name="privacy" id="privacy" required>
         <label for="privacy"><p class="text-sm pl-5">Dichiaro di aver preso visione dell'informativa sulla privacy, pertanto presto il mio consenso al trattamento dei dati per ricevere le informazioni richieste</p></label>
         
     </div>
