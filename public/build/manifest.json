@@ -15,9 +15,17 @@
     "file": "assets/hero.8616a7b4.webp",
     "src": "public/images/hero.webp"
   },
+  "public/images/404.png": {
+    "file": "assets/404.e8b0fe6f.png",
+    "src": "public/images/404.png"
+  },
   "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2": {
     "file": "assets/fa-v4compatibility.f46715c9.woff2",
     "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2"
+  },
+  "public/images/thanks.webp": {
+    "file": "assets/thanks.05738a52.webp",
+    "src": "public/images/thanks.webp"
   },
   "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf": {
     "file": "assets/fa-regular-400.d7b19fe2.ttf",
@@ -41,7 +49,7 @@
     "isEntry": true
   },
   "resources/css/app.css": {
-    "file": "assets/app.eae69449.css",
+    "file": "assets/app.29c6130a.css",
     "src": "resources/css/app.css",
     "isEntry": true
   }
