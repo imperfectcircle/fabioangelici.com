@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\ContactRequest;
+use App\Mail\ContactMail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use App\Http\Requests\ContactRequest;
 
 class PublicController extends Controller
 {
@@ -49,5 +51,15 @@ class PublicController extends Controller
         $email = $req->email;
         $phone = $req->phone;
         $message = $req->message;
+
+        $contact = compact('service', 'name', 'email', 'phone', 'message');
+
+        Mail::to('info@fabioangelici.com')->send(new ContactMail($contact));
+
+        return redirect(route('public.thanks', compact('name')));
+    }
+
+    public function thanks($name) {
+        return view('thanks', compact('name'));
     }
 }

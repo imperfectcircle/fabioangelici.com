@@ -1,16 +1,26 @@
 <form class="" action="{{ route('public.form') }}" method="POST">
     @csrf
     <x-honeypot />
+    @if (isset($errors) && $errors->any())
+        <div class="alert alert-danger">
+            <ul>
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div>
+    @endif
+
     <div class="flex flex-col space-y-2 py-5">
         <label for="service">Scegli il servizio</label>
         <select class="p-3 border bg-gray-100 border-orange-500 rounded-lg text-black" name="service" id="service">
-            <option value="site">Sito web</option>
-            <option value="restyling">Restyling sito web</option>
-            <option value="ecommerce">Portale E-Commerce</option>
-            <option value="gestionale">Gestionale</option>
-            <option value="domain">Resgistrazione dominio</option>
-            <option value="hosting">Spazio web</option>
-            <option value="other">Altro</option>
+            <option value="Sito web">Sito web</option>
+            <option value="Restyling sito">Restyling sito web</option>
+            <option value="Ecommerce">Portale E-Commerce</option>
+            <option value="Gestionale">Gestionale</option>
+            <option value="Registrazione dominio">Resgistrazione dominio</option>
+            <option value="Hosting">Spazio web</option>
+            <option value="Altro">Altro</option>
         </select>
     </div>
     <div class="flex flex-col space-y-2 pb-5">

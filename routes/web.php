@@ -27,4 +27,5 @@ Route::controller(PublicController::class)->group(function () {
     Route::get('/restyling', 'restyling')->name('public.restyling');
     Route::get('/hosting', 'hosting')->name('public.hosting');
     Route::post('/contact/submit', 'contactSubmit')->name('public.form');
+    Route::get('/thank-you/{name}', 'thanks')->name('public.thanks');
 });
