@@ -6,9 +6,9 @@
     :canonical="'https://fabioangelici.com/404'"
 >
 <section id="hero" class="notfound flex flex-col justify-center text-white">
-    <div class="text-center md:text-left md:ml-24">
-        <h1 class="text-6xl">Opss... A quanto pare quello che stavi cercando non si trova qui.</h1>
-        
+    <div class="text-center md:text-left md:w-6/12 md:mx-auto">
+        <h1 class="text-6xl">Ops... A quanto pare quello che stavi cercando non si trova qui.</h1>
+        <p class="text-4xl" id="backParagraph"></p>
     </div>
 </section>
 </x-layout>

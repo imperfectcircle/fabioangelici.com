@@ -34,7 +34,7 @@
 </footer>
 <section id="bottom-bar" class="bg-gray-800 h-fit py-5 px-3 md:py-10 md:px-5 text-gray-300 font-alata flex flex-col items-center md:flex-row md:justify-evenly text-md md:text-xl space-y-3">
     <p class="">© 2022 Fabio Angelici</p>
-    <p>P.I. 0000000000</p>
+    <p>P.I. 03929520124</p>
     <p>Privacy policy</p>
     <p>Cookie policy</p>
 </section>
