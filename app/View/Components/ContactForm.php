@@ -11,9 +11,12 @@ class ContactForm extends Component
      *
      * @return void
      */
-    public function __construct()
+
+    public $page;
+
+    public function __construct($page)
     {
-        //
+        $this->page = $page;
     }
 
     /**

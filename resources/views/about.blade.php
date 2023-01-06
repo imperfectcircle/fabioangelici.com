@@ -85,7 +85,7 @@
                 Compila il form che trovi qui sotto, ti risponderò il prima possibile.
             </p>
             <div class="w-full md:w-9/12">
-                <x-contact-form />
+                <x-contact-form :page="'about'"/>
             </div>
         </div>
         <div class="w-full pl-5 pr-5 mb-5 md:sticky md:top-[10rem] md:pl-24 md:pt-16 md:mb-48">

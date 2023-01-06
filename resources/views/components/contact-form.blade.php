@@ -10,7 +10,7 @@
             </ul>
         </div>
     @endif
-
+    <input type="hidden" name="{{ $page }}">
     <div class="flex flex-col space-y-2 py-5">
         <label for="service">Scegli il servizio</label>
         <select class="p-3 border bg-gray-100 border-orange-500 rounded-lg text-black" name="service" id="service">

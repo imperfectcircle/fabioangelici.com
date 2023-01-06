@@ -51,8 +51,9 @@ class PublicController extends Controller
         $email = $req->email;
         $phone = $req->phone;
         $message = $req->message;
+        $page = $req->page;
 
-        $contact = compact('service', 'name', 'email', 'phone', 'message');
+        $contact = compact('service', 'name', 'email', 'phone', 'message', 'page');
 
         Mail::to('info@fabioangelici.com')->send(new ContactMail($contact));
 
