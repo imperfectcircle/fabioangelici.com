@@ -17,17 +17,15 @@ use Spatie\Honeypot\ProtectAgainstSpam;
 
 Route::controller(PublicController::class)->group(function () {
     Route::get('/', 'home')->name('public.home');
-    Route::middleware(ProtectAgainstSpam::class)->group(function () {
-        Route::get('/about', 'about')->name('public.about');
-        Route::get('/services', 'services')->name('public.services');
-        Route::get('/contacts', 'contacts')->name('public.contacts');
-        Route::get('/web-sites', 'webSites')->name('public.websites');
-        Route::get('/ecommerce', 'ecommerce')->name('public.ecommerce');
-        Route::get('/management', 'management')->name('public.management');
-        Route::get('/restyling', 'restyling')->name('public.restyling');
-        Route::get('/hosting', 'hosting')->name('public.hosting');
-    });
+    Route::get('/about', 'about')->name('public.about')->middleware(ProtectAgainstSpam::class);
+    Route::get('/services', 'services')->name('public.services')->middleware(ProtectAgainstSpam::class);
     Route::get('/blog', 'blog')->name('public.blog');
+    Route::get('/contacts', 'contacts')->name('public.contacts')->middleware(ProtectAgainstSpam::class);
+    Route::get('/web-sites', 'webSites')->name('public.websites')->middleware(ProtectAgainstSpam::class);
+    Route::get('/ecommerce', 'ecommerce')->name('public.ecommerce')->middleware(ProtectAgainstSpam::class);
+    Route::get('/management', 'management')->name('public.management')->middleware(ProtectAgainstSpam::class);
+    Route::get('/restyling', 'restyling')->name('public.restyling')->middleware(ProtectAgainstSpam::class);
+    Route::get('/hosting', 'hosting')->name('public.hosting')->middleware(ProtectAgainstSpam::class);
     Route::post('/contact/submit', 'contactSubmit')->name('public.form');
     Route::get('/thank-you/{name}', 'thanks')->name('public.thanks');
 });
