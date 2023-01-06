@@ -26,6 +26,6 @@ Route::controller(PublicController::class)->group(function () {
     Route::get('/management', 'management')->name('public.management')->middleware(ProtectAgainstSpam::class);
     Route::get('/restyling', 'restyling')->name('public.restyling')->middleware(ProtectAgainstSpam::class);
     Route::get('/hosting', 'hosting')->name('public.hosting')->middleware(ProtectAgainstSpam::class);
-    Route::post('/contact/submit', 'contactSubmit')->name('public.form');
+    Route::post('/contact/submit', 'contactSubmit')->name('public.form')->middleware(ProtectAgainstSpam::class);
     Route::get('/thank-you/{name}', 'thanks')->name('public.thanks');
 });
