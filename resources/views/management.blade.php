@@ -21,7 +21,7 @@
     <section class="p-5  bg-gradient-to-br from-sky-900 to-sky-400 py-20">
         <div class="md:w-6/12 md:mx-auto text-white">
             <h2 class="text-4xl">Richiedi il servizio</h2>
-            <x-contact-form></x-contact-form>
+            <x-contact-form :page="'management'"></x-contact-form>
         </div>
     </section>
 </x-layout>

@@ -73,7 +73,7 @@
                 <h2 class="text-4xl text-gray-200 text-center mb-5">Richiedi informazioni</h2>
             </div>
             <div class="p-5 md:p-0 md:w-6/12 mx-auto text-gray-200">
-                <x-contact-form />
+                <x-contact-form :page="'services'"/>
             </div>
         </div>
     </section>
