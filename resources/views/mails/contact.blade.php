@@ -9,6 +9,7 @@
 <body>
     <h2>Hai ricevuto un nuovo messaggio da {{ $contact['name'] }}</h2>
     <h2>Servizio richiesto: {{ $contact['service'] }}</h2>
+    <p>Pagina di contatto: {{ $contact['page'] }}</p>
     <h2>Dati di contatto:</h2>
     <p>{{ $contact['email'] }}</p>
     <p>{{ $contact['phone'] }}</p>
