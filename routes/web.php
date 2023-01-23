@@ -29,3 +29,5 @@ Route::controller(PublicController::class)->group(function () {
     Route::post('/contact/submit', 'contactSubmit')->name('public.form')->middleware(ProtectAgainstSpam::class);
     Route::get('/thank-you/{name}', 'thanks')->name('public.thanks');
 });
+
+require_once __DIR__ . '/fortify.php';
