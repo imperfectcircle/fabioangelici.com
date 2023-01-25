@@ -3,30 +3,32 @@
 namespace App\Nova;
 
 use Illuminate\Http\Request;
-use Illuminate\Validation\Rules;
-use Laravel\Nova\Fields\Gravatar;
+use Laravel\Nova\Fields\Boolean;
+use Laravel\Nova\Fields\HasOne;
 use Laravel\Nova\Fields\ID;
-use Laravel\Nova\Fields\Password;
+use Laravel\Nova\Fields\Markdown;
+use Laravel\Nova\Fields\Slug;
 use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Http\Requests\NovaRequest;
+use Mostafaznv\NovaCkEditor\CkEditor as NovaCkEditorCkEditor;
+use Waynestate\Nova\CKEditor4Field\CKEditor;
 
-class User extends Resource
+class Article extends Resource
 {
     /**
      * The model the resource corresponds to.
      *
-     * @var class-string<\App\Models\User>
+     * @var class-string<\App\Models\Article>
      */
-    public static $model = \App\Models\User::class;
+    public static $model = \App\Models\Article::class;
 
-    public static function label()
-    {
-        return __('Users');
+    public static function label() {
+        return __('Articles');
     }
 
     public static function singularLabel()
     {
-        return __('User');
+        return __('Article');
     }
 
     /**
@@ -34,7 +36,7 @@ class User extends Resource
      *
      * @var string
      */
-    public static $title = 'name';
+    public static $title = 'title';
 
     /**
      * The columns that should be searched.
@@ -42,8 +44,10 @@ class User extends Resource
      * @var array
      */
     public static $search = [
-        'id', 'name', 'email',
+        'id', 'title', 'body'
     ];
+
+    public static $perPageOptions = [50, 100, 150];
 
     /**
      * Get the fields displayed by the resource.
@@ -54,24 +58,27 @@ class User extends Resource
     public function fields(NovaRequest $request)
     {
         return [
-            ID::make()->sortable(),
-
-            Gravatar::make()->maxWidth(50),
-
-            Text::make('Nome', 'name')
-                ->sortable()
-                ->rules('required', 'max:255'),
-
-            Text::make('Email', 'email')
-                ->sortable()
-                ->rules('required', 'email', 'max:254')
-                ->creationRules('unique:users,email')
-                ->updateRules('unique:users,email,{{resourceId}}'),
-
-            Password::make('Password', 'password')
-                ->onlyOnForms()
-                ->creationRules('required', Rules\Password::defaults())
-                ->updateRules('nullable', Rules\Password::defaults()),
+            Slug::make('Slug', 'slug')
+                ->from('title')
+                ->required()
+                ->withMeta(['extraAttributes' => [
+                    'readonly' => true
+                ]])
+                ->hideFromIndex()
+                ->showOnPreview(),
+            Text::make('Titolo', 'title')
+                ->required()
+                ->showOnPreview()
+                ->placeholder('Titolo dell\' articolo')
+                ->sortable(),
+            NovaCkEditorCkEditor::make('Corpo', 'body')
+                ->required()
+                ->showOnPreview(),
+            Boolean::make('Pubblicato', 'is_published')
+                ->showOnPreview()
+                ->sortable(),
+            HasOne::make('Picture')
+                    ->showOnPreview(),
         ];
     }
 

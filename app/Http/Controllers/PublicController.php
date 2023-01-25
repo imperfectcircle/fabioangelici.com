@@ -6,11 +6,13 @@ use App\Mail\ContactMail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Http\Requests\ContactRequest;
+use App\Models\Article;
 
 class PublicController extends Controller
 {
     public function home() {
-        return view('home');
+        $articles = Article::where('is_published', true)->latest()->take(5)->get();
+        return view('home', compact('articles'));
     }
 
     public function about() {

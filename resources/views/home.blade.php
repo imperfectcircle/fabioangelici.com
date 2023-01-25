@@ -101,6 +101,9 @@
     {{-- Articles Section --}}
     <section id="articles">
         <h2 class="text-2xl text-center mt-10">To do sezione articoli</h2>
+        @foreach ($articles as $article)
+            <a href="{{ route('article.show', $article->slug) }}">{{ $article->title }}</a>
+        @endforeach
     </section>
     {{-- End Articles Section --}}
 </x-layout>
