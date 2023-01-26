@@ -12,8 +12,8 @@
                 <div class="overflow-hidden bg-white shadow-sm sm:rounded-lg">
                     <div class="p-6 bg-white border-b border-gray-200">
                         <div>
-                            <img src="{{ Storage::url($article->picture->image) }}" alt="">
-                            <h1 class="text-2xl">{{ $article->title }}</h1>
+                            <img class="mx-auto rounded-lg shadow-xl mb-10" src="{{ Storage::url($article->picture->image) }}" alt="{{ $article->title }}">
+                            <h1 class="text-6xl text-center">{{ $article->title }}</h1>
                             <div class="prose lg:prose-xl">{!! $article->body !!}</div>
                         </div>
     

@@ -100,10 +100,20 @@
 
     {{-- Articles Section --}}
     <section id="articles">
-        <h2 class="text-2xl text-center mt-10">To do sezione articoli</h2>
-        @foreach ($articles as $article)
-            <a href="{{ route('article.show', $article->slug) }}">{{ $article->title }}</a>
-        @endforeach
+        <h2 class="text-3xl font-bold text-center my-10 md:text-5xl">Segui il mio blog</h2>
+        <div class="mx-auto md:w-7/12">
+            <div class="grid grid-cols-1 px-5 md:grid-cols-3 md:px-0 gap-10">
+                @foreach ($articles as $article)
+                    <a href="{{ route('article.show', $article->slug) }}">
+                    <div class="flex flex-col mb-10">
+                        <img class="mb-5 rounded-lg h-44" src="{{ Storage::url($article->picture->image) }}" alt="{{ $article->title }}">
+                        <p class="text-center font-bold text-2xl">{{ $article->title }}</p>
+                        
+                    </div>
+                    </a>
+                @endforeach
+            </div>
+        </div>
     </section>
     {{-- End Articles Section --}}
 </x-layout>

@@ -11,7 +11,7 @@ use App\Models\Article;
 class PublicController extends Controller
 {
     public function home() {
-        $articles = Article::where('is_published', true)->latest()->take(5)->get();
+        $articles = Article::where('is_published', true)->latest()->take(3)->get();
         return view('home', compact('articles'));
     }
 
