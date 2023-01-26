@@ -1,10 +1,10 @@
 <x-layout 
-    :title="'Fabio Angelici | Sviluppatore web freelance | PHP e JavaScript'"
-    :description="'Sono uno sviluppatore web freelance PHP e Javascript. Se vuoi saperne di più visita il mio sito'"
-    :ogUrl="'https://fabioangelici.com/aboout'"
-    :ogDescription="'Sono uno sviluppatore web freelance PHP e Javascript. Se vuoi saperne di più visita il mio sito'"
-    :ogTitle="'Fabio Angelici | Sviluppatore web freelance | PHP, JavaScript'"
-    :canonical="'https://fabioangelici.com/about'"
+    :title="$article->title"
+    :description="''"
+    :ogUrl="''"
+    :ogDescription="''"
+    :ogTitle="$article->title"
+    :canonical="''"
 >
     <section id="hero">
         <div class="py-12">

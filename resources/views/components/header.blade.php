@@ -9,7 +9,7 @@
             <a href="skype:live:.cid.8ae67683138ca1aa?chat">
                 <i class="fa-brands fa-skype md:text-3xl p-2 text-sky-600 hover:text-sky-700"></i>
             </a>
-            <a href="https://twitter.com/messages/compose?recipient_id=1596495346452103170" target="_blank">
+            <a href="https://twitter.com/messages/compose?recipient_id=1618668571000725505" target="_blank">
                 <i class="fa-brands fa-twitter md:text-3xl p-2 text-sky-500 hover:text-sky-600"></i>
             </a>
         </div>
