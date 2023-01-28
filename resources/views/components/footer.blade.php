@@ -30,6 +30,6 @@
 <section id="bottom-bar" class="bg-gray-800 h-fit py-5 px-3 md:py-10 md:px-5 text-gray-300 font-alata flex flex-col items-center md:flex-row md:justify-evenly text-md md:text-xl space-y-3">
     <p class="">© 2022 Fabio Angelici</p>
     <p>P.I. 03929520124</p>
-    <p>Privacy policy</p>
-    <p>Cookie policy</p>
+    <a href="https://www.iubenda.com/privacy-policy/71101442" class="iubenda-black no-brand iubenda-noiframe iubenda-embed iubenda-noiframe " title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    <a href="https://www.iubenda.com/privacy-policy/71101442/cookie-policy" class="iubenda-black no-brand iubenda-noiframe iubenda-embed iubenda-noiframe " title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
 </section>
