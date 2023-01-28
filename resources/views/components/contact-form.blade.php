@@ -41,7 +41,7 @@
     </div>
     <div class="flex pb-5">
         <input type="checkbox" class="scale-150" name="privacy" id="privacy" required>
-        <label for="privacy"><p class="text-sm pl-5">Dichiaro di aver preso visione dell'informativa sulla <a href="https://www.iubenda.com/privacy-policy/71101442">privacy</a>, pertanto presto il mio consenso al trattamento dei dati per ricevere le informazioni richieste</p></label>
+        <label for="privacy"><p class="text-sm pl-5">Dichiaro di aver preso visione dell'informativa sulla <a href="https://www.iubenda.com/privacy-policy/71101442" target="_blank">privacy</a>, pertanto presto il mio consenso al trattamento dei dati per ricevere le informazioni richieste</p></label>
         
     </div>
     <div class="flex justify-center">

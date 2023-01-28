@@ -30,6 +30,6 @@
 <section id="bottom-bar" class="bg-gray-800 h-fit py-5 px-3 md:py-10 md:px-5 text-gray-300 font-alata flex flex-col items-center md:flex-row md:justify-evenly text-md md:text-xl space-y-3">
     <p class="">© 2022 Fabio Angelici</p>
     <p>P.I. 03929520124</p>
-    <a href="https://www.iubenda.com/privacy-policy/71101442">Privacy policy</a>
-    <a href="https://www.iubenda.com/privacy-policy/71101442/cookie-policy">Cookie policy</a>
+    <a href="https://www.iubenda.com/privacy-policy/71101442" target="_blank">Privacy policy</a>
+    <a href="https://www.iubenda.com/privacy-policy/71101442/cookie-policy" target="_blank">Cookie policy</a>
 </section>
