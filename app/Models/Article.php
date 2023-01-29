@@ -12,7 +12,7 @@ class Article extends Model
     use HasFactory, SoftDeletes;
 
     protected $fillable = [
-        'title', 'slug', 'body', 'is_published'
+        'title', 'slug', 'body', 'is_published, description'
     ];
 
     public function picture() {

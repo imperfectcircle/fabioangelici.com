@@ -71,6 +71,11 @@ class Article extends Resource
                 ->showOnPreview()
                 ->placeholder('Titolo dell\' articolo')
                 ->sortable(),
+            Text::make('Descrizione', 'description')
+                ->required()
+                ->showOnPreview()
+                ->placeholder('Inserisci la descrizione')
+                ->sortable(),
             NovaCkEditorCkEditor::make('Corpo', 'body')
                 ->required()
                 ->showOnPreview(),

@@ -1,8 +1,8 @@
 <x-layout 
     :title="$article->title"
-    :description="''"
+    :description="$article->description"
     :ogUrl="''"
-    :ogDescription="''"
+    :ogDescription="$article->description"
     :ogTitle="$article->title"
     :canonical="''"
 >
