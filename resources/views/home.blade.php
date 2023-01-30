@@ -100,8 +100,9 @@
 
     {{-- Articles Section --}}
     <section id="articles">
-        <h2 class="text-3xl font-bold text-center my-10 md:text-5xl">Segui il mio blog</h2>
-        <div class="mx-auto md:w-7/12">
+        <h2 class="text-3xl font-bold text-center mt-10 mb-3 md:text-5xl">Segui il mio blog</h2>
+        <p class="font-alata text-center text-lg md:text-2xl mb-5">Ultimi articoli pubblicati</p>
+        <div class="mx-auto w-8/12 md:w-7/12">
             <div class="grid grid-cols-1 px-5 md:grid-cols-3 md:px-0 gap-10">
                 @foreach ($articles as $article)
                     <a href="{{ route('article.show', $article->slug) }}">
