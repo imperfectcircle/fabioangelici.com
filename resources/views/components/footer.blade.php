@@ -32,4 +32,5 @@
     <p>P.I. 03929520124</p>
     <a href="https://www.iubenda.com/privacy-policy/71101442" target="_blank">Privacy policy</a>
     <a href="https://www.iubenda.com/privacy-policy/71101442/cookie-policy" target="_blank">Cookie policy</a>
+    <a href="https://www.digitalocean.com/?refcode=3a6b0d618d2d&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge"><img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg" alt="DigitalOcean Referral Badge" /></a>
 </section>
