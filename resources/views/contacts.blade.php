@@ -40,7 +40,7 @@
                     </a>
                 </div>
             </div>
-            <div class="md:col-span-2 md:col-start-2 p-5">
+            <div id="contatti" class="md:col-span-2 md:col-start-2 p-5">
                 <h2 class="text-3xl text-sky-700">Compila il form sottostante e ti ricontatterò il prima possibile.</h2>
                 <x-contact-form :page="'contact'"/>
             </div>

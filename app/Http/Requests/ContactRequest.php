@@ -45,4 +45,10 @@ class ContactRequest extends FormRequest
             'privacy.required' => 'Devi dare il consenso al trattamento dei dati',
         ];
     }
+
+    protected function getRedirectUrl()
+    {
+        $url = $this->redirector->getUrlGenerator();
+        return $url->previous() . '#contatti';
+    }
 }
