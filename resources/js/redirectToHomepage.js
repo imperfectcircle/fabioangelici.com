@@ -16,4 +16,6 @@ const redirectToHomePage = () => {
     }, 1000);
 };
 
-redirectToHomePage();
+if (document.querySelector('#backParagraph')) {
+    redirectToHomePage();
+}
