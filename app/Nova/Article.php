@@ -73,7 +73,9 @@ class Article extends Resource
                 ->sortable(),
             Text::make('Descrizione', 'description')
                 ->required()
+                ->showOnPreview()
                 ->placeholder('Inserisci la descrizione')
+                ->hideFromIndex(),
                 ->sortable(),
             NovaCkEditorCkEditor::make('Corpo', 'body')
                 ->required()
@@ -82,6 +84,7 @@ class Article extends Resource
                 ->showOnPreview()
                 ->sortable(),
             HasOne::make('Picture')
+                    ->showOnPreview(),
         ];
     }
 
