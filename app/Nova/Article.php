@@ -75,7 +75,7 @@ class Article extends Resource
                 ->required()
                 ->showOnPreview()
                 ->placeholder('Inserisci la descrizione')
-                ->hideFromIndex(),
+                ->hideFromIndex()
                 ->sortable(),
             NovaCkEditorCkEditor::make('Corpo', 'body')
                 ->required()
