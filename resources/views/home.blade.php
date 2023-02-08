@@ -28,9 +28,10 @@
     <section id="intro" class="bg-sky-600 h-fit flex justify-center">
         <div class="md:w-6/12 my-5 p-5 text-lg md:my-10 md:text-2xl text-gray-300">
             <h1 class="text-3xl font-bold text-center mb-3 md:text-5xl">Creazione e restyling di siti web e ecommerce </h1>
-            <p class="font-alata">Mi chiamo Fabio Angelici, sono uno sviluppatore freelance e mi occupo della <strong>creazione e del restyling di siti ed ecommerce e dello sviluppo di gestionali web</strong> per aziende, liberi professionisti e privati.</p>
-            <p class="font-alata mt-5">Nello sviluppo mi dedico sia alla parte front-end, cioè ciò che l'utente vede, sia alla parte back-end, vale a dire il "motore" vero e proprio del sito, rendendo il risultato finale <strong>unico, affidabile e di facile gestione</strong>.</p>
-            <p class="font-alata mt-5">Anche lavorando da solo cerco di ispirare il mio flusso lavorativo alle metodologie <em>AGILE</em>, la collaborazione con il cliente è quindi <strong>fondamentale</strong> per la buona riuscita del progetto e per eliminare gli sprechi di tempo; verrai coinvolto a più riprese nel processo di creazione del sito, dal primo incontro alle diverse fasi della lavorazione.</p>
+            <p class="font-alata">Mi chiamo Fabio Angelici, sono uno sviluppatore freelance e sono specializzato nella <strong>creazione e nel restyling di siti ed ecommerce e dello sviluppo di gestionali web</strong> per aziende, liberi professionisti e privati.</p>
+            <p class="font-alata mt-5">Offro soluzioni personalizzate e all'avanguardia per la creazione di <strong>siti internet di alta qualità</strong>.</p>
+            <p class="font-alata mt-5">Il mio <strong>obiettivo</strong> è quello di <strong>aiutare le aziende a crescere</strong> e raggiungere il loro scopo online attraverso la creazione di siti web che che siano non solo esteticamente piacevoli, ma anche funzionali e facili da usare. </p>
+            <p class="font-alata mt-5">Se stai cercando un web developer che possa offrirti un servizio eccezionale e un <strong>risultato finale di alta qualità</strong> non esitare a contattarmi.</p>
             <div class="mt-10 w-full text-center">
                 <x-button :route="route('public.about')" :text="'Come lavoro'" />
             </div>

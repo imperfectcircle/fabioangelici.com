@@ -15,30 +15,29 @@
             <div class="mb-5 md:col-start-2 md:col-span-2 md:mb-0">
                 <h2 class="text-3xl text-center md:text-left text-sky-700">Progettazione e sviluppo siti web</h2>
                 <div class="text-xl space-y-2">
-                    <p class="mt-3">Sia che tu abbia bisogno di un sito aziendale o istituzionale , di un blog o di un sito portfilio, posso sviluppare la tua idea e renderla realtà.</p>
-                    <p><strong>Realizzo siti professionali e in linea con le richieste del cliente</strong>, ponendo attenzione a tutto ciò che è importante per un <em>buon posizionamento nei principali motori di ricerca e alla <strong>user experience</strong></em>.</p>
-                    <p>Tra i servizi inclusi: registrazione del dominio, spazio hosting, certificato SSL, analisi e monitoraggio post messa in produzione.</p>
-                    <p>Tutti i siti che realizzo sono <strong>responsive</strong> e creati in modalità mobile first.</p>
+                    <p class="mt-3">Come web developer freelance, sono specializzato nella creazione di <strong>siti web professionali e personalizzati per soddisfare le esigenze dei miei clienti</strong>. Sia che si tratti di un sito aziendale o istituzionale, di un blog o di un portfolio personale, sarò in grado di trasformare la tua idea in una realtà digitale di successo.</p>
+                    <p>Pongo molta attenzione a garantire una solida presenza online per i miei clienti, attraverso la realizzazione di <strong>siti ottimizzati per i motori di ricerca e la user experience</strong>. I servizi che offro includono la registrazione del dominio, lo spazio hosting, il certificato SSL e l'analisi e il monitoraggio del sito una volta messo in produzione.</p>
+                    <p>Tutti i siti che sviluppo sono progettati con una modalità mobile first, per garantire <strong>un'esperienza ottimale su tutti i dispositivi</strong> e una navigazione fluida su schermi di qualsiasi dimensione.</p>
                     <div class="pt-3 text-center">
                         <x-button :route="'#form'" :text="'Richiedi il servizio'" />
                     </div>
                 </div>
             </div>
             <div class="md:col-span-2 order-first md:order-none">
-                <img class="rounded-lg" src="images/web.webp" alt="">
+                <img class="rounded-lg" src="images/web.webp" alt="Siti Internet">
             </div>
             {{-- End first row --}}
 
             {{-- Second row --}}
             <div class="md:col-span-2 md:col-start-2 md:mt-16">
-                <img class="rounded-lg" src="images/ecommerce.webp" alt="">
+                <img class="rounded-lg" src="images/ecommerce.webp" alt="E-Commerce">
             </div>
             <div class="mb-5 md:col-span-2 md:mb-0 md:mt-16">
                 <h2 class="text-3xl text-center md:text-left text-sky-700">Portali E-Commerce</h2>
                 <div class="text-xl space-y-3">
-                    <p class="mt-3">Negli ultimi anni il commercio online è diventato predominante; se la tua intenzione è quella di ampliare il tuo bisness o di iniziare vendendo i tuoi prodotti online, questo è il servizio che fa per te.</p>
-                    <p>Gli E-Commerce che ti propongo sono <strong>completi di tutte le funzionalità</strong>: un <strong>pannello di controllo intuitivo e personabilizzabile</strong> in base alle tue esigenze, pagamenti con i metodi di pagamento più utilizzati e <strong>un'interfaccia utente accattivante e facile da navigare</strong>.</p>
-                    <p>Tra i servizi inclusi: registrazione del dominio, spazio hosting, certificato SSL, analisi e monitoraggio post messa in produzione.</p>
+                    <p class="mt-3">Il commercio elettronico è diventato un <strong>elemento fondamentale del mercato</strong> in questi ultimi anni, e se sei alla ricerca di un modo per ampliare la tua attività commerciale o di avviare la vendita dei tuoi prodotti online, <strong>posso offrirti il mio supporto come web developer</strong>.</p>
+                    <p>Ti propongo soluzioni complete di e-commerce che soddisfino le tue esigenze, con un <strong>pannello di controllo intuitivo</strong> e personalizzabile, <strong>opzioni di pagamento affidabili</strong> e diffuse e un'interfaccia utente accattivante e facile da navigare.</p>
+                    <p>I servizi che offro includono la registrazione del dominio, lo spazio hosting, il certificato SSL e l'analisi e il monitoraggio del sito una volta messo in produzione. Insieme, questi servizi ti garantiranno <strong>un'esperienza di vendita online efficiente e di successo</strong>.</p>
                     <div class="pt-3 text-center">
                         <x-button :route="'#form'" :text="'Richiedi il servizio'" />
                     </div>
@@ -50,9 +49,9 @@
             <div class="mb-5 md:col-span-2 order-2 md:order-none md:col-start-2 md:mb-0 md:mt-16">
                 <h2 class="text-3xl text-center md:text-left text-sky-700">Servizio di hosting</h2>
                 <div class="text-xl space-y-3">
-                    <p class="mt-3">Tra le cose più importanti quando si decide di mettere online un sito c'è <strong>la scelta dello spazio web</strong>. Un servizio di hosting a poco prezzo può sembrare conveniente ad un occhio poco esperto ma alla lunga può portare a problematiche come la scarsa velocità nel caricamento delle pagine o la mancanza di un certificato SSL.</p>
-                    <p>Quello che ti propongo è un servizio hosting su una piattaforma <strong>veloce e sicura</strong> con possibilità di effettuare backup dei tuoi contenuti ad un <strong>prezzo comunque concorrenziale</strong>.</p>
-                    <p>Tra i servizi inclusi: registrazione o trasferimento del dominio, registrazione delle caselle email, backup giornalieri e certificato SSL.</p>
+                    <p class="mt-3">Se stai cercando un servizio di hosting <strong>affidabile e sicuro</strong> per il tuo sito web, ti offro la soluzione che fa per te. Scegliere un'opzione di hosting a basso costo potrebbe sembrare vantaggioso all'inizio, ma potrebbe causare problemi di velocità di caricamento delle pagine e mancanza di un certificato SSL a lungo termine.</p>
+                    <p>Il servizio di hosting che ti propongo garantisce <strong>prestazioni elevate e sicurezza dei dati</strong>, con la possibilità di effettuare regolari backup dei tuoi contenuti.</p>
+                    <p>Inclusi nel servizio: registrazione o trasferimento del dominio, configurazione delle caselle email, backup regolari e certificato SSL affidabile.</p>
                     <div class="pt-3 text-center">
                         <x-button :route="'#form'" :text="'Richiedi il servizio'" />
                     </div>

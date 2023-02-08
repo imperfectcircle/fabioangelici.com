@@ -15,7 +15,7 @@
                 <i class="fa-solid fa-id-card-clip text-6xl "></i>
                 <p class="ml-2 pr-2 text-3xl font-sans pl-3 border-b-2 border-r-2 border-sky-700 rounded-br-lg"> Chi sono</p>
             </div>
-            <p class="pb-5">Mi chiamo <strong>Fabio Angelici</strong> e sono uno <strong>Sviluppatore Web Freelance</strong> di Varese ma, grazie alle moderne tecnologie di comunicazione, posso operare in tutta Italia. Nutro una passione per l'informatica sin dai primi anni novanta, quando ho avuto il primo computer.</p>
+            <p class="pb-5">Mi chiamo <strong>Fabio Angelici</strong> e sono uno <strong>Sviluppatore Web Freelance</strong> di Varese con una passione per l'informatica che risale ai primi anni '90. Grazie a internet, ho la possibilità di <strong>lavorare con clienti di tutta Italia</strong>, offrendo soluzioni personalizzate per lo sviluppo di siti web e gestionali. Mi dedico alla creazione di soluzioni <strong>moderne e use-friendly per aiutare le aziende a crescere</strong>.</p>
             <img class="rounded-lg" src="images/laptop.webp" alt="Laptop con codici di programmazione">
             <p class="pt-5">Con l'avvento di internet inizio ad avvicinarmi al mondo della <em>programmazione web</em>, prima da autodidatta poi frequentando un corso organizzato dalla regione Lombardia e dal fondo sociale europeo all'inizio degli anni 2000.</p>
             <p>Terminato il corso trovo impiego in una <strong>web agency</strong> in cui inizio a mettere a frutto ciò che ho imparato e che mi dà la possibilità, nel tempo, di scoprire nuovi linguaggi e tecnologie.</p>
@@ -33,32 +33,33 @@
             <div class="">
                 <div class="flex items-center text-left w-full">
                     <i class="fa-solid fa-check text-emerald-600 text-2xl"></i>
-                    <p class="pl-3 text-sky-600">Maggiore pulizia del codice</p>
+                    <p class="pl-3 text-sky-600">Personalizzazione</p>
                 </div>
-                <p class="pl-10 text-left w-full">Un sito con codice pulito, senza parti ridondanti o inutili e che segue le principali <strong>best practice</strong> della programmazione, <strong>è più veloce e facilmente manutenibile</strong>.</p>
+                <p class="pl-10 text-left w-full">Quando si crea un sito web dal codice, si ha un maggiore controllo sulla personalizzazione e sulla struttura del sito stesso. Ciò significa che è possibile creare <strong>un sito unico che risponda alle esigenze specifiche del proprio business</strong>.</p>
             </div>
             <div class="">
                 <div class="flex items-center text-left w-full">
                     <i class="fa-solid fa-check text-emerald-600 text-2xl"></i>
-                    <p class="pl-3 text-sky-600">Altamente personalizzabile</p>
+                    <p class="pl-3 text-sky-600">Prestazioni</p>
                 </div>
-                <p class="pl-10 text-left w-full">Per realizzare un sito con il codice non c'è necessità di affidarsi a temi per il design o a plugin per le varie funzionalità. <strong>Tutto viene realizzato in base alle reali necessità e gusti del cliente</strong>.</p>
+                <p class="pl-10 text-left w-full">I siti web creati a partire dal codice sono solitamente <strong>più veloci e performanti</strong> rispetto ai siti creati con un CMS. Questo è dovuto al fatto che <strong>il codice è ottimizzato per le prestazioni</strong>, a differenza dei siti sviluppati ad esempio con WordPress, che spesso includono funzionalità inutili.</p>
             </div>
             <div class="">
                 <div class="flex items-center text-left w-full">
                     <i class="fa-solid fa-check text-emerald-600 text-2xl"></i>
-                    <p class="pl-3 text-sky-600">Facilmente modificabile</p>
+                    <p class="pl-3 text-sky-600">Sicurezza</p>
                 </div>
-                <p class="pl-10 text-left w-full">Gli interventi di modifica sul sito rimangono, anche a distanza di mesi o anni, <strong>facili e decisamente più rapidi</strong> rispetto ai siti realizzati con un CMS.</p>
+                <p class="pl-10 text-left w-full">I siti web creati partendo dal codice sono <strong>meno vulnerabili agli attacchi informatici</strong> rispetto a quelli creati con un CSM. Ciò è dovuto al fatto che i primi possono essere progettati e sviluppati con maggiore attenzione alla sicurezza, <strong>rendendoli meno suscettibili a minacce</strong> come malware e gli attacchi DDoS di cui spesso si sente parlare.</p>
             </div>
             <div class="">
                 <div class="flex items-center text-left w-full">
                     <i class="fa-solid fa-check text-emerald-600 text-2xl"></i>
-                    <p class="pl-3 text-sky-600">Sicurezza innanzitutto</p>
+                    <p class="pl-3 text-sky-600">Scalabilità</p>
                 </div>
-                <p class="pl-10 text-left w-full">Con un sito creato con il codice non devi preoccuparti di aggiornare plugin per evitare bug o eventuali falle nella sicurezza. Un sito <strong>ben costruito</strong> non ha di queste problematiche.</p>
+                <p class="pl-10 text-left w-full">I siti web creati lato codice sono solitamente più scalabili. Ciò significa che <strong>è più facile far crescere il sito</strong> e aggiungere nuove funzionalità in futuro.</p>
             </div>
-            <p>Nello sviluppo dei siti utilizzo principalmente <strong>PHP e JavaScript</strong> come linguaggi di programmazione e mi avvalgo di librerie e framework per scrivere più velocemente un codice pulito, e facilmente manutenibile; quelli che seguono sono alcuni dei linguaggi, librerie e framework che utilizzo:</p>
+            
+            <p>Per lo sviluppo dei miei siti, faccio affidamento su <strong>PHP e JavaScript</strong> come linguaggi di programmazione principali. Ricorro a librerie e framework per creare codice efficiente, pulito e facilmente gestibile.; quelli che seguono sono alcuni dei linguaggi, librerie e framework che utilizzo:</p>
             <div class="pt-5 grid grid-cols-2 gap-5 md:flex md:flex-col">
                 <div class="space-y-5 md:flex md:space-x-5 md:space-y-0">
                     <x-tech-image :link="'https://it.wikipedia.org/wiki/HTML5'" :name="'HTML5.svg'" :text="'Logo html 5'" />
