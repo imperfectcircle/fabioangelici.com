@@ -1,7 +1,10 @@
-<footer class="h-fit bg-gray-700 py-8 md:py-10 flex flex-col items-center md:grid md:grid-cols-3 text-gray-200">
-    <div class="">
-        <p class="text-2xl md:text-4xl text-center">Fabio Angelici</p>
-        <p class="text-md md:text-lg text-gray-300/60 text-center uppercase">&#60;web developer&#47;&#62;</p>
+<footer class="h-fit bg-gray-600 py-8 md:py-10 flex flex-col items-center md:grid md:grid-cols-3 text-gray-100">
+    <div class="flex items-center ml-5">
+        <img class="w-[80px]" src="/images/logo.webp" alt="">
+        <div class="">
+            <p class="text-2xl md:text-4xl text-center">Fabio Angelici</p>
+            <p class="text-md md:text-lg text-gray-300/60 text-center uppercase">&#60;web developer&#47;&#62;</p>
+        </div>
         
     </div>
     <div class="text-center font-alata mt-5">

@@ -39,8 +39,15 @@
                 </a>
             </div>
             <div class="col-span-2">
-                <p class="text-2xl md:text-4xl">Fabio Angelici</p>
-                <p class="text-md md:text-lg text-black/60 text-center uppercase">&#60;web developer&#47;&#62;</p></div>
+                <div class="flex items-center">
+                    <img class="w-[80px]" src="/images/logo.webp" alt="">
+                    <div class="hidden md:block">
+                        <p class="text-2xl md:text-4xl">Fabio Angelici</p>
+                        <p class="text-md md:text-lg text-black/60 text-center uppercase">&#60;web developer&#47;&#62;</p>
+                    </div>
+                </div>
+                
+            </div>
             <div class="flex justify-center md:hidden">
                 
             </div>

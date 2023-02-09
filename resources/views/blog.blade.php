@@ -19,7 +19,7 @@
                     <img class="mb-5 rounded-lg md:h-44 shadow-lg" src="{{ Storage::url($article->picture->image) }}" alt="{{ $article->title }}">
                     <p class="text-center font-bold text-2xl">{{ $article->title }}</p>
                     <p class="prose">{!! Str::limit($article->body, 100) !!}</p>
-                    <a class="m-2 px-6 py-3 bg-sky-700 hover:bg-sky-800 duration-150 rounded-full w-6/12 mx-auto text-white" href="{{ route('article.show', $article->slug) }}">Leggi l'articolo</a>
+                    <a class="m-2 px-6 py-3 bg-sky-700 hover:bg-sky-800 duration-150 rounded-full text-center w-10/12 md:w-6/12 mx-auto text-white" href="{{ route('article.show', $article->slug) }}">Leggi l'articolo</a>
                 </div>
                 
             @endforeach
