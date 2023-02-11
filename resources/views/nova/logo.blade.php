@@ -1,1 +1,0 @@
-<p class="text-center">Fabio Angelici</p>
