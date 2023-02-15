@@ -66,10 +66,10 @@
         {{-- Menù --}}
         <div class="hidden md:flex md:items-center">
             <ul class="flex items-center justify-center space-x-5 font-alata text-xl uppercase">
-                <x-menu :route="route('public.home')" :name="'Home'"/>
-                <x-menu :route="route('public.about')" :name="'chi sono'"/>
-                <x-menu :route="route('public.services')" :name="'Servizi'"/>
-                <x-menu :route="route('public.blog')" :name="'blog'"/>
+                <x-menu :route="route('public.home')" :anchorClass="(request()->is('/')) ? 'text-orange-500' : '' " :name="'Home'"/>
+                <x-menu :route="route('public.about')" :anchorClass="(request()->is('about')) ? 'text-orange-500' : '' " :name="'chi sono'"/>
+                <x-menu :route="route('public.services')" :anchorClass="(request()->is('services')) ? 'text-orange-500' : '' " :name="'Servizi'"/>
+                <x-menu :route="route('public.blog')" :anchorClass="(request()->is('blog')) ? 'text-orange-500' : '' " :name="'blog'"/>
                 <x-menu :classes="'border-2 border-orange-500 px-5 py-2 rounded-full hover:bg-orange-500 hover:text-white duration-200'" :anchorClass="'group-hover:text-white duration-200'" :route="route('public.contacts')" :name="'contatti'"/>
             </ul>
         </div>
