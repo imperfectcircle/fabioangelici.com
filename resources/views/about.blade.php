@@ -1,6 +1,6 @@
 <x-layout 
-    :title="'Fabio Angelici | Sviluppatore web freelance | PHP e JavaScript'"
-    :description="'Sono uno sviluppatore web freelance PHP e Javascript. Se vuoi saperne di più visita il mio sito'"
+    :title="'Sviluppatore web php e Javascript | Fabio Angelici Web Developer'"
+    :description="'Sono uno sviluppatore web freelance PHP e Javascript. Ti offro servizi per la creazione di siti web professionali e performanti'"
     :ogUrl="'https://fabioangelici.com/aboout'"
     :ogDescription="'Sono uno sviluppatore web freelance PHP e Javascript. Se vuoi saperne di più visita il mio sito'"
     :ogTitle="'Fabio Angelici | Sviluppatore web freelance | PHP, JavaScript'"
@@ -13,7 +13,7 @@
         <div class="md:col-start-2 md:col-span-2 md:px-0 space-y-3 text-lg md:text-xl py-10 px-5 flex flex-col items-center text-justify">
             <div class="flex justify-center items-end md:justify-start text-sky-700 w-full mb-5">
                 <i class="fa-solid fa-id-card-clip text-6xl "></i>
-                <p class="ml-2 pr-2 text-3xl font-sans pl-3 border-b-2 border-r-2 border-sky-700 rounded-br-lg"> Chi sono</p>
+                <h2 class="ml-2 pr-2 text-3xl font-sans pl-3 border-b-2 border-r-2 border-sky-700 rounded-br-lg"> Chi sono</h2>
             </div>
             <p class="pb-5">Mi chiamo <strong>Fabio Angelici</strong> e sono uno <strong>Sviluppatore Web Freelance</strong> di Varese con una passione per l'informatica che risale ai primi anni '90. Grazie a internet, ho la possibilità di <strong>lavorare con clienti di tutta Italia</strong>, offrendo soluzioni personalizzate per lo sviluppo di siti web e gestionali. Mi dedico alla creazione di soluzioni <strong>moderne e use-friendly per aiutare le aziende a crescere</strong>.</p>
             <img class="rounded-lg" src="images/laptop.webp" alt="Laptop con codici di programmazione">
@@ -23,11 +23,11 @@
             <p>Col tempo mi sono tenuto <strong>sempre al passo con le novità</strong> o con la documentazione on-line o frquentando corsi (l'ultimo dei quali nel 2021), in quanto ritengo che il continuo studio e approfondimento siano una parte fondamentale di questo lavoro.</p>
             <div class="flex pt-5 justify-center items-end md:justify-start text-sky-700 w-full">
                 <i class="fa-solid fa-laptop-file text-6xl"></i>
-                <p class="ml-2 pr-2 text-3xl font-sans pl-3 border-b-2 border-r-2 border-sky-700 rounded-br-lg">Come lavoro</p>
+                <h2 class="ml-2 pr-2 text-3xl font-sans pl-3 border-b-2 border-r-2 border-sky-700 rounded-br-lg">Come realizzo siti internet</h2>
             </div>
             <p class="pt-5">Nel corso degli anni mi è capitato di lavorare utilizzando CMS open source come WordPress o Joomla per realizzare siti, questi sono dei buoni strumenti se non si hanno conoscenze di programmazione e se si ha la necessità di creare un sito in relativamente poco tempo.</p>
             <div class="py-5">
-                <img class="rounded-lg bg-gradient-to-r from-black/50 to-black/10" src="images/whiteboard.webp" alt="Lavagna con programmazione lavoro">
+                <img class="rounded-lg bg-gradient-to-r from-black/50 to-black/10" src="images/whiteboard.webp" alt="Come realizzo siti internet">
             </div>
             <p>Ritengo tuttavia l'approccio dello scrivere codice superiore sotto molti punti di vista; eccone alcuni:</p>
             <div class="">
@@ -79,7 +79,7 @@
             </div>
             <div class="flex py-5 justify-center items-end md:justify-start text-sky-700 w-full">
                 <i class="fa-solid fa-circle-question text-6xl"></i>
-                <p class="ml-2 pr-2 text-3xl font-sans pl-3 border-b-2 border-r-2 border-sky-700 rounded-br-lg">Richiedi un preventivo</p>
+                <p class="ml-2 pr-2 text-2xl md:text-3xl font-sans pl-3 border-b-2 border-r-2 border-sky-700 rounded-br-lg">Richiedi un preventivo per la realizzazione del tuo sito web</p>
             </div>
             <p class="mt-5">Hai bisogno di maggiori informazioni o hai un progetto che vuoi sviluppare?
                 <br>

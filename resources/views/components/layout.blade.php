@@ -12,7 +12,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="{{ $description }}">
-    <meta name="keywords" content="sviluppo siti web, siti ottimizzati seo, sviluppo ecommerce, gestionali web, fabio angelici">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ $ogUrl }}">
     <meta property="og:description" content="{{ $ogDescription }}">

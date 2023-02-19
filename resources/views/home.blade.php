@@ -1,5 +1,5 @@
-<x-layout :title="'Fabio Angelici | Web Developer Freelance | Sviluppo siti web, ecommerce, gestionali web'"
-    :description="'Sviluppo siti web, ecommerce, blog e gestionali web per privati e aziende. Per un lavoro professionale e affidabile non esitare a contattarmi'"
+<x-layout :title="'Realizzazione siti web a Varese | Fabio Angelici Web Developer'"
+    :description="'Vuoi creare il tuo sito internet in modo professionale? Ho esperienza pluriennale e metto la mia professionalità al tuo servizio.'"
     :ogUrl="'https://www.fabioangelici.com/'"
     :ogDescription="'Sviluppo siti web, ecommerce e gestionali web. Per maggiori info visita il mio sito'"
     :ogTitle="'Fabio Angelici | Sviluppo siti web ecommerce e gestionali'"
@@ -9,11 +9,11 @@
     <section class="hero flex items-center justify-center" id="hero">
         <div class="bg-gray-400/40 mx-2 py-5 md:w-6/12 md:h-fit flex flex-col items-center justify-center text-gray-200 rounded-lg">
             <h2 class=" text-xl p-5 md:text-6xl uppercase text-center">
-                per lo sviluppo di
+                Vuoi realizare il tuo
                 <br>
-                siti web
+                sito web
                 <br>
-                ed ecommerce
+                o ecommerce?
                 <br>
                 affidati alle competenze
                 <br>
@@ -27,7 +27,7 @@
     {{-- Intro Section --}}
     <section id="intro" class="bg-sky-600 h-fit flex justify-center">
         <div class="md:w-6/12 my-5 p-5 text-lg md:my-10 md:text-2xl text-gray-300">
-            <h1 class="text-3xl font-bold text-center mb-3 md:text-5xl">Creazione e restyling di siti web e ecommerce </h1>
+            <h1 class="text-3xl font-bold text-center mb-3 md:text-5xl">Creazione e restyling di siti internet e ecommerce </h1>
             <p class="font-alata">Mi chiamo Fabio Angelici, sono uno sviluppatore freelance e sono specializzato nella <strong>creazione e nel restyling di siti ed ecommerce e dello sviluppo di gestionali web</strong> per aziende, liberi professionisti e privati.</p>
             <p class="font-alata mt-5">Offro soluzioni personalizzate e all'avanguardia per la creazione di <strong>siti internet di alta qualità</strong>.</p>
             <p class="font-alata mt-5">Il mio <strong>scopo</strong> è quello di <strong>aiutare le aziende a crescere</strong> e raggiungere il loro obiettivo online attraverso la creazione di siti web che che siano non solo esteticamente piacevoli, ma anche funzionali e facili da usare. </p>
@@ -42,7 +42,7 @@
     {{-- Offer Section --}}
     <section id="offer" class="bg-gray-200 h-fit flex justify-center">
         <div class="md:w-8/12 my-5 p-5 text-lg md:my-10 md:text-2xl text-black">
-            <h2 class="text-3xl font-bold text-center mb-3 md:text-5xl">Cosa posso offrirti</h2>
+            <h2 class="text-3xl font-bold text-center mb-3 md:text-5xl">Cosa posso offrirti per realizzare il tuo sito</h2>
             <div class="mt-5  md:mt-10 grid grid-cols-1 md:grid-cols-3 justify-items-center">
                 <x-card
                     :route="route('public.websites')"
