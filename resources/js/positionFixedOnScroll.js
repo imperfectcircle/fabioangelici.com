@@ -8,10 +8,10 @@ document.addEventListener('scroll', () => {
     if (window.scrollY >= originOffsetY) {
         navbarElement.style.position = 'fixed';
         navbarElement.style.top = 0;
-        topElement.classList.add('mt-[6.75rem]');
+        // topElement.classList.add('mt-[6.75rem]');
     } else {
         navbarElement.style.position = 'relative';
-        topElement.classList.remove('mt-[6.75rem]');
+        // topElement.classList.remove('mt-[6.75rem]');
     }
 });
 // }

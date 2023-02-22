@@ -2,6 +2,6 @@ import './bootstrap';
 
 import './mobileMenu';
 
-import './positionFixedOnScroll';
+// import './positionFixedOnScroll';
 
 import './redirectToHomepage';

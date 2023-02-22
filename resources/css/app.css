@@ -56,6 +56,10 @@ html {
     transform: rotate(-45deg) translateY(6px) translatex(-6px);
 }
 
+#hero {
+    margin-top:6.75rem
+}
+
 .hero {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url('/public/images/hero.webp');
     height: 100vh;

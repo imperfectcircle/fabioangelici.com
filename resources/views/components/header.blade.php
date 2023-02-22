@@ -1,7 +1,7 @@
 {{-- Header --}}
-<header>
+<header class="fixed top-0 left-0 w-full">
     {{-- Top Bar --}}
-    <div class="w-full max-h-fit bg-gray-800 flex items-center md:py-3 md:grid md:grid-cols-2 md:justify-items-center">
+    <div class="hidden w-full max-h-fit bg-gray-800 items-center md:py-3 md:grid-cols-2 md:justify-items-center">
         <div class="hidden md:inline-block">
             <a href="https://wa.me/+393515749172" target="_blank">
                 <i class="fa-brands fa-whatsapp md:text-3xl p-2 text-green-600 hover:text-green-700"></i>
@@ -80,7 +80,7 @@
     {{-- End Navbar --}}
 
     {{-- Mobile Menù --}}
-    <div id="menu" class="absolute top-[6.5rem] bottom-0 left-0 hidden flex-col self-end items-center justify-start w-full min-h-screen py-1 pt-10  space-y-3 text-lg text-white uppercase bg-sky-600 z-20 ">
+    <div id="menu" class="absolute top-[6.5rem] bottom-0 left-0 hidden flex-col self-end items-center justify-start w-full min-h-screen py-1 pt-10  space-y-3 text-lg text-white uppercase bg-sky-600 z-10 ">
         <a href="{{ route('public.home') }}" class="hover:bg-orange-700 hover:rounded-full px-7 py-3 uppercase">Home</a>
         <a href="{{ route('public.about') }}" class="hover:bg-orange-700 hover:rounded-full px-7 py-3 uppercase">Chi sono</a>
         <a href="{{ route('public.services') }}" class="hover:bg-orange-700 hover:rounded-full px-7 py-3 uppercase">Servizi</a>
