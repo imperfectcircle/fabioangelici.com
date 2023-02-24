@@ -44,7 +44,7 @@
             <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
 </head>
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SP4JL1YBZ1"></script>
+<script async class="_iub_cs_activate" suppressedsrc="https://www.googletagmanager.com/gtag/js?id=G-SP4JL1YBZ1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -54,7 +54,7 @@
 </script>
 <body class="bg-gray-200">
     <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59TFL65"
+<noscript><iframe class="_iub_cs_activate" suppressedsrc="https://www.googletagmanager.com/ns.html?id=GTM-59TFL65"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <x-header/>
@@ -67,8 +67,8 @@ http://https:fabioangelici.com -->
     var sc_invisible=1; 
     var sc_security="eee0a4ea"; 
     </script>
-    <script type="text/javascript"
-    src="https://www.statcounter.com/counter/counter.js" async></script>
+    <script type="text/plain"
+    class="_iub_cs_activate" suppressedsrc="https://www.statcounter.com/counter/counter.js" async></script>
     <noscript><div class="statcounter"><a title="Web Analytics"
     href="https://statcounter.com/" target="_blank"><img class="statcounter"
     src="https://c.statcounter.com/12841492/0/eee0a4ea/1/" alt="Web Analytics"
