@@ -32,16 +32,9 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <script type="text/javascript">
         var _iub = _iub || [];
-        _iub.csConfiguration = {"askConsentAtCookiePolicyUpdate":true,"countryDetection":true,"enableLgpd":true,"enableUspr":true,"floatingPreferencesButtonDisplay":"bottom-right","invalidateConsentWithoutLog":true,"lgpdAppliesGlobally":false,"perPurposeConsent":true,"siteId":2960676,"whitelabel":false,"cookiePolicyId":71101442,"lang":"it", "banner":{ "acceptButtonDisplay":true,"backgroundOverlay":true,"closeButtonDisplay":false,"customizeButtonDisplay":true,"explicitWithdrawal":true,"listPurposes":true,"position":"bottom","rejectButtonDisplay":true }};
+        _iub.csConfiguration = {"askConsentAtCookiePolicyUpdate":true,"floatingPreferencesButtonDisplay":"bottom-left","perPurposeConsent":true,"siteId":2960676,"whitelabel":false,"cookiePolicyId":71101442,"lang":"it", "banner":{ "acceptButtonDisplay":true,"backgroundOverlay":true,"closeButtonRejects":true,"customizeButtonDisplay":true,"explicitWithdrawal":true,"listPurposes":true,"logo":"https://fabioangelici.com/images/logo.webp","position":"bottom","rejectButtonDisplay":true }};
         </script>
-        <script type="text/javascript" src="//cdn.iubenda.com/cs/gpp/stub.js"></script>
         <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
-        <script type="text/javascript">
-            var _iub = _iub || [];
-            _iub.csConfiguration = {"askConsentAtCookiePolicyUpdate":true,"countryDetection":true,"enableLgpd":true,"enableUspr":true,"floatingPreferencesButtonDisplay":"bottom-right","invalidateConsentWithoutLog":true,"lgpdAppliesGlobally":false,"perPurposeConsent":true,"siteId":2960676,"whitelabel":false,"cookiePolicyId":71101442,"lang":"it", "banner":{ "acceptButtonDisplay":true,"backgroundOverlay":true,"closeButtonDisplay":false,"customizeButtonDisplay":true,"explicitWithdrawal":true,"listPurposes":true,"position":"bottom","rejectButtonDisplay":true }};
-            </script>
-            <script type="text/javascript" src="//cdn.iubenda.com/cs/gpp/stub.js"></script>
-            <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
 </head>
 <!-- Google tag (gtag.js) -->
 <script async class="_iub_cs_activate" suppressedsrc="https://www.googletagmanager.com/gtag/js?id=G-SP4JL1YBZ1"></script>
