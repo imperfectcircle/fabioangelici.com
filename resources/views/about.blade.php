@@ -7,9 +7,13 @@
     :canonical="'https://fabioangelici.com/about'"
 >
     <section id="hero" class="flex flex-col items-center md:grid md:grid-cols-5 md:items-start">
-        <div class="md:col-span-5 h-fit bg-gradient-to-br from-blue-900 to-sky-600 py-20 px-3 text-center text-gray-300">
+        <div class="w-full md:col-span-5 h-fit bg-gradient-to-br from-blue-900 to-sky-600 py-20 px-3 text-center text-gray-300">
             <h1 class="text-4xl">Sviluppatore Web Freelance</h1>
         </div>
+        <div class="w-full items-start md:col-start-2 md:col-span-2 py-5">
+            {{ Breadcrumbs::render('about') }}
+        </div>
+        
         <div class="md:col-start-2 md:col-span-2 md:px-0 space-y-3 text-lg md:text-xl py-10 px-5 flex flex-col items-center text-justify">
             <div class="flex justify-center items-end md:justify-start text-sky-700 w-full mb-5">
                 <i class="fa-solid fa-id-card-clip text-6xl "></i>

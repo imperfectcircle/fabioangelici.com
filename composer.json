@@ -6,7 +6,9 @@
     "license": "MIT",
     "require": {
         "php": "^8.0.2",
+        "ext-zip": "*",
         "coderello/laravel-nova-lang": "^2.0",
+        "diglactic/laravel-breadcrumbs": "^8.1",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/fortify": "^1.13",
         "laravel/framework": "^9.19",

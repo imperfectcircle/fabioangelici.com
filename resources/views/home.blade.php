@@ -23,7 +23,7 @@
         </div>
     </section>
     {{-- End Hero Section --}}
-
+    
     {{-- Intro Section --}}
     <section id="intro" class="bg-sky-600 h-fit flex justify-center">
         <div class="md:w-6/12 my-5 p-5 text-lg md:my-10 md:text-2xl text-gray-300">

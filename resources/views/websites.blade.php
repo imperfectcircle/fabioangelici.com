@@ -9,6 +9,12 @@
         <div class="w-full md:col-span-6 h-fit bg-gradient-to-br from-blue-900 to-sky-600 py-20 px-3 text-center text-gray-300">
             <h1 class="text-4xl">Sviluppo siti web</h1>
         </div>
+        {{-- Breadcrumb --}}
+        <div class="w-full items-start md:col-start-2">
+            <div class="md:col-start-2 md:col-span-2">
+                {{ Breadcrumbs::render('websites') }}
+            </div>
+        </div>
         <div class="p-5 mt-10 md:col-span-2 md:col-start-2 text-xl md:p-0 md:pr-5">
             <p>I siti web sono una parte importante dell'era digitale. Con l'aumento della domanda di siti web, sono state sviluppate e migliorate tecniche e processi che consentono agli sviluppatori di creare siti web di alta qualità.</p>
             <p>In primo luogo, è necessario acquisire le informazioni necessarie per creare un sito adatto alle esigenze dei clienti. Questo processo richiede una ricerca approfondita su qualsiasi argomento relativo al sito.</p>

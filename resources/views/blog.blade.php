@@ -11,7 +11,9 @@
         <h1 class="text-4xl">Blog</h1>
         <p class="text-2xl">Articoli sulla programmazione</p>
     </div>
+    
     <div class="mx-auto md:w-7/12 my-10">
+        {{ Breadcrumbs::render('blog') }}
         <div class="grid grid-cols-1 px-5 md:grid-cols-3 md:px-0 gap-10">
             @foreach ($articles as $article)
                 
@@ -19,7 +21,7 @@
                     <img class="mb-5 rounded-lg md:h-44 shadow-lg" src="{{ Storage::url($article->picture->image) }}" alt="{{ $article->title }}">
                     <p class="text-center font-bold text-2xl">{{ $article->title }}</p>
                     <p class="prose">{!! Str::limit($article->body, 100) !!}</p>
-                    <a class="m-2 px-6 py-3 bg-sky-700 hover:bg-sky-800 duration-150 rounded-full text-center w-10/12 md:w-6/12 mx-auto text-white" href="{{ route('article.show', $article->slug) }}">Leggi l'articolo</a>
+                    <a class="m-2 px-6 py-3 bg-sky-700 hover:bg-sky-800 duration-150 rounded-full text-center w-10/12 mx-auto text-white" href="{{ route('article.show', $article->slug) }}">Leggi l'articolo</a>
                 </div>
                 
             @endforeach

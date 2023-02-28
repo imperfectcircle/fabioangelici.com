@@ -10,10 +10,18 @@
         <div class="h-fit bg-gradient-to-br from-blue-900 to-sky-600 py-20 px-3 text-center text-gray-300">
             <h1 class="text-4xl">Servizi Web</h1>
         </div>
-        <div class="mt-10 flex flex-col space-y-10 p-5 md:grid md:grid-cols-6 md:gap-5">
+        {{-- Breadcrumb --}}
+        <div class="md:col-start-2 md:grid md:grid-cols-6 md:gap-5">
+            <div class="md:col-start-2 md:col-span-2">
+                {{ Breadcrumbs::render('services') }}
+            </div>
+        </div>
+        <div class="flex flex-col space-y-5 p-5 md:grid md:grid-cols-6 md:gap-5">
+            
             {{-- First row --}}
             <div class="mb-5 md:col-start-2 md:col-span-2 md:mb-0">
-                <h2 class="text-3xl text-center md:text-left text-sky-700">Progettazione e sviluppo siti web</h2>
+                
+                <h2 class="text-3xl pt-5 md:pt-0 text-center md:text-left text-sky-700">Progettazione e sviluppo siti web</h2>
                 <div class="text-xl space-y-2">
                     <p class="mt-3">Come web developer freelance, sono specializzato nella creazione di <strong>siti web professionali e personalizzati per soddisfare le esigenze dei miei clienti</strong>. Sia che si tratti di un sito aziendale o istituzionale, di un blog o di un portfolio personale, sarò in grado di trasformare la tua idea in una realtà digitale di successo.</p>
                     <p>Pongo molta attenzione a garantire una solida presenza online per i miei clienti, attraverso la realizzazione di <strong>siti ottimizzati per i motori di ricerca e la user experience</strong>. I servizi che offro includono la registrazione del dominio, lo spazio hosting, il certificato SSL e l'analisi e il monitoraggio del sito una volta messo in produzione.</p>
