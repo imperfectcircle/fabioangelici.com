@@ -18,13 +18,13 @@ use Spatie\Honeypot\ProtectAgainstSpam;
 
 Route::controller(PublicController::class)->group(function () {
     Route::get('/', 'home')->name('public.home');
-    Route::get('/about', 'about')->name('public.about');
-    Route::get('/services', 'services')->name('public.services');
+    Route::get('/chi-sono', 'about')->name('public.about');
+    Route::get('/servizi', 'services')->name('public.services');
     Route::get('/blog', 'blog')->name('public.blog');
-    Route::get('/contacts', 'contacts')->name('public.contacts');
-    Route::get('/web-sites', 'webSites')->name('public.websites');
-    Route::get('/ecommerce', 'ecommerce')->name('public.ecommerce');
-    Route::get('/management', 'management')->name('public.management');
+    Route::get('/contatti', 'contacts')->name('public.contacts');
+    Route::get('/realizzazione-siti-internet', 'webSites')->name('public.websites');
+    Route::get('/realizzazione-portali-ecommerce', 'ecommerce')->name('public.ecommerce');
+    Route::get('/management', 'gestionali-web')->name('public.management');
     Route::get('/restyling', 'restyling')->name('public.restyling');
     Route::get('/hosting', 'hosting')->name('public.hosting');
     Route::post('/contact/submit', 'contactSubmit')->name('public.form')->middleware(ProtectAgainstSpam::class);
