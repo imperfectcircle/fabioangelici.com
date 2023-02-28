@@ -16,6 +16,12 @@ Breadcrumbs::for('home', function (BreadcrumbTrail $trail) {
     $trail->push('Home', route('public.home'));
 });
 
+// Home > Come Lavoro
+Breadcrumbs::for('method', function(BreadcrumbTrail $trail) {
+    $trail->parent('home');
+    $trail->push('Come lavoro', route('public.method'));
+});
+
 // Home > About
 Breadcrumbs::for('about', function (BreadcrumbTrail $trail) {
     $trail->parent('home');

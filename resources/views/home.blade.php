@@ -8,7 +8,7 @@
     {{-- Hero Section --}}
     <section class="hero flex items-center justify-center" id="hero">
         <div class="bg-gray-400/40 mx-2 py-5 md:w-6/12 md:h-fit flex flex-col items-center justify-center text-gray-200 rounded-lg">
-            <h2 class=" text-xl p-5 md:text-6xl uppercase text-center">
+            <h2 class="text-xl p-5 md:text-6xl uppercase text-center">
                 Vuoi realizare il tuo
                 <br>
                 sito web
@@ -33,7 +33,7 @@
             <p class="font-alata mt-5">Il mio <strong>scopo</strong> è quello di <strong>aiutare le aziende a crescere</strong> e raggiungere il loro obiettivo online attraverso la creazione di siti web che che siano non solo esteticamente piacevoli, ma anche funzionali e facili da usare. </p>
             <p class="font-alata mt-5">Se stai cercando un web developer che possa offrirti un servizio eccezionale e un <strong>risultato finale di alta qualità</strong> non esitare a contattarmi.</p>
             <div class="mt-10 w-full text-center">
-                <x-button :route="route('public.about')" :text="'Come lavoro'" />
+                <x-button :route="route('public.method')" :text="'Come lavoro'" />
             </div>
         </div>
     </section>
