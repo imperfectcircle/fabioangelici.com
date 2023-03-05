@@ -4,7 +4,7 @@
     :ogUrl="'https://fabioangelici.com/aboout'"
     :ogDescription="'Sono uno sviluppatore web freelance PHP e Javascript. Se vuoi saperne di più visita il mio sito'"
     :ogTitle="'Fabio Angelici | Sviluppatore web freelance | PHP, JavaScript'"
-    :canonical="'https://fabioangelici.com/about'"
+    :canonical="'https://fabioangelici.com/chi-sono'"
 >
     <section id="hero" class="flex flex-col items-center md:grid md:grid-cols-5 md:items-start">
         <div class="w-full md:col-span-5 h-fit bg-gradient-to-br from-blue-900 to-sky-600 py-20 px-3 text-center text-gray-300">

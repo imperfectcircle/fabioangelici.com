@@ -4,7 +4,7 @@
     :ogUrl="'https://fabioangelici.com/contacts'"
     :ogDescription="'Se hai bisogno di portare il tuo progetto sul web, contattami per un preventivo gratuito.'"
     :ogTitle="'Fabio Angelici | Contatti'"
-    :canonical="'https://fabioangelici.com/contacts'"
+    :canonical="'https://fabioangelici.com/contatti'"
 >
     <section id="hero" class="">
         <div class="flex flex-col items-center mt-10 md:grid md:grid-cols-4 md:mt-0">

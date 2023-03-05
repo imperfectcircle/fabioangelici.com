@@ -3,7 +3,7 @@
     :ogUrl="'https://www.fabioangelici.com/web-sites'"
     :ogDescription="'Sei interessato alla creazione di un tuo sito web? contattami per richiedere info'"
     :ogTitle="'Fabio Angelici | Sviluppo siti web'"
-    :canonical="'https://fabioangelici.com/web-sites'"
+    :canonical="'https://fabioangelici.com/realizzazione-siti-internet'"
 >
     <section id="hero" class="flex flex-col items-center md:grid md:grid-cols-6 md:items-start mb-10">
         <div class="w-full md:col-span-6 h-fit bg-gradient-to-br from-blue-900 to-sky-600 py-20 px-3 text-center text-gray-300">

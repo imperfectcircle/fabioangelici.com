@@ -4,7 +4,7 @@
     :ogUrl="'https://fabioangelici.com/services'"
     :ogDescription="'Servizi web per la tua attività: Siti web, portali e-commerce, gestionali web e servizio di hosting'"
     :ogTitle="'Fabio Angelici | Servizi internet per aziende, professionisti e privati'"
-    :canonical="'https://fabioangelici.com/services'"
+    :canonical="'https://fabioangelici.com/servizi'"
 >
     <section id="hero">
         <div class="h-fit bg-gradient-to-br from-blue-900 to-sky-600 py-20 px-3 text-center text-gray-300">
