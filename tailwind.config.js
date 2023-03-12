@@ -16,6 +16,13 @@ module.exports = {
             fontFamily: {
                 sans: ['Josefin Sans', 'sans-serif'],
                 alata: ['Alata'],
+                code: ['Source Code Pro'],
+            },
+            keyframes: {
+                pulse: {
+                    '0%, 100%': { opacity: 1 },
+                    '50%': { opacity: 0 },
+                },
             },
         },
     },

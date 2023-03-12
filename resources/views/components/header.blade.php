@@ -27,7 +27,7 @@
     {{-- End Top Bar --}}
 
     {{-- Navbar --}}
-    <nav id="navbar" class="bg-gray-100 w-full max-h-fit md:grid md:grid-cols-2 md:justify-items-center shadow-xl z-10">
+    <nav id="navbar" class="bg-gray-600 w-full max-h-fit md:grid md:grid-cols-2 md:justify-items-center shadow-xl z-10">
         {{-- Logo --}}
         <div class="py-5 text-center flex justify-around md:inline-block">
             <div class="flex justify-center md:hidden">
@@ -40,10 +40,10 @@
             </div>
             <div class="col-span-2">
                 <div class="flex items-center">
-                    <img class="w-[80px]" src="/images/logo.webp" alt="">
+                    <img class="w-[80px] bg-white/50" src="/images/logo.webp" alt="">
                     <div class="hidden md:block">
-                        <p class="text-2xl md:text-4xl">Fabio Angelici</p>
-                        <p class="text-md md:text-lg text-black/60 text-center uppercase">&#60;web developer&#47;&#62;</p>
+                        <p class="text-gray-200 text-2xl md:text-4xl">Fabio Angelici</p>
+                        <p class="text-gray-200/70 text-md md:text-lg text-center uppercase">&#60;web developer&#47;&#62;</p>
                     </div>
                 </div>
                 
@@ -67,8 +67,8 @@
         <div class="hidden md:flex md:items-center">
             <ul class="flex items-center justify-center space-x-5 font-alata text-xl uppercase">
                 <x-menu :route="route('public.home')" :anchorClass="(request()->is('/')) ? 'text-orange-500' : '' " :name="'Home'"/>
-                <x-menu :route="route('public.about')" :anchorClass="(request()->is('about')) ? 'text-orange-500' : '' " :name="'chi sono'"/>
-                <x-menu :route="route('public.services')" :anchorClass="(request()->is('services')) ? 'text-orange-500' : '' " :name="'Servizi'"/>
+                <x-menu :route="route('public.about')" :anchorClass="(request()->is('chi-sono')) ? 'text-orange-500' : '' " :name="'chi sono'"/>
+                <x-menu :route="route('public.services')" :anchorClass="(request()->is('servizi')) ? 'text-orange-500' : '' " :name="'Servizi'"/>
                 <x-menu :route="route('public.blog')" :anchorClass="(request()->is('blog')) ? 'text-orange-500' : '' " :name="'blog'"/>
                 <x-menu :classes="'border-2 border-orange-500 px-5 py-2 rounded-full hover:bg-orange-500 hover:text-white duration-200'" :anchorClass="'group-hover:text-white duration-200'" :route="route('public.contacts')" :name="'contatti'"/>
             </ul>
@@ -80,7 +80,7 @@
     {{-- End Navbar --}}
 
     {{-- Mobile Menù --}}
-    <div id="menu" class="absolute top-[6.5rem] bottom-0 left-0 hidden flex-col self-end items-center justify-start w-full min-h-screen py-1 pt-10  space-y-3 text-lg text-white uppercase bg-sky-600 z-20 ">
+    <div id="menu" class="absolute top-[6.5rem] bottom-0 left-0 hidden flex-col self-end items-center justify-start w-full min-h-screen py-1 pt-10  space-y-3 text-lg text-white uppercase bg-gray-600 z-20 ">
         <a href="{{ route('public.home') }}" class="hover:bg-orange-700 hover:rounded-full px-7 py-3 uppercase">Home</a>
         <a href="{{ route('public.about') }}" class="hover:bg-orange-700 hover:rounded-full px-7 py-3 uppercase">Chi sono</a>
         <a href="{{ route('public.services') }}" class="hover:bg-orange-700 hover:rounded-full px-7 py-3 uppercase">Servizi</a>

@@ -6,9 +6,11 @@
     :ogTitle="'Fabio Angelici | Sviluppatore web freelance | PHP, JavaScript'"
     :canonical="'https://fabioangelici.com/chi-sono'"
 >
-    <section id="hero" class="flex flex-col items-center md:grid md:grid-cols-5 md:items-start">
-        <div class="w-full md:col-span-5 h-fit bg-gradient-to-br from-blue-900 to-sky-600 py-20 px-3 text-center text-gray-300">
-            <h1 class="text-4xl">Sviluppatore Web Freelance</h1>
+    <section id="hero" class="bg flex flex-col items-center md:grid md:grid-cols-5 md:items-start">
+        <div class="flex items-center justify-center w-full md:col-span-5 h-fit bg-sky-900 py-20 px-3 text-center text-gray-300 font-code font-bold">
+            <p class="text-sm md:text-2xl lg:text-4xl text-slate-400">1</p>
+            <h1 class="text-4xl pl-5"><span class="text-yellow-500">Sviluppatore Web</span> Freelance;</h1>
+            <p class=" text-4xl animate-pulse">|</p>
         </div>
         <div class="w-full items-start md:col-start-2 md:col-span-2 py-5">
             {{ Breadcrumbs::render('about') }}
@@ -83,13 +85,13 @@
             </div>
             <div class="flex py-5 justify-center items-end md:justify-start text-sky-700 w-full">
                 <i class="fa-solid fa-circle-question text-6xl"></i>
-                <p class="ml-2 pr-2 text-2xl md:text-3xl font-sans pl-3 border-b-2 border-r-2 border-sky-700 rounded-br-lg">Richiedi un preventivo per la realizzazione del tuo sito web</p>
+                <p class="ml-2 pr-2 text-2xl md:text-3xl font-sans pl-3 text-left border-b-2 border-r-2 border-sky-700 rounded-br-lg">Richiedi un preventivo per la realizzazione del tuo sito web</p>
             </div>
             <p class="mt-5">Hai bisogno di maggiori informazioni o hai un progetto che vuoi sviluppare?
                 <br>
                 Compila il form che trovi qui sotto, ti risponderò il prima possibile.
             </p>
-            <div class="w-full md:w-9/12">
+            <div class="w-full">
                 <x-contact-form :page="'about'"/>
             </div>
         </div>

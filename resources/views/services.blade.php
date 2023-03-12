@@ -7,8 +7,10 @@
     :canonical="'https://fabioangelici.com/servizi'"
 >
     <section id="hero">
-        <div class="h-fit bg-gradient-to-br from-blue-900 to-sky-600 py-20 px-3 text-center text-gray-300">
-            <h1 class="text-4xl">Servizi Web</h1>
+        <div class="h-fit flex items-center justify-center py-20 bg-sky-900 px-3 font-bold">
+            <p class="text-sm md:text-2xl lg:text-4xl text-slate-400">1</p>
+            <h1 class="text-4xl pl-5"><span class="text-yellow-500">Servizi web <span class="text-white">;</span></h1>
+            <p class=" text-4xl animate-pulse text-white pl-3">|</p>
         </div>
         {{-- Breadcrumb --}}
         <div class="md:col-start-2 md:grid md:grid-cols-6 md:gap-5">
@@ -16,7 +18,7 @@
                 {{ Breadcrumbs::render('services') }}
             </div>
         </div>
-        <div class="flex flex-col space-y-5 p-5 md:grid md:grid-cols-6 md:gap-5">
+        <div class="bg flex flex-col space-y-5 p-5 md:grid md:grid-cols-6 md:gap-5">
             
             {{-- First row --}}
             <div class="mb-5 md:col-start-2 md:col-span-2 md:mb-0">

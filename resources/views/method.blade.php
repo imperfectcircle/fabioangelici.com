@@ -6,8 +6,10 @@
     :canonical="'https://fabioangelici.com/come-lavoro'"
 >
 <section id="hero">
-    <div class="h-fit bg-gradient-to-br from-blue-900 to-sky-600 py-20 px-3 text-center text-gray-300">
-        <h1 class="text-4xl">Come lavoro per realizzare siti web</h1>
+    <div class="h-fit flex items-center justify-center font-code font-bold py-20 px-3 text-center bg-sky-900 text-gray-300">
+        <p class="text-sm md:text-2xl lg:text-4xl text-slate-400">1</p>
+        <h1 class="text-4xl pl-5"><span class="text-yellow-500">Come lavoro <span class="text-gray-300">per realizzare </span><span class="text-pink-500">siti web</span><span class="text-white">;</span></h1>
+        <p class=" text-4xl animate-pulse text-white pl-3">|</p>
     </div>
     <div class="md:w-6/12 md:mx-auto my-5">
         {{ Breadcrumbs::render('method') }}

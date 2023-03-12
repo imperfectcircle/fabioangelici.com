@@ -5,9 +5,11 @@
     :ogTitle="'Fabio Angelici | Sviluppo siti web'"
     :canonical="'https://fabioangelici.com/realizzazione-siti-internet'"
 >
-    <section id="hero" class="flex flex-col items-center md:grid md:grid-cols-6 md:items-start mb-10">
-        <div class="w-full md:col-span-6 h-fit bg-gradient-to-br from-blue-900 to-sky-600 py-20 px-3 text-center text-gray-300">
-            <h1 class="text-4xl">Sviluppo siti web</h1>
+    <section id="hero" class="bg flex flex-col items-center md:grid md:grid-cols-6 md:items-start mb-10">
+        <div class="w-full flex items-center justify-center md:col-span-6 h-fit bg-sky-900 font-code font-bold py-20 px-3 text-center text-gray-300">
+            <p class="text-sm md:text-2xl lg:text-4xl text-slate-400">1</p>
+            <h1 class="text-4xl pl-5"><span class="text-yellow-500">Sviluppo siti web</span>;</h1>
+            <p class=" text-4xl animate-pulse">|</p>
         </div>
         {{-- Breadcrumb --}}
         <div class="w-full items-start md:col-start-2">

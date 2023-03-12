@@ -6,10 +6,17 @@
     :canonical="'https://fabioangelici.com/blog'"
 >
 
-<section id="hero" class="">
-    <div class="md:col-span-5 h-fit bg-gradient-to-br from-blue-900 to-sky-600 py-20 px-3 text-center text-gray-300">
-        <h1 class="text-4xl">Blog</h1>
-        <p class="text-2xl">Articoli sulla programmazione</p>
+<section id="hero" class="bg">
+    <div class="grid grid-cols-1 lg:grid-cols-4 justify-center h-fit bg-sky-900 font-code font-bold py-20 px-3 text-center text-gray-300">
+        <div class="flex col-start-2 col-span-2">
+            <p class="text-sm md:text-2xl lg:text-4xl text-slate-400">1</p>
+            <h1 class="text-4xl pl-5"><span class="text-yellow-500">Blog<span class="text-white">;</span></h1>
+        </div>
+        <div class="flex col-start-2 col-span-2">
+            <p class="text-sm md:text-2xl lg:text-4xl text-slate-400">2</p>
+            <h2 class="text-4xl pl-5"><span class="text-yellow-500">Articoli sullo sviluppo web<span class="text-white">;</span></h1>
+            <p class=" text-4xl animate-pulse text-white pl-3">|</p>
+        </div>
     </div>
     
     <div class="mx-auto md:w-7/12 my-10">
