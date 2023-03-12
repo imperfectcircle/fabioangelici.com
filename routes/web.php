@@ -21,6 +21,7 @@ Route::controller(PublicController::class)->group(function () {
     Route::get('/come-lavoro', 'method')->name('public.method');
     Route::get('/chi-sono', 'about')->name('public.about');
     Route::get('/servizi', 'services')->name('public.services');
+    Route::get('/portfolio', 'portfolio')->name('public.portfolio');
     Route::get('/blog', 'blog')->name('public.blog');
     Route::get('/contatti', 'contacts')->name('public.contacts');
     Route::get('/realizzazione-siti-internet', 'webSites')->name('public.websites');

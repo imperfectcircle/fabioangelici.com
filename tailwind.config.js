@@ -4,6 +4,7 @@ module.exports = {
         './resources/**/*.blade.php',
         './resources/**/*.js',
         './resources/**/*.vue',
+        './node_modules/flowbite/**/*.js',
     ],
     theme: {
         screens: {
@@ -29,5 +30,6 @@ module.exports = {
     plugins: [
         require('tailwind-scrollbar'),
         require('@tailwindcss/typography'),
+        require('flowbite/plugin'),
     ],
 };

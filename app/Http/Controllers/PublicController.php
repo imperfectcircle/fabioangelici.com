@@ -27,6 +27,10 @@ class PublicController extends Controller
         return view('services');
     }
 
+    public function portfolio() {
+        return view('portfolio');
+    }
+
     public function blog() {
         $articles = Article::where('is_published', true)->latest()->get();
         return view('blog', compact('articles'));

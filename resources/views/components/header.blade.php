@@ -69,6 +69,7 @@
                 <x-menu :route="route('public.home')" :anchorClass="(request()->is('/')) ? 'text-orange-500' : '' " :name="'Home'"/>
                 <x-menu :route="route('public.about')" :anchorClass="(request()->is('chi-sono')) ? 'text-orange-500' : '' " :name="'chi sono'"/>
                 <x-menu :route="route('public.services')" :anchorClass="(request()->is('servizi')) ? 'text-orange-500' : '' " :name="'Servizi'"/>
+                <x-menu :route="route('public.portfolio')" :anchorClass="(request()->is('portfolio')) ? 'text-orange-500' : '' " :name="'Portfolio'"/>
                 <x-menu :route="route('public.blog')" :anchorClass="(request()->is('blog')) ? 'text-orange-500' : '' " :name="'blog'"/>
                 <x-menu :classes="'border-2 border-orange-500 px-5 py-2 rounded-full hover:bg-orange-500 hover:text-white duration-200'" :anchorClass="'group-hover:text-white duration-200'" :route="route('public.contacts')" :name="'contatti'"/>
             </ul>
@@ -84,6 +85,7 @@
         <a href="{{ route('public.home') }}" class="hover:bg-orange-700 hover:rounded-full px-7 py-3 uppercase">Home</a>
         <a href="{{ route('public.about') }}" class="hover:bg-orange-700 hover:rounded-full px-7 py-3 uppercase">Chi sono</a>
         <a href="{{ route('public.services') }}" class="hover:bg-orange-700 hover:rounded-full px-7 py-3 uppercase">Servizi</a>
+        <a href="{{ route('public.portfolio') }}" class="hover:bg-orange-700 hover:rounded-full px-7 py-3 uppercase">Portfolio</a>
         <a href="{{ route('public.blog') }}" class="hover:bg-orange-700 hover:rounded-full px-7 py-3 uppercase">Blog</a>
         <a href="{{ route('public.contacts') }}" class="hover:bg-orange-700 hover:rounded-full px-7 py-3 uppercase">contatti</a>
     </div>

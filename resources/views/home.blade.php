@@ -47,26 +47,11 @@
                 </div>
             </div>
         </div>
-        {{-- <div class="bg-gray-400/40 mx-2 py-5 md:w-6/12 md:h-fit flex flex-col items-center justify-center text-gray-200 rounded-lg">
-            <h2 class="text-xl p-5 md:text-6xl uppercase text-center">
-                Vuoi realizare il tuo
-                <br>
-                sito web
-                <br>
-                o ecommerce?
-                <br>
-                affidati alle competenze
-                <br>
-                di un professionista.
-            </h2>
-            <x-button :route="route('public.contacts')" :text="'contattami'" />
-        </div> --}}
     </section>
     {{-- End Hero Section --}}
     
     {{-- Intro Section --}}
     <section id="intro" class="bg-sky-600 h-fit flex justify-center">
-        {{-- <div class="md:w-6/12 my-5 p-5 text-lg md:my-10 md:text-2xl text-gray-300"> --}}
         <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-10 p-20 text-lg md:my-10 md:text-2xl text-gray-300">
             <div class="">
                 <img src="/images/background.png" alt="">
@@ -143,6 +128,69 @@
         </div>
     </section>
     {{-- End Contact Section --}}
+
+    {{-- Portfolio Section --}}
+    <section class="w-full md:w-10/12 mx-auto pt-10">
+        <div class="">
+            <h2 class="font-code font-bold text-3xl md:text-5xl text-center"><span class="text-yellow-500">Se ti piacciono </span>i miei lavori e vuoi un sito bello e utile <span class="text-purple-500">collaboriamo</span></h2>
+        </div>
+        <div id="controls-carousel" class="relative" data-carousel="static">
+            <!-- Carousel wrapper -->
+            <div class="relative overflow-hidden rounded-lg h-96 md:h-screen">
+                <!-- Item 1 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                    <a href="">
+                        <img src="/images/cilaver.webp" class="rounded-lg absolute block md:w-9/12 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Sito web cilaver.it">
+                    </a>
+                </div>
+                <!-- Item 2 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <a href="">
+                        <img src="/images/tekno.webp" class="rounded-lg absolute block w-9/12 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Sito web teknofibra.it">
+                    </a>
+                </div>
+                <!-- Item 3 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <a href="">
+                        <img src="/images/eliografica.webp" class="rounded-lg absolute block w-9/12 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Sito web eliograficavaresina.org">
+                    </a>
+                </div>
+                <!-- Item 4 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <a href="">
+                        <img src="/images/clima.webp" class="rounded-lg absolute block w-9/12 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Sito web climassistance.com">
+                    </a>
+                </div>
+                <!-- Item 5 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <a href="">
+                        <img src="/images/chiara.webp" class="rounded-lg absolute block w-9/12 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Sito web chiaratessaro.it">
+                    </a>
+                </div>
+                <!-- Item 6 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <a href="">
+                        <img src="/images/meridiane.webp" class="rounded-lg absolute block w-9/12 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Sito web meridianevarese.it">
+                    </a>
+                </div>
+            </div>
+            <!-- Slider controls -->
+            <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+                <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-black/30 dark:bg-gray-800/30 group-hover:bg-black/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg aria-hidden="true" class="w-6 h-6 text-white dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                    <span class="sr-only">Previous</span>
+                </span>
+            </button>
+            <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-black/30 dark:bg-gray-800/30 group-hover:bg-black/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg aria-hidden="true" class="w-6 h-6 text-white dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                    <span class="sr-only">Next</span>
+                </span>
+            </button>
+        </div>
+
+    </section>
+    {{-- End Portfolio Section --}}
 
     {{-- Articles Section --}}
     <section id="articles">
