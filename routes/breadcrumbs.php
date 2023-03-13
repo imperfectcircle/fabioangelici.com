@@ -34,6 +34,12 @@ Breadcrumbs::for('services', function(BreadcrumbTrail $trail) {
     $trail->push('Servizi', route('public.services'));
 });
 
+// Home > Contacts
+Breadcrumbs::for('contacts', function(BreadcrumbTrail $trail) {
+    $trail->parent('home');
+    $trail->push('Contatti', route('public.contacts'));
+});
+
 // Home > Websites
 Breadcrumbs::for('websites', function (BreadcrumbTrail $trail) {
     $trail->parent('home');

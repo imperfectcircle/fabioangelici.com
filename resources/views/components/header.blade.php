@@ -27,7 +27,7 @@
     {{-- End Top Bar --}}
 
     {{-- Navbar --}}
-    <nav id="navbar" class="bg-gray-600 w-full max-h-fit md:grid md:grid-cols-2 md:justify-items-center shadow-xl z-10">
+    <nav id="navbar" class="bg-gray-600 w-full h-fit md:grid md:grid-cols-2 md:justify-items-center shadow-xl z-10">
         {{-- Logo --}}
         <div class="py-5 text-center flex justify-around md:inline-block">
             <div class="flex justify-center md:hidden">
