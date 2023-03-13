@@ -11,25 +11,25 @@
     "file": "assets/fa-solid-900.8f06540f.woff2",
     "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2"
   },
-  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2": {
-    "file": "assets/fa-v4compatibility.f46715c9.woff2",
-    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2"
-  },
   "public/images/background-two.png": {
     "file": "assets/background-two.9259a9b7.png",
     "src": "public/images/background-two.png"
-  },
-  "public/images/404.png": {
-    "file": "assets/404.e8b0fe6f.png",
-    "src": "public/images/404.png"
   },
   "public/images/background-three.png": {
     "file": "assets/background-three.a03bf8c6.png",
     "src": "public/images/background-three.png"
   },
+  "public/images/404.png": {
+    "file": "assets/404.e8b0fe6f.png",
+    "src": "public/images/404.png"
+  },
   "public/images/thanks.webp": {
     "file": "assets/thanks.05738a52.webp",
     "src": "public/images/thanks.webp"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2": {
+    "file": "assets/fa-v4compatibility.f46715c9.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2"
   },
   "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf": {
     "file": "assets/fa-regular-400.d7b19fe2.ttf",
@@ -53,7 +53,7 @@
     "isEntry": true
   },
   "resources/css/app.css": {
-    "file": "assets/app.afb2a133.css",
+    "file": "assets/app.39e9dbab.css",
     "src": "resources/css/app.css",
     "isEntry": true
   }
