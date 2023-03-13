@@ -18,7 +18,7 @@
                 {{ Breadcrumbs::render('contacts') }}
             </div>
         </div>
-        <h2 class="font-code font-bold text-2xl md:text-5xl text-center py-5"><span class="text-cyan-500">Vuoi discutere</span> del tuo <span class="text-yellow-500">progetto web</span><span class="text-pink-400">?</span><br> <span class="text-cyan-500">Contattami per un preventivo gratuito</span><span class="text-pink-400">!</span></h2>
+        <h2 class="font-code font-bold text-2xl md:text-5xl text-center py-5"><span class="text-cyan-500">Vuoi discutere</span> del tuo <span class="text-yellow-500">progetto web</span><span class="text-pink-400">?</span><br> <span class="text-cyan-500">Contattami per un </span><span class="text-yellow-500">preventivo gratuito</span><span class="text-pink-400">!</span></h2>
         <div class="md:grid md:grid-cols-4 md:items-center md:justify-items-center space-y-10 md:space-y-0 p-5">
             <div class="col-start-2">
                 <h2 class="text-xl font-bold font-code">Fabio Angelici - Web Developer</h2>
