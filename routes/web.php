@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ArticleController;
+use App\Http\Controllers\LandingController;
 use App\Http\Controllers\PublicController;
 use Illuminate\Support\Facades\Route;
 use Spatie\Honeypot\ProtectAgainstSpam;
@@ -31,6 +32,10 @@ Route::controller(PublicController::class)->group(function () {
     Route::get('/hosting', 'hosting')->name('public.hosting');
     Route::post('/contact/submit', 'contactSubmit')->name('public.form')->middleware(ProtectAgainstSpam::class);
     Route::get('/thank-you/{name}', 'thanks')->name('public.thanks');
+});
+
+Route::controller(LandingController::class)->group(function() {
+    Route::get('/creazione-siti-web-varese', 'varese')->name('landing.varese');
 });
 
 Route::controller(ArticleController::class)->group(function () {

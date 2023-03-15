@@ -89,6 +89,30 @@ html {
     background-size: contain;
 }
 
+.landing-header {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/public/images/hero.webp');
+    height: 70vh;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.landing-footer {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/public/images/background-landing.webp');
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width: 48rem) {
+    .landing-footer {
+        height: 70vh;
+    }
+}
+
 .alert {
     --bs-alert-bg: transparent;
     --bs-alert-padding-x: 1rem;
