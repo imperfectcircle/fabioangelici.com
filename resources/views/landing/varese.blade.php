@@ -160,7 +160,7 @@
                 <p class="md:text-lg">Oggigiorno più che mai è fondamentale che i siti web siano adattabili a diversi schermi. Ogni sito che realizzo è pensato in modalità mobile first in modo da fornire all'utente una fruizione ottimale su ogni dispositivo.</p>
             </div>
             <div class="hover:bg-gray-200 duration-300 border-2 border-t-0 border-black p-3 md:p-5 space-y-7 rounded-lg shadow-lg h-full">
-                <span class="block font-bold text-lg md:text-xl text-center">Caricamenti rapide grazie all'hosting</span>
+                <span class="block font-bold text-lg md:text-xl text-center">Caricamenti rapidi grazie all'hosting veloce e sicuro</span>
                 <h2 class="text-sm text-center">Creazione siti internet a Varese con servizio di hosting.</h2>
                 <img class="w-20 mx-auto" src="/images/web-hosting.png" alt="apps icon">
                 <p class="md:text-lg">Tra i servizi che offro c'è anche la registrazione del tuo dominio e uno spazio di hosting particolarmente performante e ad un prezzo vantaggioso. Questo permetterà al tuo sito di caricarsi velocemente.</p>
