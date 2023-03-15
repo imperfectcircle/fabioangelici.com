@@ -52,7 +52,9 @@
     <!-- End Google Tag Manager (noscript) -->
     <header class="landing-header flex flex-col space-y-10 justify-center p-5 md:p-0 items-center text-white">
         <div class="flex">
-            <img class="w-20 md:w-30" src="/images/logo.webp" alt="Logo Fabio Angelici">
+            <a href="{{ route('public.home') }}">
+                <img class="w-20 md:w-30" src="/images/logo.webp" alt="Logo Fabio Angelici">
+            </a>
         </div>
         <h1 class="text-2xl text-center md:text-left md:text-5xl"><span class="underline">Fabio Angelici</span> - Creazione siti web a Varese</h1>
         <p class="text-xl text-center md:text-left">Sono uno sviluppatore web di Varese specializzato nella realizzazione di siti web custom.</p>
