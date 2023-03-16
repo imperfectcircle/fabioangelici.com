@@ -13,7 +13,8 @@
     <input type="hidden" name="page" value="{{ $page }}">
     <div class="flex flex-col space-y-2 py-5">
         <label for="service">Scegli il servizio</label>
-        <select class="p-3 border bg-gray-100 border-orange-500 rounded-lg text-black" name="service" id="service">
+        <select class="p-3 border bg-gray-100 border-orange-500 rounded-lg text-black" name="service" id="service" required>
+            <option selected disabled>-- Scegli un servizio --</option>
             <option value="Sito web">Sito web</option>
             <option value="Restyling sito">Restyling sito web</option>
             <option value="Ecommerce">Portale E-Commerce</option>
