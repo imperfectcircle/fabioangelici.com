@@ -1,10 +1,10 @@
 <x-layout 
     :title="$article->title"
     :description="$article->description"
-    ogUrl="'https://fabioangelici.com/{{ $article->slug }}'"
+    ogUrl="https://fabioangelici.com/{{ $article->slug }}"
     :ogDescription="$article->description"
     :ogTitle="$article->title"
-    canonical="'https://fabioangelici.com/{{ $article->slug }}'"
+    canonical="https://fabioangelici.com/{{ $article->slug }}"
 >
     <section id="hero">
         <div class="py-12">
