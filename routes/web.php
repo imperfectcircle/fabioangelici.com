@@ -36,6 +36,7 @@ Route::controller(PublicController::class)->group(function () {
 
 Route::controller(LandingController::class)->group(function() {
     Route::get('/creazione-siti-web-varese', 'varese')->name('landing.varese');
+    Route::get('/creazione-siti-web-gallarate', 'gallarate')->name('landing.gallarate');
 });
 
 Route::controller(ArticleController::class)->group(function () {
