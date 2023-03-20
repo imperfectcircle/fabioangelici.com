@@ -1,7 +1,7 @@
 <x-layout
     :title="'Fabio Angelici | Servizi internet per aziende, professionisti e privati'"
     :description="'Servizi web per la tua attività: Siti internet, portali e-commerce, gestionali web e servizio di hosting'"
-    :ogUrl="'https://fabioangelici.com/services'"
+    :ogUrl="'https://fabioangelici.com/servizi'"
     :ogDescription="'Servizi web per la tua attività: Siti web, portali e-commerce, gestionali web e servizio di hosting'"
     :ogTitle="'Fabio Angelici | Servizi internet per aziende, professionisti e privati'"
     :canonical="'https://fabioangelici.com/servizi'"

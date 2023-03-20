@@ -1,6 +1,6 @@
 <x-layout :title="'Fabio Angelici | Portali ecommerce'"
     :description="'Vuoi iniziare a vendere i tuoi prodotti o servizi online? Contattami per sviluppare il tuo portale di ecommerce'"
-    :ogUrl="'https://www.fabioangelici.com/ecommerce'"
+    :ogUrl="'https://www.fabioangelici.com/realizzazione-portali-ecommerce'"
     :ogDescription="'Vuoi iniziare a vendere i tuoi prodotti o servizi online? Contattami per sviluppare il tuo portale di ecommerce'"
     :ogTitle="'Fabio Angelici | Portali ecommerce'"
     :canonical="'https://fabioangelici.com/realizzazione-portali-ecommerce'"

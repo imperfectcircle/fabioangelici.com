@@ -3,7 +3,7 @@
     :ogUrl="'https://www.fabioangelici.com/'"
     :ogDescription="'Sviluppo siti web, ecommerce e gestionali web. Per maggiori info visita il mio sito'"
     :ogTitle="'Fabio Angelici | Sviluppo siti web ecommerce e gestionali'"
-    :canonical="'https://fabioangelici.com'"
+    :canonical="'https://fabioangelici.com/'"
 >
     {{-- Hero Section --}}
     <section class="hero h-screen flex items-center justify-center" id="hero">

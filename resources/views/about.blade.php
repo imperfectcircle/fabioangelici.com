@@ -1,7 +1,7 @@
 <x-layout 
     :title="'Sviluppatore web php e Javascript | Fabio Angelici Web Developer'"
     :description="'Sono uno sviluppatore web freelance PHP e Javascript. Ti offro servizi per la creazione di siti web professionali e performanti'"
-    :ogUrl="'https://fabioangelici.com/aboout'"
+    :ogUrl="'https://fabioangelici.com/chi-sono'"
     :ogDescription="'Sono uno sviluppatore web freelance PHP e Javascript. Se vuoi saperne di più visita il mio sito'"
     :ogTitle="'Fabio Angelici | Sviluppatore web freelance | PHP, JavaScript'"
     :canonical="'https://fabioangelici.com/chi-sono'"
