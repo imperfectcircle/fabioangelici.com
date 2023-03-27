@@ -14,13 +14,13 @@
     <meta name="description" content="Fabio Angelici, sviluppatore web a Varese, progettazione, realizzazione e creazione di siti web custom, sviluppati a codice a Varese." />
     <meta property="og:title" content="Creazione siti web a Varese | Fabio Angelici" />
 	<meta property="og:description" content="Fabio Angelici, sviluppatore web a Varese, progettazione, realizzazione e creazione di siti web custom, sviluppati a codice a Varese." />
-	<meta property="og:url" content="https://fabioangelici.com/creazione-siti-web-varese/" />
+	<meta property="og:url" content="https://fabioangelici.com/creazione-siti-web-varese" />
 	<meta property="og:site_name" content="Fabio Angelici" />
 	<meta property="article:modified_time" content="2021-05-29T14:36:17+00:00" />
 	<meta property="og:image" content="https://fabioangelici.com/images/logo.webp" />
 	<meta property="og:image:width" content="300" />
 	<meta property="og:image:height" content="300" />
-    <link rel="canonical" href="https://fabioangelici.com/creazione-siti-web-varese/">
+    <link rel="canonical" href="https://fabioangelici.com/creazione-siti-web-varese">
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">

@@ -31,6 +31,30 @@ class PublicController extends Controller
         return view('portfolio');
     }
 
+    public function eliografica() {
+        return view('eliografica');
+    }
+
+    public function meridiane() {
+        return view('meridiane');
+    }
+
+    public function cilaver() {
+        return view('cilaver');
+    }
+
+    public function chiara() {
+        return view('chiara');
+    }
+
+    public function teknofibra() {
+        return view('teknofibra');
+    }
+
+    public function clima() {
+        return view('clima');
+    }
+
     public function blog() {
         $articles = Article::where('is_published', true)->latest()->get();
         return view('blog', compact('articles'));

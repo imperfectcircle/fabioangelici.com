@@ -76,6 +76,48 @@ Breadcrumbs::for('article', function(BreadcrumbTrail $trail, Article $article) {
     $trail->push($article->title, route('article.show', $article));
 });
 
+// Home > Portfolio
+Breadcrumbs::for('portfolio', function(BreadcrumbTrail $trail) {
+    $trail->parent('home');
+    $trail->push('Portfolio', route('public.portfolio'));
+});
+
+// Home > Portfolio > Eliografica Varesina
+Breadcrumbs::for('eliografica', function(BreadcrumbTrail $trail) {
+    $trail->parent('portfolio');
+    $trail->push('Eliografica Varesina', route('public.eliografica'));
+});
+
+// Home > Portfolio > Meridiane Varese
+Breadcrumbs::for('meridiane', function(BreadcrumbTrail $trail) {
+    $trail->parent('portfolio');
+    $trail->push('Meridiane Varese', route('public.meridiane'));
+});
+
+// Home > Portfolio > Cilaver
+Breadcrumbs::for('cilaver', function(BreadcrumbTrail $trail) {
+    $trail->parent('portfolio');
+    $trail->push('Cilaver', route('public.cilaver'));
+});
+
+// Home > Portfolio > Chiara Tessaro
+Breadcrumbs::for('chiara', function(BreadcrumbTrail $trail) {
+    $trail->parent('portfolio');
+    $trail->push('Chiara Tessaro', route('public.chiaratessaro'));
+});
+
+// Home > Portfolio > Teknofibra
+Breadcrumbs::for('teknofibra', function(BreadcrumbTrail $trail) {
+    $trail->parent('portfolio');
+    $trail->push('Teknofibra', route('public.teknofibra'));
+});
+
+// Home > Portfolio > Climassistance
+Breadcrumbs::for('climassistance', function(BreadcrumbTrail $trail) {
+    $trail->parent('portfolio');
+    $trail->push('Climassistance', route('public.climassistance'));
+});
+
 // Home > Blog > [Category]
 //Breadcrumbs::for('category', function (BreadcrumbTrail $trail, $category) {
 //    $trail->parent('blog');

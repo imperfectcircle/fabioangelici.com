@@ -23,6 +23,12 @@ Route::controller(PublicController::class)->group(function () {
     Route::get('/chi-sono', 'about')->name('public.about');
     Route::get('/servizi', 'services')->name('public.services');
     Route::get('/portfolio', 'portfolio')->name('public.portfolio');
+    Route::get('/portfolio/eliografica-varesina', 'eliografica')->name('public.eliografica');
+    Route::get('/portfolio/meridiane-varese', 'meridiane')->name('public.meridiane');
+    Route::get('/portfolio/cilaver', 'cilaver')->name('public.cilaver');
+    Route::get('/portfolio/chiara-tessaro', 'chiara')->name('public.chiaratessaro');
+    Route::get('/portfolio/teknofibra', 'teknofibra')->name('public.teknofibra');
+    Route::get('/portfolio/climassistance', 'clima')->name('public.climassistance');
     Route::get('/blog', 'blog')->name('public.blog');
     Route::get('/contatti', 'contacts')->name('public.contacts');
     Route::get('/realizzazione-siti-internet', 'webSites')->name('public.websites');
