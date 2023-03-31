@@ -96,7 +96,7 @@
                     :route="route('public.restyling')"
                     :icon="'fa-solid fa-arrows-rotate'" 
                     :title="'restyling dei siti'"
-                    :body="'Hai già un sito web ma non sei soddisfatto del look o delle prestazioni? Attraverso un attendo studio posso offrirti una nuova versione del tuo sito in modo SEO friendly'"    
+                    :body="'Hai già un sito web ma non sei soddisfatto del look o delle prestazioni? Attraverso un attento studio posso offrirti una nuova versione del tuo sito in modo SEO friendly'"    
                 />
                 <x-card 
                     :route="route('public.services')"
