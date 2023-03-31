@@ -139,37 +139,37 @@
             <div class="relative overflow-hidden rounded-lg h-96 md:h-screen">
                 <!-- Item 1 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-                    <a href="">
+                    <a href="{{ route('public.cilaver') }}">
                         <img src="/images/cilaver.webp" class="rounded-lg absolute block md:w-9/12 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Sito web cilaver.it">
                     </a>
                 </div>
                 <!-- Item 2 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <a href="">
+                    <a href="{{ route('public.teknofibra') }}">
                         <img src="/images/tekno.webp" class="rounded-lg absolute block w-9/12 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Sito web teknofibra.it">
                     </a>
                 </div>
                 <!-- Item 3 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <a href="">
+                    <a href="{{ route('public.eliografica') }}">
                         <img src="/images/eliografica.webp" class="rounded-lg absolute block w-9/12 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Sito web eliograficavaresina.org">
                     </a>
                 </div>
                 <!-- Item 4 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <a href="">
+                    <a href="{{ route('public.climassistance') }}">
                         <img src="/images/clima.webp" class="rounded-lg absolute block w-9/12 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Sito web climassistance.com">
                     </a>
                 </div>
                 <!-- Item 5 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <a href="">
+                    <a href="{{ route('public.chiaratessaro') }}">
                         <img src="/images/chiara.webp" class="rounded-lg absolute block w-9/12 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Sito web chiaratessaro.it">
                     </a>
                 </div>
                 <!-- Item 6 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <a href="">
+                    <a href="{{ route('public.meridiane') }}">
                         <img src="/images/meridiane.webp" class="rounded-lg absolute block w-9/12 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Sito web meridianevarese.it">
                     </a>
                 </div>
