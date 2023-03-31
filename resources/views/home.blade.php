@@ -60,7 +60,7 @@
                 <h1 class="text-3xl font-bold text-center mb-3 md:text-5xl font-code"><span class="text-emerald-300">Progetto e sviluppo </span><span class="text-gray-200">siti internet performanti e dal design <span class="text-red-400">accattivante</span></h1>
                 <p class="font-alata">Mi chiamo Fabio Angelici, sono uno sviluppatore freelance e sono specializzato nella <strong>creazione e nel restyling di siti ed ecommerce e nello sviluppo di gestionali web</strong> per aziende, liberi professionisti e privati.</p>
                 <p class="font-alata mt-5">Offro soluzioni personalizzate e all'avanguardia per la creazione di <strong>siti internet di alta qualità</strong>.</p>
-                <p class="font-alata mt-5">Il mio <strong>scopo</strong> è quello di <strong>aiutare le aziende a crescere</strong> e raggiungere il loro obiettivo online attraverso la creazione di siti web che che siano non solo esteticamente piacevoli, ma anche funzionali e facili da usare. </p>
+                <p class="font-alata mt-5">Il mio <strong>scopo</strong> è quello di <strong>aiutare le aziende a crescere</strong> e raggiungere il loro obiettivo online attraverso la creazione di siti web che siano non solo esteticamente piacevoli, ma anche funzionali e facili da usare. </p>
                 <p class="font-alata mt-5">Se stai cercando un web developer che possa offrirti un servizio eccezionale e un <strong>risultato finale di alta qualità</strong> non esitare a contattarmi.</p>
                 <div class="mt-10 w-full text-center">
                 <x-button :route="route('public.method')" :text="'Come lavoro'" />

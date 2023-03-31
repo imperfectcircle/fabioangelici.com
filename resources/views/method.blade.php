@@ -23,7 +23,7 @@
         </div>
         <h2 class="text-2xl font-bold text-left mt-10 mb-5 md:text-3xl">1. Analisi delle esigenze del cliente</h2>
         <div class="font-alata text-lg mb-5 md:text-xl space-y-5">
-            <p>La prima cosa che faccio quando quando inizio a lavorare su un nuovo progetto è parlare con il cliente per comprendere le sue esigenze.</p>
+            <p>La prima cosa che faccio quando inizio a lavorare su un nuovo progetto è parlare con il cliente per comprendere le sue esigenze.</p>
             <p>Attraverso una breve intervista e la compilazione di un questionario posso capire quali sono le sue aspettative per il sito web che vogliamo creare.</p>
             <p>In questo modo, potrò studiare le funzionalità e le caratteristiche migliori da implementare per soddisfare le esigenze del cliente.</p>
         </div>
