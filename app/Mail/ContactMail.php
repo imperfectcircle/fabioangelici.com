@@ -36,6 +36,9 @@ class ContactMail extends Mailable
     {
         return new Envelope(
             from: 'info@fabioangelici.com',
+            replyTo: [
+                new Address($this->contact['email'])
+            ],
             subject: 'Nuovo messaggio dal sito fabioangelici.com',
         );
     }
