@@ -44,6 +44,7 @@
   gtag('js', new Date());
 
   gtag('config', 'G-SP4JL1YBZ1');
+  gtag('config', 'AW-10909593423');
 </script>
 <body class="bg-gray-200">
     <!-- Google Tag Manager (noscript) -->
