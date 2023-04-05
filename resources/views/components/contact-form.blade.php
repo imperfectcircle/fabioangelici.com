@@ -1,4 +1,4 @@
-<form class="" action="{{ route('public.form') }}" method="POST">
+<form class="text-black" action="{{ route('public.form') }}" method="POST">
     @csrf
     <x-honeypot />
     @if (isset($errors) && $errors->any())
