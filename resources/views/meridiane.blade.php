@@ -1,5 +1,5 @@
 <x-layout :title="'Siti web realizzati: meridiane varese | Fabio Angelici'"
-    :description="'Sito web realizzato in PHP con il framework Laravel'"
+    :description="'Sito web meridianevarese.it, per una azienda che si occupa di meridiane realizzato con PHP utilizzando il framework Laravel'"
     :ogUrl="'https://www.fabioangelici.com/portfolio/meridiane-varese'"
     :ogDescription="'Sito web realizzato in PHP con il framework Laravel'"
     :ogTitle="'Siti web realizzati: meridiane varese | Fabio Angelici'"

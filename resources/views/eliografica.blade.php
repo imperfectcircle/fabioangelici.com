@@ -1,7 +1,7 @@
 <x-layout :title="'Siti web realizzati: eliografica varesina | Fabio Angelici'"
-    :description="'Sito web realizzato in PHP con il framework Laravel'"
+    :description="'Sito web eliograficavaresina.org, per una ditta eliografica realizzato con PHP utilizzando il framework Laravel'"
     :ogUrl="'https://www.fabioangelici.com/portfolio/eliografica-varesina'"
-    :ogDescription="'Sito web realizzato in PHP con il framework Laravel'"
+    :ogDescription="'Sito web eliograficavaresina.org, per una ditta eliografica realizzato con PHP utilizzando il framework Laravel'"
     :ogTitle="'Siti web realizzati: eliografica varesina | Fabio Angelici'"
     :canonical="'https://fabioangelici.com/portfolio/eliografica-varesina'"
 >

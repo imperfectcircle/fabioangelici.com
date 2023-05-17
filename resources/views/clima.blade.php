@@ -1,9 +1,9 @@
 <x-layout :title="'Siti web realizzati: Climassistance | Fabio Angelici'"
-    :description="'Sito web realizzato in PHP con il framework Laravel'"
-    :ogUrl="'https://www.fabioangelici.com/portfolio/climassistace'"
-    :ogDescription="'Sito web realizzato in PHP con il framework Laravel'"
+    :description="'Sito web climassistance.com, per una ditta di idraulica realizzato in PHP utilizzando il framework Laravel'"
+    :ogUrl="'https://www.fabioangelici.com/portfolio/climassistance'"
+    :ogDescription="'Sito web climassistance.com, per una ditta di idraulica realizzato in PHP utilizzando il framework Laravel'"
     :ogTitle="'Siti web realizzati: Climassistance | Fabio Angelici'"
-    :canonical="'https://fabioangelici.com/portfolio/climassistace'"
+    :canonical="'https://fabioangelici.com/portfolio/climassistance'"
 >
     <section id="hero" class="bg flex flex-col items-center mb-10">
         <div class="w-full flex items-center justify-center md:col-span-6 h-fit bg-sky-900 font-code font-bold py-20 px-3 text-center text-gray-300">

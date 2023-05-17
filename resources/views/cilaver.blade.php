@@ -1,7 +1,7 @@
 <x-layout :title="'Siti web realizzati: cilaver | Fabio Angelici'"
-    :description="'Sito web realizzato in PHP con il framework Laravel'"
+    :description="'Sito web cilaver.it, per una azienda di materiali coibenti realizzato con PHP utilizzando il framework Laravel'"
     :ogUrl="'https://www.fabioangelici.com/portfolio/cilaver'"
-    :ogDescription="'Sito web realizzato in PHP con il framework Laravel'"
+    :ogDescription="'Sito web cilaver.it, per una azienda di materiali coibenti realizzato con PHP utilizzando il framework Laravel'"
     :ogTitle="'Siti web realizzati: cilaver | Fabio Angelici'"
     :canonical="'https://fabioangelici.com/portfolio/cilaver'"
 >
