@@ -1,4 +1,4 @@
-<x-layout :title="'Realizzazione siti web a Varese | Fabio Angelici Web Developer'"
+<x-layout :title="'Creazione siti web | Fabio Angelici Web Developer'"
     :description="'Vuoi creare il tuo sito internet in modo professionale? Ho esperienza pluriennale e metto la mia professionalità al tuo servizio.'"
     :ogUrl="'https://www.fabioangelici.com/'"
     :ogDescription="'Sviluppo siti web, ecommerce e gestionali web. Per maggiori info visita il mio sito'"
@@ -54,13 +54,13 @@
     <section id="intro" class="bg-sky-600 h-fit flex justify-center">
         <div class="grid grid-cols-1 md:grid-cols-2 items-center justify-items-center gap-10 p-20 text-lg md:my-10 md:text-2xl text-gray-300">
             <div class="">
-                <img src="/images/background.png" alt="Sfondo laptop">
+                <img src="/images/background.png" alt="Creazione siti web">
             </div>
             <div class="">
-                <h1 class="text-3xl font-bold text-center mb-3 md:text-5xl font-code"><span class="text-emerald-300">Progetto e sviluppo </span><span class="text-gray-200">siti internet performanti e dal design <span class="text-red-400">accattivante</span></h1>
-                <p class="font-alata">Mi chiamo Fabio Angelici, sono uno sviluppatore freelance e sono specializzato nella <strong>creazione e nel restyling di siti ed ecommerce e nello sviluppo di gestionali web</strong> per aziende, liberi professionisti e privati.</p>
+                <h1 class="text-3xl font-bold text-center mb-3 md:text-5xl font-code"><span class="text-emerald-300">Progettazzione e creazione </span><span class="text-gray-200">siti web performanti e dal design <span class="text-red-400">accattivante</span></h1>
+                <p class="font-alata">Mi chiamo Fabio Angelici, sono uno sviluppatore freelance e sono specializzato nella <strong>creazione e nel restyling di siti web ed ecommerce e nello sviluppo di gestionali web</strong> per aziende, liberi professionisti e privati.</p>
                 <p class="font-alata mt-5">Offro soluzioni personalizzate e all'avanguardia per la creazione di <strong>siti internet di alta qualità</strong>.</p>
-                <p class="font-alata mt-5">Il mio <strong>scopo</strong> è quello di <strong>aiutare le aziende a crescere</strong> e raggiungere il loro obiettivo online attraverso la creazione di siti web che siano non solo esteticamente piacevoli, ma anche funzionali e facili da usare. </p>
+                <p class="font-alata mt-5">Il mio <strong>scopo</strong> è quello di <strong>aiutare le aziende a crescere</strong> e raggiungere il loro obiettivo online attraverso la <strong>creazione di siti web</strong> che siano non solo esteticamente piacevoli, ma anche funzionali e facili da usare. </p>
                 <p class="font-alata mt-5">Se stai cercando un web developer che possa offrirti un servizio eccezionale e un <strong>risultato finale di alta qualità</strong> non esitare a contattarmi.</p>
                 <div class="mt-10 w-full text-center">
                 <x-button :route="route('public.method')" :text="'Come lavoro'" />
@@ -77,8 +77,8 @@
                 <x-card
                     :route="route('public.websites')"
                     :icon="'fa-solid fa-code'" 
-                    :title="'sviluppo siti web'"
-                    :body="'Il servizio consiste nella realizzazione di siti internet veloci, affidabili e altamente performanti. Responsive e ottimizzati per garantire una user exprience ottimale.'"    
+                    :title="'creazione siti web'"
+                    :body="'Il servizio consiste nella realizzazione di siti web veloci, affidabili e altamente performanti. Responsive e ottimizzati per garantire una user exprience ottimale.'"    
                 />
                 <x-card 
                     :route="route('public.ecommerce')"

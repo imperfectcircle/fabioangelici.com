@@ -1,7 +1,7 @@
 <x-layout :title="'Siti web realizzati: Chiara Tessaro | Fabio Angelici'"
-    :description="'Sito web realizzato in PHP con il framework Laravel'"
+    :description="'Sito web chiaratessaro.com, per una graphic designer realizzato con libreria JS  e PHP con il framework Laravel'"
     :ogUrl="'https://www.fabioangelici.com/portfolio/chiara-tessaro'"
-    :ogDescription="'Sito web realizzato in PHP con il framework Laravel'"
+    :ogDescription="'Sito web chiaratessaro.com, per una graphic designer realizzato con libreria JS  e PHP con il framework Laravel'"
     :ogTitle="'Siti web realizzati: Chiara Tessaro | Fabio Angelici'"
     :canonical="'https://fabioangelici.com/portfolio/chiara-tessaro'"
 >
