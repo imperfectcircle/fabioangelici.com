@@ -41,7 +41,6 @@ Route::controller(PublicController::class)->group(function () {
 });
 
 Route::controller(LandingController::class)->group(function() {
-    Route::get('/creazione-siti-web-varese', 'varese')->name('landing.varese')->middleware(ProtectAgainstSpam::class);
     Route::get('/creazione-siti-web-gallarate', 'gallarate')->name('landing.gallarate')->middleware(ProtectAgainstSpam::class);
     Route::get('/creazione-siti-web-malnate', 'malnate')->name('landing.malnate')->middleware(ProtectAgainstSpam::class);
 });
