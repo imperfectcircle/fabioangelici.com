@@ -55,6 +55,10 @@ Route::get('/creazione-siti-web-varese', function () {
     return redirect('https://creazione-siti-varese.it', 301);
 });
 
+Route::get('/creazione-siti-web-gallarate', function () {
+    return redirect('https://creazione-siti-varese.it', 301);
+});
+
 Route::get('/portfolio/climassistace', function () {
     return redirect('/portfolio/climassistance', 301);
 });
