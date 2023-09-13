@@ -65,7 +65,7 @@
                 <p class="pl-10 text-left w-full">I siti web creati lato codice sono solitamente più scalabili. Ciò significa che <strong>è più facile far crescere il sito</strong> e aggiungere nuove funzionalità in futuro.</p>
             </div>
             
-            <p>Per lo sviluppo dei miei siti, faccio affidamento su <strong>PHP e JavaScript</strong> come linguaggi di programmazione principali. Ricorro a librerie e framework per creare codice efficiente, pulito e facilmente gestibile.; quelli che seguono sono alcuni dei linguaggi, librerie e framework che utilizzo:</p>
+            <p>Per lo sviluppo dei miei siti, faccio affidamento su <strong>PHP e JavaScript</strong> come linguaggi di programmazione principali. Ricorro a librerie e framework per creare codice efficiente, pulito e facilmente gestibile.; quelli che seguono sono alcuni dei linguaggi, librerie, framework e servizi che utilizzo:</p>
             <div class="pt-5 grid grid-cols-2 gap-5 md:flex md:flex-col">
                 <div class="space-y-5 md:flex md:space-x-5 md:space-y-0">
                     <x-tech-image :link="'https://it.wikipedia.org/wiki/HTML5'" :name="'HTML5.svg'" :text="'Logo html 5'" />
@@ -73,14 +73,14 @@
                     <x-tech-image :link="'https://developer.mozilla.org/en-US/docs/Web/JavaScript'" :name="'js.svg'" :text="'Logo JavaScript'" />
                     <x-tech-image :link="'https://tailwindcss.com/'" :name="'Tailwind.svg'" :text="'Logo Tailwind css'" />
                     <x-tech-image :link="'https://laravel.com/'" :name="'Laravel.svg'" :text="'Logo Laravel'" />
-                    <x-tech-image :link="'https://vuejs.org/'" :name="'Vue.svg'" :text="'Logo Vue'" />
+                    <x-tech-image :link="'https://it.legacy.reactjs.org/'" :name="'React.svg'" :text="'Logo React'" />
                 </div>
                 <div class="space-y-5 md:flex md:justify-center md:space-x-5 md:space-y-0">
                     <x-tech-image :link="'https://nodejs.org/en/'" :name="'Node.svg'" :text="'Logo Node.js'" />
                     <x-tech-image :link="'https://it.wikipedia.org/wiki/MySQL'" :name="'MySQL.svg'" :text="'Logo MySql'" />
                     <x-tech-image :link="'https://it.wikipedia.org/wiki/MongoDB'" :name="'mongo.png'" :text="'Logo MongoDB'" />
                     <x-tech-image :link="'https://it.wikipedia.org/wiki/Nginx'" :name="'Nginx.svg'" :text="'Logo NGINX'" />
-                    <x-tech-image :link="'https://www.digitalocean.com/'" :name="'DigitalOcean.svg'" :text="'Logo Digitl Ocean'" />
+                    <x-tech-image :link="'https://www.hostinger.it/'" :name="'hostinger.svg'" :text="'Logo Hostinger'" />
                 </div>
             </div>
             <div class="flex py-5 justify-center items-end md:justify-start text-sky-700 w-full">
