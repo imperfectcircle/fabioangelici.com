@@ -35,5 +35,5 @@
     <p>P.I. 03929520124</p>
     <a href="https://www.iubenda.com/privacy-policy/71101442" target="_blank">Privacy policy</a>
     <a href="https://www.iubenda.com/privacy-policy/71101442/cookie-policy" target="_blank">Cookie policy</a>
-    <a href="https://hostinger.it?REFERRALCODE=1FABIO317" target="_blank"><img class="w-[300px]" src="/images/powered_by_hostinger.jpg" alt="DigitalOcean Referral Badge" /></a>
+    <a href="https://hostinger.it?REFERRALCODE=1FABIO317" target="_blank"><img class="w-[300px]" src="/images/powered_by_hostinger.jpg" alt="Hostinger Referral Badge" /></a>
 </section>
