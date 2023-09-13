@@ -22,6 +22,14 @@
         <div class="md:mt-10 md:col-span-2 md:col-start-4 p-5">
             <img class="rounded-lg" src="images/management.webp" alt="Gestionale web">
         </div>
+        <div class="md:col-span-4 md:col-start-2 text-center mt-5">
+            <h2 class="text-4xl mb-4">Prova la demo</h2>
+            <p class="text-xl">Se vuoi testare alcune caratteristiche di un gestionale web, ho realizzato una web app dimostrativa con delle funzioni base.</p>
+            <p class="text-xl mb-10">Per provarla ti basterà cliccare sul pulsante qui sotto e inserire i dati di accesso.</p>
+            <p class="text-xl">Username: demo</p>
+            <p class="text-xl mb-10">Password: demo</p>
+            <a target="_blank" class="py-3 px-6 border-2 border-orange-500 rounded-full uppercase hover:bg-orange-500 hover:text-white duration-200 text-base md:text-xl" href="https://gestionale.fabioangelici.com">Prova la demo</a>
+        </div>
     </section>
     <section class="p-5  bg-gradient-to-br from-sky-900 to-sky-400 py-20">
         <div class="md:w-6/12 md:mx-auto text-white">
