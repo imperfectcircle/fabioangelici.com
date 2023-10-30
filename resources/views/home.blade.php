@@ -1,6 +1,7 @@
 <x-layout :title="'Creazione siti web | Fabio Angelici Web Developer'"
     :description="'Vuoi creare il tuo sito internet in modo professionale? Ho esperienza pluriennale e metto la mia professionalità al tuo servizio.'"
     :ogUrl="'https://www.fabioangelici.com/'"
+    ogImage=''
     :ogDescription="'Sviluppo siti web, ecommerce e gestionali web. Per maggiori info visita il mio sito'"
     :ogTitle="'Fabio Angelici | Sviluppo siti web ecommerce e gestionali'"
     :canonical="'https://fabioangelici.com/'"
