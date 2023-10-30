@@ -1,6 +1,7 @@
 <x-layout :title="'Fabio Angelici | Sviluppo siti web'"
     :description="'Sei interessato alla creazione di un tuo sito web? contattami per richiedere info'"
     :ogUrl="'https://www.fabioangelici.com/realizzazione-siti-internet'"
+    ogImage=''
     :ogDescription="'Sei interessato alla creazione di un tuo sito web? contattami per richiedere info'"
     :ogTitle="'Fabio Angelici | Sviluppo siti web'"
     :canonical="'https://fabioangelici.com/realizzazione-siti-internet'"

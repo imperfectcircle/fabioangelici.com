@@ -1,6 +1,7 @@
 <x-layout :title="'Fabio Angelici | Pagina non trovata'"
     :description="'Sembra che quello che stai cercando non si trovi qui'"
     :ogUrl="'https://www.fabioangelici.com/404'"
+    ogImage=''
     :ogDescription="'Sembra che quello che stai cercando non si trovi qui'"
     :ogTitle="'Fabio Angelici | Pagina non trovata'"
     :canonical="'https://fabioangelici.com/404'"

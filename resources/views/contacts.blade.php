@@ -2,6 +2,7 @@
     :title="'Fabio Angelici | Contatti'"
     :description="'Se hai bisogno di portare il tuo progetto sul web, contattami per un preventivo gratuito.'"
     :ogUrl="'https://fabioangelici.com/contatti'"
+    ogImage=''
     :ogDescription="'Se hai bisogno di portare il tuo progetto sul web, contattami per un preventivo gratuito.'"
     :ogTitle="'Fabio Angelici | Contatti'"
     :canonical="'https://fabioangelici.com/contatti'"

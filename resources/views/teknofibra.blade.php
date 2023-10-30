@@ -1,6 +1,7 @@
 <x-layout :title="'Siti web realizzati: Teknofibra | Fabio Angelici'"
     :description="'Sito web realizzato in PHP con il framework Laravel'"
     :ogUrl="'https://www.fabioangelici.com/portfolio/teknofibra'"
+    ogImage=''
     :ogDescription="'Sito web realizzato in PHP con il framework Laravel'"
     :ogTitle="'Siti web realizzati: Teknofibra | Fabio Angelici'"
     :canonical="'https://fabioangelici.com/portfolio/teknofibra'"

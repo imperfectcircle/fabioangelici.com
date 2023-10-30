@@ -1,6 +1,7 @@
 <x-layout :title="'Come lavoro per realizzare siti web | Fabio Angelici Web Developer'"
     :description="'Il mio metodo di lavoro parte da un attento studio e pianificazione delle necessità e degli obbiettivi del cliente'"
     :ogUrl="'https://www.fabioangelici.com/come-lavoro'"
+    ogImage=''
     :ogDescription="'Il mio metodo di lavoro parte da un attento studio e pianificazione delle necessità e degli obbiettivi del cliente'"
     :ogTitle="'Come lavoro per realizzare siti web | Fabio Angelici Web Developer'"
     :canonical="'https://fabioangelici.com/come-lavoro'"

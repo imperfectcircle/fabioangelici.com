@@ -1,6 +1,7 @@
 <x-layout :title="'Fabio Angelici | Gestionali web'"
     :description="'Hai bisogno di un gestionale personalizzato e raggiungibile da qualsiasi device? contattami per richiedere info'"
     :ogUrl="'https://www.fabioangelici.com/gestionali-web'"
+    ogImage=''
     :ogDescription="'Hai bisogno di un gestionale personalizzato e raggiungibile da qualsiasi device? contattami per richiedere info'"
     :ogTitle="'Fabio Angelici | Gestionali web'"
     :canonical="'https://fabioangelici.com/gestionali-web'"

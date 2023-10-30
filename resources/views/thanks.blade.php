@@ -2,6 +2,7 @@
     :title="'Fabio Angelici | Grazie per avermi contattato!'"
     :description="'Grazie per avermi contattato'"
     :ogUrl="'https://fabioangelici.com/thank-you'"
+    ogImage=''
     :ogDescription="'Grazie per avermi contattato'"
     :ogTitle="'Fabio Angelici | Grazie per avermi contattato!'"
     :canonical="'https://fabioangelici.com/thank-you'"

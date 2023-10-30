@@ -1,6 +1,7 @@
 <x-layout :title="'Fabio Angelici | Blog di articoli sulla programmazione'"
     :description="'Sei interessato alla programmazione? Leggi i miei articoli per trovare consigli e informazioni'"
     :ogUrl="'https://www.fabioangelici.com/blog'"
+    ogImage=''
     :ogDescription="'Leggi i miei articoli sulla programmazione'"
     :ogTitle="'Fabio Angelici | Blog di articoli sulla programmazione'"
     :canonical="'https://fabioangelici.com/blog'"

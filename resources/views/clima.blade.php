@@ -1,6 +1,7 @@
 <x-layout :title="'Siti web realizzati: Climassistance | Fabio Angelici'"
     :description="'Sito web climassistance.com, per una ditta di idraulica realizzato in PHP utilizzando il framework Laravel'"
     :ogUrl="'https://www.fabioangelici.com/portfolio/climassistance'"
+    ogImage=''
     :ogDescription="'Sito web climassistance.com, per una ditta di idraulica realizzato in PHP utilizzando il framework Laravel'"
     :ogTitle="'Siti web realizzati: Climassistance | Fabio Angelici'"
     :canonical="'https://fabioangelici.com/portfolio/climassistance'"

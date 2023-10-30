@@ -1,6 +1,7 @@
 <x-layout :title="'Fabio Angelici | Restyling siti'"
     :description="'Hai già un sito ma non sei soddisfatto del suo aspetto o delle sue performance? Contattami per valutare come poterlo rendere ciò che vuoi'"
     :ogUrl="'https://www.fabioangelici.com/restyling'"
+    ogImage=''
     :ogDescription="'Hai già un sito ma non sei soddisfatto del suo aspetto o delle sue performance? Contattami per valutare come poterlo rendere ciò che vuoi'"
     :ogTitle="'Fabio Angelici | Restyling siti'"
     :canonical="'https://fabioangelici.com/restyling'"

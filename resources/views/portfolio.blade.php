@@ -1,6 +1,7 @@
 <x-layout :title="'Portfolio | Fabio Angelici Web Developer'"
     :description="'Portfolio clienti Fabio Angelici - Sviluppatore web freelance. Siti web e gestionali online'"
     :ogUrl="'https://www.fabioangelici.com/portfolio'"
+    ogImage=''
     :ogDescription="'Portfolio clienti Fabio Angelici - Sviluppatore web freelance. Siti web e gestionali online'"
     :ogTitle="'Portfolio | Fabio Angelici Web Developer'"
     :canonical="'https://fabioangelici.com/portfolio'"
