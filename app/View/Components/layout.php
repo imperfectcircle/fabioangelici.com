@@ -14,11 +14,11 @@ class layout extends Component
 
     public $title;
     public $description;
-    public $ogImage;
     public $ogUrl;
     public $ogDescription;
     public $ogTitle;
     public $canonical;
+    public $ogImage;
     
     public function __construct($title, $description, $ogUrl, $ogDescription, $ogTitle, $canonical, $ogImage = '')
     {
