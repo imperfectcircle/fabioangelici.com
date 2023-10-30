@@ -13,6 +13,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="{{ $description }}">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="{{ $ogImage }}">
     <meta property="og:url" content="{{ $ogUrl }}">
     <meta property="og:description" content="{{ $ogDescription }}">
     <meta property="og:title" content="{{ $ogTitle }}">

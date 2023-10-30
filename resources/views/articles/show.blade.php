@@ -2,6 +2,7 @@
     :title="$article->title"
     :description="$article->description"
     ogUrl="https://fabioangelici.com/article/{{ $article->slug }}"
+    ogImage="{{ Storage::url($article->picture->image) }}"
     :ogDescription="$article->description"
     :ogTitle="$article->title"
     canonical="https://fabioangelici.com/article/{{ $article->slug }}"
