@@ -98,4 +98,8 @@ class PublicController extends Controller
     public function thanks($name) {
         return view('thanks', compact('name'));
     }
+
+    public function agency() {
+        return view('agency');
+    }
 }

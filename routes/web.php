@@ -38,6 +38,7 @@ Route::controller(PublicController::class)->group(function () {
     Route::get('/hosting', 'hosting')->name('public.hosting');
     Route::post('/contact/submit', 'contactSubmit')->name('public.form')->middleware(ProtectAgainstSpam::class);
     Route::get('/thank-you/{name}', 'thanks')->name('public.thanks');
+    Route::get('/servizi-per-agenzie', 'agency')->name('public.agency');
 });
 
 Route::controller(LandingController::class)->group(function() {

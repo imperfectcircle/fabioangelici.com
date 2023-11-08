@@ -27,7 +27,7 @@
             <p class="pt-5">Con l'avvento di internet inizio ad avvicinarmi al mondo della <em>programmazione web</em>, prima da autodidatta poi frequentando un corso organizzato dalla regione Lombardia e dal fondo sociale europeo all'inizio degli anni 2000.</p>
             <p>Terminato il corso trovo impiego in una <strong>web agency</strong> in cui inizio a mettere a frutto ciò che ho imparato e che mi dà la possibilità, nel tempo, di scoprire nuovi linguaggi e tecnologie.</p>
             <p>All'inizio della mia carriera mi appassiono al lato front-end della programmazione poi, prima con <em>PHP e i suoi framework</em> e in seguito con la <em>libreria Node.js</em>, scopro le "meraviglie" del back-end e del poter <strong>realizzare in autonomia interi progetti</strong>.</p>
-            <p>Col tempo mi sono tenuto <strong>sempre al passo con le novità</strong> o con la documentazione on-line o frquentando corsi (l'ultimo dei quali nel 2021), in quanto ritengo che il continuo studio e approfondimento siano una parte fondamentale di questo lavoro.</p>
+            <p>Col tempo mi sono tenuto <strong>sempre al passo con le novità</strong> o con la documentazione on-line o frquentando corsi (gli ultimi dei quali nel 2021 e 2023), in quanto ritengo che il continuo studio e approfondimento siano una parte fondamentale di questo lavoro.</p>
             <div class="flex pt-5 justify-center items-end md:justify-start text-sky-700 w-full">
                 <i class="fa-solid fa-laptop-file text-6xl"></i>
                 <h2 class="ml-2 pr-2 text-3xl font-sans pl-3 border-b-2 border-r-2 border-sky-700 rounded-br-lg">Come realizzo siti internet</h2>
