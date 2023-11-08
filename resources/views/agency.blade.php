@@ -12,38 +12,40 @@
             <h1 class="text-4xl pl-5"><span class="text-yellow-500">Fullstack Developer <span class="text-white">;</span></h1>
             <p class=" text-4xl animate-pulse text-white pl-3">|</p>
         </div>
-        <h2 class="p-10 text-3xl font-bold mb-3 md:text-5xl text-sky-600">Perchè scegliere me</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-10 pb-10 gap-5">
-            <div class="flex flex-col md:w-2/3 md:mx-auto">
+        <div class="md:mx-auto md:w-4/6">
+            <h2 class="p-10 text-3xl font-bold mb-3 md:text-5xl text-sky-600">Perchè scegliere me</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-10 pb-10 gap-10">
+            <div class="flex flex-col">
                 <p class="text-6xl font-bold text-gray-400">1</p>
                 <h2 class="text-2xl font-bold">Competenza Tecnica</h2>
                 <p class="text-xl">Con anni di esperienza nel settore, ho sviluppato competenze avanzate nello sviluppo sia frontend che backend. La mia conoscenza tecnica mi consente di affrontare sfide complesse con fiducia e precisione.</p>
             </div>
-            <div class="flex flex-col md:w-2/3 md:mx-auto">
+            <div class="flex flex-col">
                 <p class="text-6xl font-bold text-gray-400">2</p>
                 <h2 class="text-2xl font-bold">Pianificazione e Gestione del Tempo</h2>
                 <p class="text-xl">Pianifico attentamente ogni progetto e rispetto rigorosamente le scadenze. La mia abilità nella gestione del tempo assicuta che i tuoi progetti saranno consegnati in modo puntuale, evitando ritardi imprevisti.</p>
             </div>
-            <div class="flex flex-col md:w-2/3 md:mx-auto">
+            <div class="flex flex-col">
                 <p class="text-6xl font-bold text-gray-400">3</p>
                 <h2 class="text-2xl font-bold">Flessibilità nell'Utilizzo delle Tecnologie</h2>
                 <p class="text-xl">Sono in grado di lavorare su progetti basati su diverse tecnologie, offrendoti la flessibilità di scegliere la tecnologia più adatta alle tue esigenze specifiche.</p>
             </div>
-            <div class="flex flex-col md:w-2/3 md:mx-auto">
+            <div class="flex flex-col">
                 <p class="text-6xl font-bold text-gray-400">4</p>
                 <h2 class="text-2xl font-bold">Sviluppo Frontend All'avanguardia</h2>
                 <p class="text-xl">Con competenze in HTML, JavaScript, React e Tailwind CSS, posso creare interfacce utente reattive, moderne e altamente personalizzate che valorizzano la presenza online.</p>
             </div>
-            <div class="flex flex-col md:w-2/3 md:mx-auto">
+            <div class="flex flex-col">
                 <p class="text-6xl font-bold text-gray-400">5</p>
                 <h2 class="text-2xl font-bold">Collaborazione Efficace</h2>
                 <p class="text-xl">Sono un comunicatore efficace e posso collaborare facilmente con il tuo team o con altri professionisti del settore. Siamo sulla stessa pagina per garantire un flusso di lavoro armonioso.</p>
             </div>
-            <div class="flex flex-col md:w-2/3 md:mx-auto">
+            <div class="flex flex-col">
                 <p class="text-6xl font-bold text-gray-400">6</p>
                 <h2 class="text-2xl font-bold">Impegno per l'Eccellenza</h2>
                 <p class="text-xl">Sono motivato a raggiungere risultati di eccellenza e a superare le aspettative. La mia attenzione ai dettagli e l'orientamento alla qualità sono sempre al servizio del tuo successo.</p>
             </div>
+        </div>
         </div>
         <div class="p-10 bg-gray-300">
             <div class="md:w-4/6 md:mx-auto">
