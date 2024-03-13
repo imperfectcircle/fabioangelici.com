@@ -81,7 +81,7 @@
     {{-- End Navbar --}}
 
     {{-- Mobile Menù --}}
-    <div id="menu" class="absolute top-[6.5rem] bottom-0 left-0 hidden flex-col self-end items-center justify-start w-full min-h-screen py-1 pt-10  space-y-3 text-lg text-white uppercase bg-gray-600 z-20 ">
+    <div id="menu" class="absolute top-[6.5rem] left-0 hidden flex-col self-end items-center justify-start w-full min-h-screen py-1 pt-10  space-y-3 text-lg text-white uppercase bg-gray-600 z-20 ">
         <a href="{{ route('public.home') }}" class="hover:bg-orange-700 hover:rounded-full px-7 py-3 uppercase">Home</a>
         <a href="{{ route('public.about') }}" class="hover:bg-orange-700 hover:rounded-full px-7 py-3 uppercase">Chi sono</a>
         <a href="{{ route('public.services') }}" class="hover:bg-orange-700 hover:rounded-full px-7 py-3 uppercase">Servizi</a>
