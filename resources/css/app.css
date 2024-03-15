@@ -1,6 +1,6 @@
-@import'@fortawesome/fontawesome-free/css/all';
+@import "@fortawesome/fontawesome-free/css/all";
 
-@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans&family=Source+Code+Pro:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans&family=Source+Code+Pro:wght@400;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -26,7 +26,7 @@ html {
     width: 24px;
     height: 2px;
     top: 0;
-    left:0;
+    left: 0;
     background: #eee;
     transform: rotate(0);
     transition: all 0.5s;
@@ -57,7 +57,7 @@ html {
 }
 
 #hero {
-    margin-top:6.75rem
+    margin-top: 6.75rem;
 }
 
 /* .hero {
@@ -71,26 +71,31 @@ html {
 
 @media screen and (max-width: 48rem) {
     .hero {
-        height: 50vh
+        height: 50vh;
     }
 }
 
 #offer {
-    background: url('/public/images/background-two.png');
+    background: url("/public/images/background-two.png");
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .bg {
-    background: url('/public/images/background-three.png');
+    background: url("/public/images/background-three.png");
     background-position: top;
     background-repeat: repeat-y;
     background-size: contain;
 }
 
 .landing-header {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/public/images/hero.webp');
+    background: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.8)
+        ),
+        url("/public/images/hero.webp");
     height: 70vh;
     background-attachment: fixed;
     background-position: top;
@@ -99,7 +104,12 @@ html {
 }
 
 .landing-footer {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/public/images/background-landing.webp');
+    background: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.8)
+        ),
+        url("/public/images/background-landing.webp");
     height: 100vh;
     background-attachment: fixed;
     background-position: top;
@@ -141,7 +151,12 @@ html {
 }
 
 .thanks {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url('/public/images/thanks.webp');
+    background: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.4)
+        ),
+        url("/public/images/thanks.webp");
     height: 100vh;
     background-attachment: fixed;
     background-position: top;
@@ -150,7 +165,12 @@ html {
 }
 
 .notfound {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url('/public/images/404.png');
+    background: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.4)
+        ),
+        url("/public/images/404.png");
     height: 100vh;
     background-attachment: fixed;
     background-position: top;
