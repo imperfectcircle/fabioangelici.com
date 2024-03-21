@@ -7,17 +7,17 @@
     :canonical="'https://fabioangelici.com/portfolio/climassistance'"
 >
     <section id="hero" class="bg flex flex-col items-center mb-10">
-        <div class="w-full flex items-center justify-center md:col-span-6 h-fit bg-sky-900 font-code font-bold py-20 px-3 text-center text-gray-300">
+        <div class="w-full flex items-center justify-center lg:col-span-6 h-fit bg-sky-900 font-code font-bold py-20 px-3 text-center text-gray-300">
             <p class="text-sm md:text-2xl lg:text-4xl text-slate-400">1</p>
             <h1 class="text-4xl pl-5"><span class="text-yellow-500">Portfolio | Climassistance</span>;</h1>
             <p class=" text-4xl animate-pulse">|</p>
         </div>
     </section>
 
-    <section class="md:w-8/12 mx-auto p-5 md:p-0">
+    <section class="lg:w-8/12 mx-auto p-5 lg:p-0">
         {{-- Breadcrumb --}}
-        <div class="w-full items-start md:col-start-2">
-            <div class="md:col-start-2 md:col-span-2">
+        <div class="w-full items-start lg:col-start-2">
+            <div class="lg:col-start-2 lg:col-span-2">
                 {{ Breadcrumbs::render('climassistance') }}
             </div>
         </div>
@@ -57,7 +57,7 @@
         <div class="">
             <img src="/images/clima-gtmetrix.png" alt="Perfromace gtmetrix del sito">
         </div>
-        <div class="md:w-6/12 mx-auto py-10">
+        <div class="lg:w-6/12 mx-auto py-10">
             <h2 class="text-4xl text-center font-code">Contattami per un preventivo gratuito</h2>
             <x-contact-form page="clima" />
         </div>

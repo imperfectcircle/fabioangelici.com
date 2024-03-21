@@ -1,25 +1,25 @@
 {{-- Header --}}
 <header class="fixed z-50 top-0 left-0 w-full">
     {{-- Top Bar --}}
-    <div class="hidden w-full max-h-fit bg-gray-800 items-center md:py-3 md:grid-cols-2 md:justify-items-center">
-        <div class="hidden md:inline-block">
+    <div class="hidden w-full max-h-fit bg-gray-800 items-center lg:py-3 lg:grid-cols-2 lg:justify-items-center">
+        <div class="hidden lg:inline-block">
             <a href="https://wa.me/+393515749172" target="_blank">
-                <i class="fa-brands fa-whatsapp md:text-3xl p-2 text-green-600 hover:text-green-700"></i>
+                <i class="fa-brands fa-whatsapp lg:text-3xl p-2 text-green-600 hover:text-green-700"></i>
             </a>
             <a href="skype:live:.cid.8ae67683138ca1aa?chat">
-                <i class="fa-brands fa-skype md:text-3xl p-2 text-sky-600 hover:text-sky-700"></i>
+                <i class="fa-brands fa-skype lg:text-3xl p-2 text-sky-600 hover:text-sky-700"></i>
             </a>
             <a href="https://twitter.com/messages/compose?recipient_id=1618668571000725505" target="_blank">
-                <i class="fa-brands fa-twitter md:text-3xl p-2 text-sky-500 hover:text-sky-600"></i>
+                <i class="fa-brands fa-twitter lg:text-3xl p-2 text-sky-500 hover:text-sky-600"></i>
             </a>
         </div>
-        <div class="flex flex-col items-center space-y-3 w-full py-2 my-3 md:flex-row md:justify-center md:py-0 text-gray-300 md:space-y-0">
-            <a class="flex items-center md:px-5" href="mailto:info@fabioangelici.com">
-                <i class="fa-regular fa-envelope md:text-2xl p-1"></i>
+        <div class="flex flex-col items-center space-y-3 w-full py-2 my-3 lg:flex-row lg:justify-center lg:py-0 text-gray-300 lg:space-y-0">
+            <a class="flex items-center lg:px-5" href="mailto:info@fabioangelici.com">
+                <i class="fa-regular fa-envelope lg:text-2xl p-1"></i>
                 <p class="font-alata text-xl">info@fabioangelici.com</p>
             </a>
             <a href="tel:+393515749172" class="flex items-center">
-                <i class="fa-solid fa-phone md:text-2xl p-1"></i>
+                <i class="fa-solid fa-phone lg:text-2xl p-1"></i>
                 <p class="font-alata text-xl">+393515749172</p>
             </a>
         </div>
