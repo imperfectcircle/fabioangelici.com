@@ -72,9 +72,9 @@
 
     {{-- Offer Section --}}
     <section id="offer" class="bg-gray-200 h-fit flex justify-center">
-        <div class="md:w-9/12 my-5 p-5 text-lg md:my-10 md:text-2xl text-black">
-            <h2 class="text-3xl font-bold text-center mb-3 md:text-[40px] font-code"><span class="text-purple-800">Cosa posso offrirti</span> per realizzare il <span class="text-orange-500">tuo sito</span></h2>
-            <div class="mt-5  md:mt-10 grid grid-cols-1 md:grid-cols-3 justify-items-center">
+        <div class="lg:w-9/12 my-5 p-5 text-lg lg:my-10 lg:text-2xl text-black">
+            <h2 class="text-3xl font-bold text-center mb-3 lg:text-[40px] font-code"><span class="text-purple-800">Cosa posso offrirti</span> per realizzare il <span class="text-orange-500">tuo sito</span></h2>
+            <div class="mt-5  lg:mt-10 grid grid-cols-1 lg:grid-cols-3 justify-items-center">
                 <x-card
                     :route="route('public.websites')"
                     :icon="'fa-solid fa-code'" 
