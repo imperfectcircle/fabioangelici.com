@@ -7,18 +7,18 @@
     :ogTitle="'Fabio Angelici | Sviluppatore web freelance | PHP, JavaScript'"
     :canonical="'https://fabioangelici.com/chi-sono'"
 >
-    <section id="hero" class="bg flex flex-col items-center md:grid md:grid-cols-5 md:items-start">
-        <div class="flex items-center justify-center w-full md:col-span-5 h-fit bg-sky-900 py-20 px-3 text-center text-gray-300 font-code font-bold">
-            <p class="text-sm md:text-2xl lg:text-4xl text-slate-400">1</p>
+    <section id="hero" class="bg flex flex-col items-center lg:grid lg:grid-cols-5 lg:items-start">
+        <div class="flex items-center justify-center w-full lg:col-span-5 h-fit bg-sky-900 py-20 px-3 text-center text-gray-300 font-code font-bold">
+            <p class="text-sm lg:text-2xl lg:text-4xl text-slate-400">1</p>
             <h1 class="text-4xl pl-5"><span class="text-yellow-500">Sviluppatore Web</span> Freelance;</h1>
             <p class=" text-4xl animate-pulse">|</p>
         </div>
-        <div class="w-full items-start md:col-start-2 md:col-span-2 py-5">
+        <div class="w-full items-start lg:col-start-2 lg:col-span-2 py-5">
             {{ Breadcrumbs::render('about') }}
         </div>
         
-        <div class="md:col-start-2 md:col-span-2 md:px-0 space-y-3 text-lg md:text-xl py-10 px-5 flex flex-col items-center text-justify">
-            <div class="flex justify-center items-end md:justify-start text-sky-700 w-full mb-5">
+        <div class="lg:col-start-2 lg:col-span-2 lg:px-0 space-y-3 text-lg lg:text-xl py-10 px-5 flex flex-col items-center text-justify">
+            <div class="flex justify-center items-end lg:justify-start text-sky-700 w-full mb-5">
                 <i class="fa-solid fa-id-card-clip text-6xl "></i>
                 <h2 class="ml-2 pr-2 text-3xl font-sans pl-3 border-b-2 border-r-2 border-sky-700 rounded-br-lg"> Chi sono</h2>
             </div>
@@ -28,7 +28,7 @@
             <p>Terminato il corso trovo impiego in una <strong>web agency</strong> in cui inizio a mettere a frutto ciò che ho imparato e che mi dà la possibilità, nel tempo, di scoprire nuovi linguaggi e tecnologie.</p>
             <p>All'inizio della mia carriera mi appassiono al lato front-end della programmazione poi, prima con <em>PHP e i suoi framework</em> e in seguito con la <em>libreria Node.js</em>, scopro le "meraviglie" del back-end e del poter <strong>realizzare in autonomia interi progetti</strong>.</p>
             <p>Col tempo mi sono tenuto <strong>sempre al passo con le novità</strong> o con la documentazione on-line o frquentando corsi (gli ultimi dei quali nel 2021 e 2023), in quanto ritengo che il continuo studio e approfondimento siano una parte fondamentale di questo lavoro.</p>
-            <div class="flex pt-5 justify-center items-end md:justify-start text-sky-700 w-full">
+            <div class="flex pt-5 justify-center items-end lg:justify-start text-sky-700 w-full">
                 <i class="fa-solid fa-laptop-file text-6xl"></i>
                 <h2 class="ml-2 pr-2 text-3xl font-sans pl-3 border-b-2 border-r-2 border-sky-700 rounded-br-lg">Come realizzo siti internet</h2>
             </div>
@@ -67,8 +67,8 @@
             </div>
             
             <p>Per lo sviluppo dei miei siti, faccio affidamento su <strong>PHP e JavaScript</strong> come linguaggi di programmazione principali. Ricorro a librerie e framework per creare codice efficiente, pulito e facilmente gestibile.; quelli che seguono sono alcuni dei linguaggi, librerie, framework e servizi che utilizzo:</p>
-            <div class="pt-5 grid grid-cols-2 gap-5 md:flex md:flex-col">
-                <div class="space-y-5 md:flex md:space-x-5 md:space-y-0">
+            <div class="pt-5 grid grid-cols-2 gap-5 lg:flex lg:flex-col">
+                <div class="space-y-5 lg:flex lg:space-x-5 lg:space-y-0">
                     <x-tech-image :link="'https://it.wikipedia.org/wiki/HTML5'" :name="'HTML5.svg'" :text="'Logo html 5'" />
                     <x-tech-image :link="'https://it.wikipedia.org/wiki/CSS'" :name="'CSS3.svg'" :text="'Logo css 3'" />
                     <x-tech-image :link="'https://developer.mozilla.org/en-US/docs/Web/JavaScript'" :name="'js.svg'" :text="'Logo JavaScript'" />
@@ -76,7 +76,7 @@
                     <x-tech-image :link="'https://laravel.com/'" :name="'Laravel.svg'" :text="'Logo Laravel'" />
                     <x-tech-image :link="'https://it.legacy.reactjs.org/'" :name="'React.svg'" :text="'Logo React'" />
                 </div>
-                <div class="space-y-5 md:flex md:justify-center md:space-x-5 md:space-y-0">
+                <div class="space-y-5 lg:flex lg:justify-center lg:space-x-5 lg:space-y-0">
                     <x-tech-image :link="'https://nodejs.org/en/'" :name="'Node.svg'" :text="'Logo Node.js'" />
                     <x-tech-image :link="'https://it.wikipedia.org/wiki/MySQL'" :name="'MySQL.svg'" :text="'Logo MySql'" />
                     <x-tech-image :link="'https://it.wikipedia.org/wiki/MongoDB'" :name="'mongo.png'" :text="'Logo MongoDB'" />
@@ -84,9 +84,9 @@
                     <x-tech-image :link="'https://www.hostinger.it/'" :name="'hostinger.svg'" :text="'Logo Hostinger'" />
                 </div>
             </div>
-            <div class="flex py-5 justify-center items-end md:justify-start text-sky-700 w-full">
+            <div class="flex py-5 justify-center items-end lg:justify-start text-sky-700 w-full">
                 <i class="fa-solid fa-circle-question text-6xl"></i>
-                <p class="ml-2 pr-2 text-2xl md:text-3xl font-sans pl-3 text-left border-b-2 border-r-2 border-sky-700 rounded-br-lg">Richiedi un preventivo per la realizzazione del tuo sito web</p>
+                <p class="ml-2 pr-2 text-2xl lg:text-3xl font-sans pl-3 text-left border-b-2 border-r-2 border-sky-700 rounded-br-lg">Richiedi un preventivo per la realizzazione del tuo sito web</p>
             </div>
             <p class="mt-5">Hai bisogno di maggiori informazioni o hai un progetto che vuoi sviluppare?
                 <br>
