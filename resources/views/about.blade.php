@@ -96,7 +96,7 @@
                 <x-contact-form :page="'about'"/>
             </div>
         </div>
-        <div class="w-full pl-5 pr-5 mb-5 md:sticky md:top-[10rem] md:pl-24 md:pt-16 md:mb-48">
+        <div class="w-full pl-5 pr-5 mb-5 lg:sticky lg:top-[10rem] lg:pl-24 lg:pt-16 lg:mb-48">
             <h2 class="text-2xl text-sky-700 border-b-2 border-sky-700 inline-block mb-5">Servizi Internet</h2>
             <x-service-list :route="route('public.websites')" :icon="'globe'" :text="'Siti web'" />
             <x-service-list :route="route('public.ecommerce')" :icon="'cart-shopping'" :text="'E-Commerce'" />
