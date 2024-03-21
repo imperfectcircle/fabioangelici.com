@@ -30,12 +30,12 @@
     <nav id="navbar" class="bg-gray-600 w-full h-fit lg:grid lg:grid-cols-2 lg:justify-items-center shadow-xl z-10">
         {{-- Logo --}}
         <div class="py-5 text-center flex justify-around lg:inline-block">
-            <div class="flex justify-center lg:hidden">
+            <div class="flex justify-center items-center lg:hidden">
                 <a href="https://wa.me/+393515749172" target="_blank">
-                    <i class="fa-brands fa-whatsapp text-3xl p-2 text-green-600 hover:text-green-700"></i>
+                    <i class="fa-brands fa-whatsapp text-3xl p-2 text-emerald-400 hover:text-emerald-500"></i>
                 </a>
                 <a href="skype:live:.cid.8ae67683138ca1aa?chat">
-                    <i class="fa-brands fa-skype text-3xl p-2 text-sky-600 hover:text-sky-700"></i>
+                    <i class="fa-brands fa-skype text-3xl p-2 text-sky-400 hover:text-sky-500"></i>
                 </a>
             </div>
             <div class="col-span-2">
@@ -52,7 +52,7 @@
                 
             </div>
             {{-- Hamburger Button --}}
-            <div class="lg:hidden">
+            <div class="lg:hidden flex items-center">
                 <button id="menu-btn" type="button" class="z-50 block min-w-full hamburger lg:hidden focus:outline-none">
                     <span class="hamburger-top"></span>
                     <span class="hamburger-middle"></span>
