@@ -53,12 +53,12 @@
     
     {{-- Intro Section --}}
     <section id="intro" class="bg-sky-600 h-fit flex justify-center">
-        <div class="grid grid-cols-1 md:grid-cols-2 items-center justify-items-center gap-10 p-20 text-lg md:my-10 md:text-2xl text-gray-300">
+        <div class="grid grid-cols-1 lg:grid-cols-2 items-center justify-items-center gap-10 p-20 text-lg lg:my-10 lg:text-2xl text-gray-300">
             <div class="">
                 <img src="/images/background.png" alt="Creazione siti web">
             </div>
             <div class="">
-                <h1 class="text-3xl font-bold text-center mb-3 md:text-5xl font-code"><span class="text-emerald-300">Progettazzione e creazione </span><span class="text-gray-200">siti web performanti e dal design <span class="text-red-400">accattivante</span></h1>
+                <h1 class="text-3xl font-bold text-center mb-3 lg:text-5xl font-code"><span class="text-emerald-300">Progettazzione e creazione </span><span class="text-gray-200">siti web performanti e dal design <span class="text-red-400">accattivante</span></h1>
                 <p class="font-alata">Mi chiamo Fabio Angelici, sono uno sviluppatore freelance e sono specializzato nella <strong>creazione e nel restyling di siti web ed ecommerce e nello sviluppo di gestionali web</strong> per aziende, liberi professionisti e privati.</p>
                 <p class="font-alata mt-5">Offro soluzioni personalizzate e all'avanguardia per la creazione di <strong>siti internet di alta qualità</strong>.</p>
                 <p class="font-alata mt-5">Il mio <strong>scopo</strong> è quello di <strong>aiutare le aziende a crescere</strong> e raggiungere il loro obiettivo online attraverso la <strong>creazione di siti web</strong> che siano non solo esteticamente piacevoli, ma anche funzionali e facili da usare. </p>
@@ -121,9 +121,9 @@
 
     {{-- Contact Section --}}
     <section id="contact" class="space-y-10 h-fit bg-gradient-to-br from-blue-900 to-sky-600 py-20 flex flex-col items-center text-gray-300">
-        <h2 class="text-3xl px-2 font-bold text-center mb-2 md:text-5xl font-code">Realizza ora il tuo <span class="text-yellow-500">sito web!</span></h2>
-        <p class="font-alata text-lg mb-5  px-3 text-center md:text-xl">Il risultato sarà un perfetto biglietto da visita on-line per la tua azienda o la tua attività. Richiedi un consulto gratuito.</p>
-        <div class="flex flex-col items-center md:flex-row space-y-5 md:space-y-0 md:space-x-5">
+        <h2 class="text-3xl px-2 font-bold text-center mb-2 lg:text-5xl font-code">Realizza ora il tuo <span class="text-yellow-500">sito web!</span></h2>
+        <p class="font-alata text-lg mb-5  px-3 text-center lg:text-xl">Il risultato sarà un perfetto biglietto da visita on-line per la tua azienda o la tua attività. Richiedi un consulto gratuito.</p>
+        <div class="flex flex-col items-center lg:flex-row space-y-5 lg:space-y-0 lg:space-x-5">
             <x-button :route="route('public.contacts')" :text="'Contattami on-line'" />
             <x-button :route="'tel:+393515749172'" :text="'+393515749172'" />
         </div>
@@ -131,17 +131,17 @@
     {{-- End Contact Section --}}
 
     {{-- Portfolio Section --}}
-    <section class="w-full md:w-10/12 mx-auto pt-10">
+    <section class="w-full lg:w-10/12 mx-auto pt-10">
         <div class="">
-            <h2 class="font-code font-bold text-3xl md:text-5xl text-center"><span class="text-yellow-500">Se ti piacciono </span>i miei lavori e vuoi un sito bello e funzionale <span class="text-purple-500">collaboriamo</span></h2>
+            <h2 class="font-code font-bold text-3xl lg:text-5xl text-center"><span class="text-yellow-500">Se ti piacciono </span>i miei lavori e vuoi un sito bello e funzionale <span class="text-purple-500">collaboriamo</span></h2>
         </div>
         <div id="controls-carousel" class="relative" data-carousel="static">
             <!-- Carousel wrapper -->
-            <div class="relative overflow-hidden rounded-lg h-96 md:h-screen">
+            <div class="relative overflow-hidden rounded-lg h-96 lg:h-screen">
                 <!-- Item 1 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
                     <a href="{{ route('public.cilaver') }}">
-                        <img src="/images/cilaver.webp" class="rounded-lg absolute block md:w-9/12 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Creazione sito web cilaver.it">
+                        <img src="/images/cilaver.webp" class="rounded-lg absolute block lg:w-9/12 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="Creazione sito web cilaver.it">
                     </a>
                 </div>
                 <!-- Item 2 -->
@@ -195,10 +195,10 @@
 
     {{-- Articles Section --}}
     <section id="articles">
-        <h2 class="text-3xl font-bold text-center mt-10 mb-3 md:text-5xl font-code">Segui il mio <span class="text-red-400">blog</span></h2>
-        <p class="font-alata text-center text-lg md:text-2xl mb-5">Ultimi articoli pubblicati</p>
-        <div class="mx-auto w-8/12 md:w-7/12">
-            <div class="grid grid-cols-1 px-5 md:grid-cols-3 md:px-0 gap-10">
+        <h2 class="text-3xl font-bold text-center mt-10 mb-3 lg:text-5xl font-code">Segui il mio <span class="text-red-400">blog</span></h2>
+        <p class="font-alata text-center text-lg lg:text-2xl mb-5">Ultimi articoli pubblicati</p>
+        <div class="mx-auto w-8/12 lg:w-7/12">
+            <div class="grid grid-cols-1 px-5 lg:grid-cols-3 lg:px-0 gap-10">
                 @foreach ($articles as $article)
                     <a href="{{ route('article.show', $article->slug) }}">
                         <div class="flex flex-col mb-10">
