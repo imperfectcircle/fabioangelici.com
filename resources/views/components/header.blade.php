@@ -27,10 +27,10 @@
     {{-- End Top Bar --}}
 
     {{-- Navbar --}}
-    <nav id="navbar" class="bg-gray-600 w-full h-fit md:grid md:grid-cols-2 md:justify-items-center shadow-xl z-10">
+    <nav id="navbar" class="bg-gray-600 w-full h-fit lg:grid lg:grid-cols-2 lg:justify-items-center shadow-xl z-10">
         {{-- Logo --}}
-        <div class="py-5 text-center flex justify-around md:inline-block">
-            <div class="flex justify-center md:hidden">
+        <div class="py-5 text-center flex justify-around lg:inline-block">
+            <div class="flex justify-center lg:hidden">
                 <a href="https://wa.me/+393515749172" target="_blank">
                     <i class="fa-brands fa-whatsapp text-3xl p-2 text-green-600 hover:text-green-700"></i>
                 </a>
@@ -41,19 +41,19 @@
             <div class="col-span-2">
                 <div class="flex items-center">
                     <img class="w-[80px] bg-white/50" src="/images/logo.webp" alt="">
-                    <div class="hidden md:block">
-                        <p class="text-gray-200 text-2xl md:text-4xl">Fabio Angelici</p>
-                        <p class="text-gray-200/70 text-md md:text-lg text-center uppercase">&#60;web developer&#47;&#62;</p>
+                    <div class="hidden lg:block">
+                        <p class="text-gray-200 text-2xl lg:text-4xl">Fabio Angelici</p>
+                        <p class="text-gray-200/70 text-md lg:text-lg text-center uppercase">&#60;web developer&#47;&#62;</p>
                     </div>
                 </div>
                 
             </div>
-            <div class="flex justify-center md:hidden">
+            <div class="flex justify-center lg:hidden">
                 
             </div>
             {{-- Hamburger Button --}}
-            <div class="md:hidden">
-                <button id="menu-btn" type="button" class="z-50 block min-w-full hamburger md:hidden focus:outline-none">
+            <div class="lg:hidden">
+                <button id="menu-btn" type="button" class="z-50 block min-w-full hamburger lg:hidden focus:outline-none">
                     <span class="hamburger-top"></span>
                     <span class="hamburger-middle"></span>
                     <span class="hamburger-bottom"></span>
@@ -64,7 +64,7 @@
         {{-- End Logo --}}
 
         {{-- Menù --}}
-        <div class="hidden md:flex md:items-center">
+        <div class="hidden lg:flex lg:items-center">
             <ul class="flex items-center justify-center space-x-5 font-alata text-xl uppercase">
                 <x-menu :route="route('public.home')" :anchorClass="(request()->is('/')) ? 'text-orange-500' : '' " :name="'Home'"/>
                 <x-menu :route="route('public.about')" :anchorClass="(request()->is('chi-sono')) ? 'text-orange-500' : '' " :name="'chi sono'"/>
