@@ -202,7 +202,7 @@
                 @foreach ($articles as $article)
                     <a href="{{ route('article.show', $article->slug) }}">
                         <div class="flex flex-col mb-10">
-                            <img class="mb-5 rounded-lg h-44 object-fill" src="{{ Storage::url($article->picture->image) }}" alt="{{ $article->title }}">
+                            <img class="mb-5 rounded-lg h-44 object-cover" src="{{ Storage::url($article->picture->image) }}" alt="{{ $article->title }}">
                             <p class="text-center font-bold text-2xl">{{ $article->title }}</p>
                         </div>
                     </a>
