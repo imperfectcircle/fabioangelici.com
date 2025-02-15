@@ -100,7 +100,7 @@ export default function Home({ articles }) {
                 <li>
                   <img
                     className="h-[100px] w-[100px] bg-white/40 p-2"
-                    src="/images/MYSQL.svg"
+                    src="/images/MySQL.svg"
                     alt="Logo MySQL"
                     title="MySQL"
                   />
