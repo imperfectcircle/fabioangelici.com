@@ -8,10 +8,15 @@ const CodeBlockWithCopy = () => {
       const codeElement = pre.querySelector("code");
       if (!codeElement) return;
 
+      const wrapper = document.createElement("div");
+      wrapper.className = "relative";
+      pre.parentNode.insertBefore(wrapper, pre);
+      wrapper.appendChild(pre);
+
       const button = document.createElement("button");
       button.innerText = "📋 Copia";
       button.className =
-        "copy-btn absolute top-2 right-2 bg-gray-800 text-white text-xs px-2 py-1 rounded hover:bg-gray-700 transition";
+        "copy-btn absolute top-2 right-2 bg-gray-600 text-white text-xs px-2 py-1 rounded hover:bg-gray-700 transition shadow-md";
 
       button.addEventListener("click", async () => {
         try {
@@ -24,8 +29,7 @@ const CodeBlockWithCopy = () => {
         }
       });
 
-      pre.style.position = "relative";
-      pre.appendChild(button);
+      wrapper.appendChild(button);
     });
   }, []);
 
