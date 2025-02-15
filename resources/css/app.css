@@ -41,3 +41,19 @@
 pre {
   @apply bg-gray-700 p-5 rounded-md;
 }
+
+.article-content > p {
+  @apply text-2xl;
+}
+
+.article-content > h2 {
+  @apply text-3xl;
+}
+
+.article-content > ul {
+  @apply list-disc;
+}
+
+.article-content > ul > li {
+  @apply ml-5 md:ml-10;
+}

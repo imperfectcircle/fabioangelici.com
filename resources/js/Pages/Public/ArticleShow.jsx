@@ -48,7 +48,7 @@ export default function ArticleShow({ article }) {
                     Di {article.author} - {article.created_at}
                   </p>
                   <div
-                    className=" max-w-6xl mx-auto prose md:prose-xl"
+                    className=" max-w-6xl mx-auto prose md:prose-xl article-content"
                     dangerouslySetInnerHTML={{
                       __html: DOMPurify.sanitize(article.body),
                     }}
