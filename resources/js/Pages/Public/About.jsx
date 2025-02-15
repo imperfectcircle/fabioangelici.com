@@ -177,112 +177,150 @@ export default function About() {
               <Card title="Frontend">
                 <ul className="flex items-center justify-center flex-wrap gap-5">
                   <li>
-                    <img
-                      className="h-[100px] w-[100px] bg-white/20 p-2"
-                      src="/images/HTML5.svg"
-                      alt="Logo HTML5"
-                      title="HTML 5"
-                    />
+                    <a
+                      href="https://it.wikipedia.org/wiki/HTML5"
+                      target="_blank"
+                    >
+                      <img
+                        className="h-[100px] w-[100px] bg-white/20 p-2"
+                        src="/images/HTML5.svg"
+                        alt="Logo HTML5"
+                        title="HTML 5"
+                      />
+                    </a>
                   </li>
                   <li>
-                    <img
-                      className="h-[100px] w-[100px] bg-white/20 p-2"
-                      src="/images/CSS3.svg"
-                      alt="Logo CSS3"
-                      title="CSS 3"
-                    />
+                    <a href="https://it.wikipedia.org/wiki/CSS" target="_blank">
+                      <img
+                        className="h-[100px] w-[100px] bg-white/20 p-2"
+                        src="/images/CSS3.svg"
+                        alt="Logo CSS3"
+                        title="CSS 3"
+                      />
+                    </a>
                   </li>
                   <li>
-                    <img
-                      className="h-[100px] w-[100px] bg-white/20 p-2"
-                      src="/images/js.svg"
-                      alt="Logo JavaScript"
-                      title="JavaScript"
-                    />
+                    <a
+                      href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                      target="_blank"
+                    >
+                      <img
+                        className="h-[100px] w-[100px] bg-white/20 p-2"
+                        src="/images/js.svg"
+                        alt="Logo JavaScript"
+                        title="JavaScript"
+                      />
+                    </a>
                   </li>
                   <li>
-                    <img
-                      className="h-[100px] w-[100px] bg-white/20 p-2"
-                      src="/images/Tailwind.svg"
-                      alt="Logo Tailwind CSS"
-                      title="Tailwind CSS"
-                    />
+                    <a href="https://tailwindcss.com/" target="_blank">
+                      <img
+                        className="h-[100px] w-[100px] bg-white/20 p-2"
+                        src="/images/Tailwind.svg"
+                        alt="Logo Tailwind CSS"
+                        title="Tailwind CSS"
+                      />
+                    </a>
                   </li>
                   <li>
-                    <img
-                      className="h-[100px] w-[100px] bg-white/20 p-2"
-                      src="/images/React.svg"
-                      alt="Logo React"
-                      title="React"
-                    />
+                    <a href="https://react.dev/" target="_blank">
+                      <img
+                        className="h-[100px] w-[100px] bg-white/20 p-2"
+                        src="/images/React.svg"
+                        alt="Logo React"
+                        title="React"
+                      />
+                    </a>
                   </li>
                   <li>
-                    <img
-                      className="h-[100px] w-[100px] bg-white/20 p-2"
-                      src="/images/motion.png"
-                      alt="Logo Motion"
-                      title="Motion"
-                    />
+                    <a href="https://motion.dev/" target="_blank">
+                      <img
+                        className="h-[100px] w-[100px] bg-white/20 p-2"
+                        src="/images/motion.png"
+                        alt="Logo Motion"
+                        title="Motion"
+                      />
+                    </a>
                   </li>
                   <li>
-                    <img
-                      className="h-[100px] w-[100px] bg-white/20 p-2"
-                      src="/images/shadcn.png"
-                      alt="Logo Shadcn"
-                      title="Shadcn UI"
-                    />
+                    <a href="https://ui.shadcn.com/" target="_blank">
+                      <img
+                        className="h-[100px] w-[100px] bg-white/20 p-2"
+                        src="/images/shadcn.png"
+                        alt="Logo Shadcn"
+                        title="Shadcn UI"
+                      />
+                    </a>
                   </li>
                   <li>
-                    <img
-                      className="h-[100px] w-[100px] bg-white/20 p-2"
-                      src="/images/aceternity.png"
-                      alt="Logo Aceternity"
-                      title="Aceternity UI"
-                    />
+                    <a href="https://ui.aceternity.com/" target="_blank">
+                      <img
+                        className="h-[100px] w-[100px] bg-white/20 p-2"
+                        src="/images/aceternity.png"
+                        alt="Logo Aceternity"
+                        title="Aceternity UI"
+                      />
+                    </a>
                   </li>
                 </ul>
               </Card>
               <Card title="Backend">
                 <ul className="flex items-center justify-center flex-grow flex-wrap gap-5">
                   <li>
-                    <img
-                      className="h-[100px] w-[100px] bg-white/20 p-2"
-                      src="/images/Laravel.svg"
-                      alt="Logo Laravel"
-                      title="Laravel"
-                    />
+                    <a href="https://laravel.com/" target="_blank">
+                      <img
+                        className="h-[100px] w-[100px] bg-white/20 p-2"
+                        src="/images/Laravel.svg"
+                        alt="Logo Laravel"
+                        title="Laravel"
+                      />
+                    </a>
                   </li>
                   <li>
-                    <img
-                      className="h-[100px] w-[100px] bg-white/20 p-2"
-                      src="/images/Node.svg"
-                      alt="Logo Node"
-                      title="Node.js"
-                    />
+                    <a href="https://nodejs.org/en/" target="_blank">
+                      <img
+                        className="h-[100px] w-[100px] bg-white/20 p-2"
+                        src="/images/Node.svg"
+                        alt="Logo Node"
+                        title="Node.js"
+                      />
+                    </a>
                   </li>
                   <li>
-                    <img
-                      className="h-[100px] w-[100px] bg-white/20 p-2"
-                      src="/images/Inertia.png"
-                      alt="Logo Inertia"
-                      title="Inertia.JS"
-                    />
+                    <a href="https://inertiajs.com/" target="_blank">
+                      <img
+                        className="h-[100px] w-[100px] bg-white/20 p-2"
+                        src="/images/Inertia.png"
+                        alt="Logo Inertia"
+                        title="Inertia.JS"
+                      />
+                    </a>
                   </li>
                   <li>
-                    <img
-                      className="h-[100px] w-[100px] bg-white/40 p-2"
-                      src="/images/MySQL.svg"
-                      alt="Logo MySQL"
-                      title="MySQL"
-                    />
+                    <a
+                      href="https://it.wikipedia.org/wiki/MySQL"
+                      target="_blank"
+                    >
+                      <img
+                        className="h-[100px] w-[100px] bg-white/40 p-2"
+                        src="/images/MySQL.svg"
+                        alt="Logo MySQL"
+                        title="MySQL"
+                      />
+                    </a>
                   </li>
                   <li>
-                    <img
-                      className="h-[100px] w-[100px] bg-white/30 p-2"
-                      src="/images/mongo.png"
-                      alt="Logo Mongo DB"
-                      title="Mongo DB"
-                    />
+                    <a
+                      href="https://it.wikipedia.org/wiki/MongoDB"
+                      target="_blank"
+                    >
+                      <img
+                        className="h-[100px] w-[100px] bg-white/30 p-2"
+                        src="/images/mongo.png"
+                        alt="Logo Mongo DB"
+                        title="Mongo DB"
+                      />
+                    </a>
                   </li>
                 </ul>
               </Card>
