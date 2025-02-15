@@ -2,7 +2,7 @@ import PublicLayout from "@/Layouts/PublicLayout";
 import Card from "@/Components/Public/Card";
 import { FaCheck } from "react-icons/fa";
 import Header from "@/Components/Public/Header";
-import { BreadcrumbComponent } from "@/Components/Public/Breadcrumb";
+import { BreadcrumbComponent } from "@/Components/Public/BreadcrumbComponent";
 import { Head } from "@inertiajs/react";
 
 export default function About() {

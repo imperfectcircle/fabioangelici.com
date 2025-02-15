@@ -1,4 +1,4 @@
-import { BreadcrumbComponent } from "@/Components/Public/Breadcrumb";
+import { BreadcrumbComponent } from "@/Components/Public/BreadcrumbComponent";
 import CodeBlockWithCopy from "@/Components/Public/CodeBlockWithCopy";
 import PublicLayout from "@/Layouts/PublicLayout";
 import { Head } from "@inertiajs/react";

@@ -1,7 +1,7 @@
 import PublicLayout from "@/Layouts/PublicLayout";
 import Header from "@/Components/Public/Header";
 import ContactForm from "@/Components/Public/ContactForm";
-import { BreadcrumbComponent } from "@/Components/Public/Breadcrumb";
+import { BreadcrumbComponent } from "@/Components/Public/BreadcrumbComponent";
 import { Head } from "@inertiajs/react";
 
 export default function Services() {

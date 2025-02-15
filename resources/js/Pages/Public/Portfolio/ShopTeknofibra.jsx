@@ -1,4 +1,4 @@
-import { BreadcrumbComponent } from "@/Components/Public/Breadcrumb";
+import { BreadcrumbComponent } from "@/Components/Public/BreadcrumbComponent";
 import PortfolioDetail from "@/Components/Public/Portfolio/PortfolioDetail";
 import PublicLayout from "@/Layouts/PublicLayout";
 

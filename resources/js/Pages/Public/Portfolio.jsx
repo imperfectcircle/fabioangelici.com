@@ -1,4 +1,4 @@
-import { BreadcrumbComponent } from "@/Components/Public/Breadcrumb";
+import { BreadcrumbComponent } from "@/Components/Public/BreadcrumbComponent";
 import Header from "@/Components/Public/Header";
 import PortfolioCard from "@/Components/Public/PortfolioCard";
 import { PORTFOLIO_CAROUSEL_ITEMS } from "@/Constants";

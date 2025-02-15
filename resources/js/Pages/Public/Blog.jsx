@@ -1,4 +1,4 @@
-import { BreadcrumbComponent } from "@/Components/Public/Breadcrumb";
+import { BreadcrumbComponent } from "@/Components/Public/BreadcrumbComponent";
 import Card from "@/Components/Public/Card";
 import Header from "@/Components/Public/Header";
 import PrimaryButton from "@/Components/Public/PrimaryButton";
