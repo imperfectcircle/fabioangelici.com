@@ -9,7 +9,7 @@ import ContactForm from "./ContactForm";
 export default function Modal({ isOpen, onClose, title }) {
   return (
     <Dialog open={isOpen} onOpenChange={onClose} modal>
-      <DialogContent className="max-w-7xl max-h-[80vh] overflow-y-auto scrollbar-thin scrollbar-track-dark scrollbar-thumb-light">
+      <DialogContent className="max-w-7xl bg-black/80 max-h-[80vh] overflow-y-auto scrollbar-thin scrollbar-track-dark scrollbar-thumb-light">
         <DialogTitle></DialogTitle>
         <DialogDescription></DialogDescription>
         {isOpen && (

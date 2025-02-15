@@ -85,10 +85,16 @@ export default function Footer() {
       <div className="grid grid-cols-1 md:grid-cols-4 p-5 bg-gray-500 text-center">
         <p>{year.getFullYear()}© Fabio Angelici</p>
         <p>P.I. 03929520124</p>
-        <a href="https://www.iubenda.com/privacy-policy/71101442">
+        <a
+          href="https://www.iubenda.com/privacy-policy/71101442"
+          target="_blank"
+        >
           Privacy Policy
         </a>
-        <a href="https://www.iubenda.com/privacy-policy/71101442/cookie-policy">
+        <a
+          href="https://www.iubenda.com/privacy-policy/71101442/cookie-policy"
+          target="_blank"
+        >
           Cookie Policy
         </a>
       </div>

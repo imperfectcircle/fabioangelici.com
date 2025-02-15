@@ -184,7 +184,11 @@ export default function ContactForm({
               />
               <Label className="text-white text-base" htmlFor="privacy">
                 Dichiaro di aver preso visione della{" "}
-                <a href="#" className="inline text-light underline">
+                <a
+                  href="https://www.iubenda.com/privacy-policy/71101442"
+                  target="_blank"
+                  className="inline text-light underline"
+                >
                   Privacy Policy
                 </a>
                 , pertanto presto il mio consenso al trattamento dei dati per
