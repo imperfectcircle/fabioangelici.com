@@ -219,7 +219,7 @@ export default function About() {
                   <li>
                     <img
                       className="h-[100px] w-[100px] bg-white/20 p-2"
-                      src="/images/Motion.png"
+                      src="/images/motion.png"
                       alt="Logo Motion"
                       title="Motion"
                     />
