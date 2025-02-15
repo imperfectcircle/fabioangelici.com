@@ -43,7 +43,7 @@ pre {
 }
 
 .article-content > p {
-  @apply text-2xl;
+  @apply text-xl;
 }
 
 .article-content > h2 {
@@ -55,5 +55,5 @@ pre {
 }
 
 .article-content > ul > li {
-  @apply ml-5 md:ml-10;
+  @apply ml-5 md:ml-10 text-xl;
 }
