@@ -57,3 +57,14 @@ pre {
 .article-content > ul > li {
   @apply ml-5 md:ml-10 text-xl;
 }
+
+.article-content > ol {
+  @apply list-decimal;
+}
+
+.article-content > ol > li {
+  @apply ml-5 md:ml-10 text-xl;
+}
+.article-contetent > blockquote {
+  @apply bg-gray-200 p-5 rounded-md border-r-4 border-r-light;
+}
