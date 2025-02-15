@@ -3,7 +3,7 @@ import {
   DialogContent,
   DialogDescription,
   DialogTitle,
-} from "@/components/ui/dialog";
+} from "@/Components/ui/dialog";
 import ContactForm from "./ContactForm";
 
 export default function Modal({ isOpen, onClose, title }) {
