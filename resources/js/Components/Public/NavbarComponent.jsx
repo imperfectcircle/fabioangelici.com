@@ -8,7 +8,7 @@ export function NavbarComponent() {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
   return (
     <Navbar fluid rounded className="bg-[#1d1d1d]">
-      <Navbar.Brand as={Link} href="https://flowbite-react.com">
+      <Navbar.Brand as={Link} href={route("public.home")}>
         <img
           src="/images/logo.webp"
           className="mr-3 h-32"
@@ -56,7 +56,11 @@ export function NavbarComponent() {
               contatti
             </NavbarLink>
           )}
-          {!isMobile && <PrimaryButton>contatti</PrimaryButton>}
+          {!isMobile && (
+            <PrimaryButton href={route("public.contact")}>
+              contatti
+            </PrimaryButton>
+          )}
         </div>
       </Navbar.Collapse>
     </Navbar>

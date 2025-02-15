@@ -34,6 +34,10 @@ class HandleInertiaRequests extends Middleware
             'auth' => [
                 'user' => $request->user(),
             ],
+            'honeypot' => new \Spatie\Honeypot\Honeypot(config('honeypot')),
+            'flash' => [
+                'message' => fn () =>  $request->session()->get('message'),
+            ],
         ];
     }
 }

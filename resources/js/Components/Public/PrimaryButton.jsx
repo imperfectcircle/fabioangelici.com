@@ -1,12 +1,25 @@
 import { Link } from "@inertiajs/react";
 
-export default function PrimaryButton({ children }) {
-  return (
+export default function PrimaryButton({
+  href = "",
+  className = "",
+  children,
+  ...props
+}) {
+  return href ? (
     <Link
-      href={route("public.contact")}
-      className="px-6 py-3 rounded-3xl border-white border-2 uppercase hover:bg-gradient-to-r hover:from-[#189BA3] hover:to-[#01435A] transition-colors"
+      {...props}
+      href={href}
+      className={`px-6 py-3 rounded-3xl border-white border-2 uppercase hover:bg-gradient-to-r hover:from-light hover:to-dark transition-colors ${className}`}
     >
       {children}
     </Link>
+  ) : (
+    <button
+      {...props}
+      className={`px-6 py-3 rounded-3xl border-white border-2 uppercase hover:bg-gradient-to-r hover:from-light hover:to-dark transition-colors ${className}`}
+    >
+      {children}
+    </button>
   );
 }
