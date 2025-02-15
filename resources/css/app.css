@@ -39,7 +39,7 @@
 }
 
 pre {
-  @apply bg-gray-700 p-5 rounded-md;
+  @apply bg-gray-700 px-5 rounded-md max-w-full overflow-x-auto py-10 md:py-5;
 }
 
 .article-content > p {
