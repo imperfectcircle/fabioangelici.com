@@ -65,7 +65,7 @@ pre {
 .article-content > ol > li {
   @apply ml-5 md:ml-10 text-xl;
 }
-.article-contetent > blockquote {
+.article-content > blockquote {
   @apply bg-gray-200 p-5 rounded-md border-r-4 border-r-light;
 }
 
