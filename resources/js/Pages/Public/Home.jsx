@@ -10,6 +10,7 @@ import { Head, Link } from "@inertiajs/react";
 import { motion } from "motion/react";
 import { FaCode, FaCartArrowDown, FaServer } from "react-icons/fa";
 import { FaListCheck } from "react-icons/fa6";
+import HoverCardComponent from "@/Components/Public/HoverCardComponent";
 
 export default function Home({ articles }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -74,35 +75,68 @@ export default function Home({ articles }) {
             <div className="pt-10">
               <ul className="flex items-center justify-start flex-grow flex-wrap gap-5">
                 <li>
-                  <img
-                    className="h-[100px] w-[100px] bg-white/20 p-2"
-                    src="/images/Laravel.svg"
-                    alt="Logo Laravel"
-                    title="Laravel"
+                  <HoverCardComponent
+                    customTrigger={
+                      <img
+                        className="h-[100px] w-[100px] bg-white/20 p-2"
+                        src="/images/Laravel.svg"
+                        alt="Logo Laravel"
+                        title="Laravel"
+                      />
+                    }
+                    content="Laravel è un framework PHP che permette di creare siti web ed e-commerce in modo veloce, sicuro e scalabile. Grazie alla sua struttura avanzata, semplifica lo sviluppo, migliorando prestazioni e sicurezza. Perfetto per chi vuole un sito personalizzato, affidabile e facile da gestire."
                   />
                 </li>
                 <li>
-                  <img
-                    className="h-[100px] w-[100px] bg-white/20 p-2"
-                    src="/images/Inertia.png"
-                    alt="Logo Inertia"
-                    title="Inertia.JS"
+                  <HoverCardComponent
+                    customTrigger={
+                      <img
+                        className="h-[100px] w-[100px] bg-white/20 p-2"
+                        src="/images/Inertia.png"
+                        alt="Logo Inertia"
+                        title="Inertia.JS"
+                      />
+                    }
+                    content="InertiaJS collega frontend e backend senza bisogno di API complesse, rendendo le Single Page Application più facili da sviluppare con Laravel e React."
                   />
                 </li>
                 <li>
-                  <img
-                    className="h-[100px] w-[100px] bg-white/20 p-2"
-                    src="/images/React.svg"
-                    alt="Logo React"
-                    title="React"
+                  <HoverCardComponent
+                    customTrigger={
+                      <img
+                        className="h-[100px] w-[100px] bg-white/20 p-2"
+                        src="/images/React.svg"
+                        alt="Logo React"
+                        title="React"
+                      />
+                    }
+                    content="React è una libreria JavaScript per creare interfacce utente dinamiche e veloci, ideale per siti moderni e performanti."
                   />
                 </li>
                 <li>
-                  <img
-                    className="h-[100px] w-[100px] bg-white/40 p-2"
-                    src="/images/MySQL.svg"
-                    alt="Logo MySQL"
-                    title="MySQL"
+                  <HoverCardComponent
+                    customTrigger={
+                      <img
+                        className="h-[100px] w-[100px] bg-white/40 p-2"
+                        src="/images/Tailwind.svg"
+                        alt="Logo TailwindCSS"
+                        title="TailwindCSS"
+                      />
+                    }
+                    content="TailwindCSS è un framework CSS che permette di creare design personalizzati in modo rapido e flessibile, senza scrivere codice CSS manualmente."
+                  />
+                </li>
+                <li>
+                  <HoverCardComponent
+                    customTrigger={
+                      <img
+                        className="h-[100px] w-[100px] bg-white/40 p-2"
+                        src="/images/MySQL.svg"
+                        alt="Logo MySQL"
+                        title="MySQL"
+                      />
+                    }
+                    content="MySQL è un database veloce e affidabile, perfetto per gestire in sicurezza i dati di siti web ed e-commerce."
                   />
                 </li>
               </ul>

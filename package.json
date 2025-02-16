@@ -25,6 +25,7 @@
     "@ckeditor/ckeditor5-build-classic": "^44.1.0",
     "@ckeditor/ckeditor5-react": "^9.4.0",
     "@radix-ui/react-dialog": "^1.1.6",
+    "@radix-ui/react-hover-card": "^1.1.6",
     "@radix-ui/react-label": "^2.1.1",
     "@radix-ui/react-slot": "^1.1.2",
     "@tabler/icons-react": "^3.29.0",
