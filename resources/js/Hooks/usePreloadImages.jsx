@@ -5,6 +5,11 @@ const usePreloadImages = (images) => {
     images.forEach((src) => {
       const img = new Image();
       img.src = src;
+
+      //img.onload = () =>
+      //console.log(`✅ Immagine caricata con successo: ${src}`);
+      //img.onerror = () =>
+      //console.error(`❌ Errore nel caricamento dell'immagine: ${src}`);
     });
   }, [images]);
 };
