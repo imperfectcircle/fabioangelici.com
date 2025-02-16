@@ -2,7 +2,7 @@ import {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
-} from "@/components/ui/hover-card";
+} from "@/Components/ui/hover-card";
 import { useRef } from "react";
 
 export default function HoverCardComponent({ customTrigger, content }) {
