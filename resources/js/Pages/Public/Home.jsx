@@ -89,7 +89,7 @@ export default function Home({ articles }) {
                     customTrigger={
                       <img
                         className="h-[100px] w-[100px] bg-white/20 p-2"
-                        src="/images/Laravel.svg"
+                        src="https://res.cloudinary.com/dpp9cdelm/image/upload/v1739735594/Laravel_wbqheb.svg"
                         alt="Logo Laravel"
                         title="Laravel"
                       />
@@ -102,7 +102,7 @@ export default function Home({ articles }) {
                     customTrigger={
                       <img
                         className="h-[100px] w-[100px] bg-white/20 p-2"
-                        src="/images/Inertia.png"
+                        src="https://res.cloudinary.com/dpp9cdelm/image/upload/v1739735593/Inertia_jvzdak.png"
                         alt="Logo Inertia"
                         title="Inertia.JS"
                       />
@@ -115,7 +115,7 @@ export default function Home({ articles }) {
                     customTrigger={
                       <img
                         className="h-[100px] w-[100px] bg-white/20 p-2"
-                        src="/images/React.svg"
+                        src="https://res.cloudinary.com/dpp9cdelm/image/upload/v1739735596/React_fofphv.svg"
                         alt="Logo React"
                         title="React"
                       />
@@ -128,7 +128,7 @@ export default function Home({ articles }) {
                     customTrigger={
                       <img
                         className="h-[100px] w-[100px] bg-white/40 p-2"
-                        src="/images/Tailwind.svg"
+                        src="https://res.cloudinary.com/dpp9cdelm/image/upload/v1739735598/Tailwind_c3i5w8.svg"
                         alt="Logo TailwindCSS"
                         title="TailwindCSS"
                       />
@@ -141,7 +141,7 @@ export default function Home({ articles }) {
                     customTrigger={
                       <img
                         className="h-[100px] w-[100px] bg-white/40 p-2"
-                        src="/images/MySQL.svg"
+                        src="https://res.cloudinary.com/dpp9cdelm/image/upload/v1739735596/MySQL_reubzp.svg"
                         alt="Logo MySQL"
                         title="MySQL"
                       />
@@ -163,7 +163,7 @@ export default function Home({ articles }) {
               repeatType: "reverse",
               ease: "easeInOut",
             }}
-            className="hidden md:block mx-auto mt-5 lg:mt-0 bg-[url(/images/fabio_angelici.webp)] bg-cover bg-center md:w-48 md:h-48 lg:w-72 lg:h-72 xl:w-96 xl:h-96 border-2 border-dark shadow-lg shadow-light lg:absolute lg:top-1/2 lg:left-3/4 lg:-translate-y-1/2 lg:-translate-x-1/2"
+            className="hidden md:block mx-auto mt-5 lg:mt-0 bg-[url(https://res.cloudinary.com/dpp9cdelm/image/upload/v1739735592/fabio_angelici_r80e4z.webp)] bg-cover bg-center md:w-48 md:h-48 lg:w-72 lg:h-72 xl:w-96 xl:h-96 border-2 border-dark shadow-lg shadow-light lg:absolute lg:top-1/2 lg:left-3/4 lg:-translate-y-1/2 lg:-translate-x-1/2"
           ></motion.div>
         </section>
         <section className="py-10 px-5 md:w-9/12 md:mx-auto space-y-10 mt-10">
