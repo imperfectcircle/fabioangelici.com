@@ -11,6 +11,7 @@ import { motion } from "motion/react";
 import { FaCode, FaCartArrowDown, FaServer } from "react-icons/fa";
 import { FaListCheck } from "react-icons/fa6";
 import HoverCardComponent from "@/Components/Public/HoverCardComponent";
+import usePreloadImages from "@/Hooks/usePreloadImages";
 
 export default function Home({ articles }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -20,6 +21,15 @@ export default function Home({ articles }) {
     setModalTitle(title);
     setIsModalOpen(true);
   };
+
+  usePreloadImages([
+    "/images/fabio_angelici.webp",
+    "/images/Laravel.svg",
+    "/images/Inertia.png",
+    "/images/React.svg",
+    "/images/Tailwind.svg",
+    "/images/MySQL.svg",
+  ]);
 
   return (
     <>
