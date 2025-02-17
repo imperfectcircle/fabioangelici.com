@@ -42,7 +42,7 @@ export default function About() {
                 moderne e use-friendly per aiutare le aziende a crescere
               </strong>
               ."
-          className="bg-[url(/images/laptop.webp)]"
+          className="about"
         />
         <div className="my-10 md:w-9/12 md:mx-auto pl-5 md:pl-0">
           <BreadcrumbComponent />

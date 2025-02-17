@@ -33,7 +33,7 @@ export default function Portfolio() {
               eseguito come freelance. Si tratta di lavori eterogenei al cui
               interno si trovano siti a singola pagina, siti multilingua,
               e-commerce e siti dinamici."
-          className="bg-[url(/images/portfolio.webp)]"
+          className="portfolio"
         />
         <div className="my-10 md:w-9/12 md:mx-auto pl-5 md:pl-0">
           <BreadcrumbComponent />

@@ -38,7 +38,7 @@ export default function Services() {
               <strong>servizi di hosting affidabili</strong> per garantire
               performance e sicurezza ottimali. Scopri nel dettaglio come posso
               aiutarti a sviluppare la tua presenza online."
-          className="bg-[url(/images/services.webp)]"
+          className="services"
         />
         <div className="my-10 md:w-9/12 md:mx-auto pl-5 md:pl-0">
           <BreadcrumbComponent />

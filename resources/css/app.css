@@ -19,6 +19,26 @@
   background-image: url("/public/images/fabio_angelici.webp");
 }
 
+.about {
+  background-image: url("/public/images/laptop.webp");
+}
+
+.services {
+  background-image: url("/public/images/services.webp");
+}
+
+.portfolio {
+  background-image: url("/public/images/portfolio.webp");
+}
+
+.blog {
+  background-image: url("/public/images/blog.webp");
+}
+
+.contact {
+  background-image: url("/public/images/contact.webp");
+}
+
 .main-container {
   font-family: "Lato";
   width: fit-content;

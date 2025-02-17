@@ -26,7 +26,7 @@ export default function Contact() {
         <Header
           title="Contatti"
           description="Hai un progetto in mente o vuoi semplicemente fare una domanda? Compila il form o utilizza i recapiti disponibili per metterti in contatto con me. Sarò felice di rispondere nel più breve tempo possibile e trovare insieme la soluzione più adatta alle tue esigenze."
-          className="bg-[url(/images/contact.webp)]"
+          className="contact bg-bottom"
         />
         <section className="my-10">
           <div class="lg:grid lg:grid-cols-4 lg:items-center lg:justify-items-center space-y-10 lg:space-y-0 p-5">
