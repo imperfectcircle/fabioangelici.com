@@ -1,7 +1,6 @@
 export const PORTFOLIO_CAROUSEL_ITEMS = [
   {
-    image:
-      "https://res.cloudinary.com/dpp9cdelm/image/upload/v1739736164/eliografica_vtis9h.webp",
+    image: "/images/portfolio/eliografica.webp",
     link: route("public.portfolio.eliografica"),
     title: "Eliografica Varesina",
     stack: [
