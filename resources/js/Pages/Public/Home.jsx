@@ -50,12 +50,6 @@ export default function Home({ articles }) {
         <meta property="og:url" content="https://fabioangelici.com" />
         <meta property="og:type" content="website" />
         <link rel="canonical" href="https://fabioangelici.com" />
-        <link
-          rel="preload"
-          as="image"
-          href="/images/fabio_angelici.webp"
-          type="image/webp"
-        />
       </Head>
       <PublicLayout>
         <section className="relative grid grid-cols-1 lg:grid-cols-4 min-h-screen overflow-hidden gap-5">
