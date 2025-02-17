@@ -15,6 +15,10 @@
   }
 }
 
+.home {
+  background-image: url("/public/images/fabio_angelici.webp");
+}
+
 .main-container {
   font-family: "Lato";
   width: fit-content;
