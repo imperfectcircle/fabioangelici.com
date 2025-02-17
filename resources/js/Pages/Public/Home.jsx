@@ -50,6 +50,12 @@ export default function Home({ articles }) {
         <meta property="og:url" content="https://fabioangelici.com" />
         <meta property="og:type" content="website" />
         <link rel="canonical" href="https://fabioangelici.com" />
+        <link
+          rel="preload"
+          as="image"
+          href="/images/fabio_angelici.webp"
+          type="image/webp"
+        />
       </Head>
       <PublicLayout>
         <section className="relative grid grid-cols-1 lg:grid-cols-4 min-h-screen overflow-hidden gap-5">
@@ -163,7 +169,7 @@ export default function Home({ articles }) {
               repeatType: "reverse",
               ease: "easeInOut",
             }}
-            className="hidden md:block mx-auto mt-5 lg:mt-0 bg-[url(images/fabio_angelici.webp)] bg-cover bg-center md:w-48 md:h-48 lg:w-72 lg:h-72 xl:w-96 xl:h-96 border-2 border-dark shadow-lg shadow-light lg:absolute lg:top-1/2 lg:left-3/4 lg:-translate-y-1/2 lg:-translate-x-1/2"
+            className="hidden md:block mx-auto mt-5 lg:mt-0 bg-[url(/images/fabio_angelici.webp)] bg-cover bg-center md:w-48 md:h-48 lg:w-72 lg:h-72 xl:w-96 xl:h-96 border-2 border-dark shadow-lg shadow-light lg:absolute lg:top-1/2 lg:left-3/4 lg:-translate-y-1/2 lg:-translate-x-1/2"
           ></motion.div>
         </section>
         <section className="py-10 px-5 md:w-9/12 md:mx-auto space-y-10 mt-10">
