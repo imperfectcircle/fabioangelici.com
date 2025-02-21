@@ -31,7 +31,7 @@ export default function Card({
       <div className="flex flex-col justify-between items-center space-y-5 w-full">
         <div className="bg-black/30 w-full flex flex-col justify-center items-center space-y-5 rounded-md shadow-sm shadow-white/20 p-5">
           {Icon && <Icon className="text-8xl text-dark" />}
-          <h3 className="text-responsive-2xl ml-5 uppercase">{title}</h3>
+          <h3 className="text-2xl ml-5 uppercase">{title}</h3>
         </div>
         {description && (
           <p className="text-responsive-lg text-center">{description}</p>

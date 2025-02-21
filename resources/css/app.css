@@ -96,3 +96,11 @@ pre {
 .article-content > blockquote > p {
   @apply text-xl italic;
 }
+
+.list-sparkles > li {
+  list-style-image: url("/public/images/sparkles.svg");
+}
+
+.list-chevron > li {
+  list-style-image: url("/public/images/chevron-right.svg");
+}

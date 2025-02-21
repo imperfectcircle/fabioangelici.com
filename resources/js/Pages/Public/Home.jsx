@@ -67,7 +67,7 @@ export default function Home({ articles }) {
               <h2 className="text-responsive-8xl text-light">
                 Fabio Angelici.
               </h2>
-              <h2 className="text-responsive-7xl p-5 lg:p-0">
+              <h2 className="lg:text-5xl xl:text-7xl p-5 lg:p-0">
                 <FlipWords words={WORDS} />
               </h2>
               <h1 className="lg:w-6/12 md:w-8/12 text-responsive-xl">
@@ -79,7 +79,7 @@ export default function Home({ articles }) {
               </h1>
             </div>
             <div className="pt-10">
-              <ul className="flex items-center justify-start flex-grow flex-wrap gap-5">
+              <ul className="flex items-center md:justify-center lg:justify-start flex-grow flex-wrap gap-5">
                 <li>
                   <HoverCardComponent
                     customTrigger={
@@ -164,7 +164,7 @@ export default function Home({ articles }) {
         </section>
         <section className="py-10 px-5 md:w-9/12 md:mx-auto space-y-10 mt-10">
           <h2 className="text-responsive-7xl text-center">Servizi che Offro</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4 gap-10">
             <Card
               title="Sito Web"
               description="Il servizio consiste nella realizzazione di siti web veloci, affidabili e altamente performanti. Responsive e ottimizzati per garantire una user experience ottimale."
@@ -201,11 +201,11 @@ export default function Home({ articles }) {
                 L'offerta prevede la realizzazione di un e-commerce a prezzo
                 scontato con le seguenti caratteristiche:
               </p>
-              <ul className="list-disc list-inside text-responsive-xl">
+              <ul className="list-sparkles list-inside text-responsive-xl">
                 <li>Storefront con template standard realizzato a codice</li>
                 <li>
                   Pannello di amministrazione per la:
-                  <ul className="list-disc list-inside pl-3">
+                  <ul className="list-chevron list-inside pl-10">
                     <li>Gestione dei prodotti</li>
                     <li>Creazione di Categorie</li>
                     <li>Gestione degli ordini</li>
@@ -228,8 +228,8 @@ export default function Home({ articles }) {
               </PrimaryButton>
 
               <p className="text-responsive-lg">
-                *Sono esclusi il costo del dominio, dell'hosting e dei Termini e
-                Condizioni.
+                *Sono esclusi il costo del dominio, dell'hosting, di servizi
+                terzi e dei Termini e Condizioni.
               </p>
             </Card>
             <Card title="Sito Web Dinamico Standard">
@@ -237,7 +237,7 @@ export default function Home({ articles }) {
                 L'offerta prevede la realizzazione di un Sito Web Dinamico a 3
                 pagine a prezzo scontato con le seguenti caratteristiche:
               </p>
-              <ul className="list-disc list-inside text-responsive-xl md:w-11/12">
+              <ul className="list-sparkles list-inside text-responsive-xl md:w-11/12">
                 <li>Sviluppo di un sito web statico composto da 3 pagine.</li>
                 <li>
                   Grafica standard con un design moderno e responsive,
@@ -249,7 +249,7 @@ export default function Home({ articles }) {
                 <li>Codice ottimizzato per la velocità di caricamento</li>
                 <li>
                   Pannello di amministrazione per la:
-                  <ul className="list-disc list-inside pl-3">
+                  <ul className="list-chevron list-inside pl-10">
                     <li>Modifica dei Titoli</li>
                     <li>Modifica delle immagini di background</li>
                     <li>Modifica dei testi</li>
@@ -268,8 +268,8 @@ export default function Home({ articles }) {
                 Contattami
               </PrimaryButton>
               <p className="text-responsive-lg">
-                *Sono esclusi il costo del dominio, dell'hosting e l'assistenza
-                post vendita.
+                *Sono esclusi il costo del dominio, dell'hosting, di servizi
+                terzi e l'assistenza post vendita.
               </p>
             </Card>
             <Card title="Sito Web Statico Standard +" top={false}>
@@ -277,7 +277,7 @@ export default function Home({ articles }) {
                 L'offerta prevede la realizzazione di un Sito Web Statico a 5
                 pagine a prezzo scontato con le seguenti caratteristiche:
               </p>
-              <ul className="list-disc list-inside text-responsive-xl w-11/12">
+              <ul className="list-sparkles list-inside text-responsive-xl w-11/12">
                 <li>Sviluppo di un sito web statico composto da 5 pagine.</li>
                 <li>
                   Grafica standard con un design moderno e responsive,
@@ -298,8 +298,8 @@ export default function Home({ articles }) {
                 Contattami
               </PrimaryButton>
               <p className="text-responsive-lg">
-                *Sono esclusi il costo del dominio, dell'hosting e l'assistenza
-                post vendita.
+                *Sono esclusi il costo del dominio, dell'hosting, di servizi
+                terzi e l'assistenza post vendita.
               </p>
             </Card>
             <Card title="Sito Web Statico Standard" top={false}>
@@ -307,7 +307,7 @@ export default function Home({ articles }) {
                 L'offerta prevede la realizzazione di un Sito Web Statico a 3
                 pagine a prezzo scontato con le seguenti caratteristiche:
               </p>
-              <ul className="list-disc list-inside text-responsive-xl w-11/12">
+              <ol className="list-sparkles list-inside text-responsive-xl w-11/12">
                 <li>Sviluppo di un sito web statico composto da 3 pagine.</li>
                 <li>
                   Grafica standard con un design moderno e responsive,
@@ -318,7 +318,7 @@ export default function Home({ articles }) {
                 <li>Integrazione di Google Maps</li>
                 <li>Codice ottimizzato per la velocità di caricamento</li>
                 <li>Privacy & Cookie Policy per un anno</li>
-              </ul>
+              </ol>
               <p className="text-responsive-3xl px-6 py-3 bg-light w-full text-center">
                 € 1250*
               </p>
@@ -328,8 +328,8 @@ export default function Home({ articles }) {
                 Contattami
               </PrimaryButton>
               <p className="text-responsive-lg">
-                *Sono esclusi il costo del dominio, dell'hosting e l'assistenza
-                post vendita..
+                *Sono esclusi il costo del dominio, dell'hosting, di servizi
+                terzi e l'assistenza post vendita.
               </p>
             </Card>
           </div>
